@@ -1,4 +1,77 @@
-.DS_Store
-.idea/
-stanford-parser-full-2018-10-17/
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Models and data
+models/*.pth
+models/*.pt
+models/*.onnx
+data/*.db
+data/*.sqlite
+data/metrics.json
+data/train_pairs.json
+data/val_pairs.json
+data/test_pairs.json
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+uploads/
+
+# Environment variables
+.env
+.env.local
+
+# Kaggle
+kaggle_datasets/
+*.kaggle
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+.dockerignore

@@ -1,5 +1,8 @@
-from flask import Flask, request, send_file, Response
+from flask import Flask, request, send_file, Response, jsonify
 from flask_cors import CORS
+from flask_limiter import Limiter
+from flask_limiter.util import get_remote_address
+from functools import wraps
 # from nltk.corpus import stopwords
 from nltk.parse.stanford import StanfordParser
 from nltk.stem import WordNetLemmatizer
@@ -13,12 +16,69 @@ import time
 import ssl
 import subprocess
 import re
+import logging
+import tempfile
+from werkzeug.utils import secure_filename
+
+# Import Whisper ASR service
+try:
+    from services.asr_service import get_asr_service
+    from services.audio_processor import AudioProcessor
+    WHISPER_AVAILABLE = True
+except ImportError:
+    WHISPER_AVAILABLE = False
+    logging.warning("Whisper services not available. Install whisper and torch to enable.")
+
+# Import ML Translation service
+try:
+    from services.translation_service import get_translation_service, is_ml_model_available
+    ML_TRANSLATION_AVAILABLE = True
+except ImportError:
+    ML_TRANSLATION_AVAILABLE = False
+    logging.warning("ML translation service not available.")
+
+# Import ISL Mapper service
+try:
+    from services.isl_mapper import get_isl_mapper
+    ISL_MAPPER_AVAILABLE = True
+except ImportError:
+    ISL_MAPPER_AVAILABLE = False
+    logging.warning("ISL mapper service not available.")
+
+# Configure logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 ssl._create_default_https_context = ssl._create_unverified_context
 
 app = Flask(__name__, static_folder='.', static_url_path='')
 app.secret_key = os.urandom(24)
 CORS(app, supports_credentials=True)
+
+# Rate limiting
+limiter = Limiter(
+    app=app,
+    key_func=get_remote_address,
+    default_limits=["200 per day", "50 per hour"],
+    storage_uri="memory://"
+)
+
+# Error handlers
+@app.errorhandler(400)
+def bad_request(error):
+    return jsonify({'error': 'Bad request', 'message': str(error)}), 400
+
+@app.errorhandler(404)
+def not_found(error):
+    return jsonify({'error': 'Not found', 'message': str(error)}), 404
+
+@app.errorhandler(500)
+def internal_error(error):
+    return jsonify({'error': 'Internal server error', 'message': str(error)}), 500
+
+@app.errorhandler(429)
+def ratelimit_handler(e):
+    return jsonify({'error': 'Rate limit exceeded', 'message': str(e.description)}), 429
 
 BASE_DIR = os.path.dirname(os.path.realpath(__file__))
 print(BASE_DIR)
@@ -84,18 +144,83 @@ def download_required_packages():
 
 
 def filter_stop_words(words):
-    stopwords_set = set(['a', 'an', 'the', 'is'])
-    # stopwords_set = set(stopwords.words("english"))
-    words = list(filter(lambda x: x not in stopwords_set, words))
+    # Expanded stop words list - common words that don't have signs
+    stopwords_set = set([
+        'a', 'an', 'the', 'is', 'are', 'was', 'were', 'be', 'been', 'being',
+        'have', 'has', 'had', 'having', 'do', 'does', 'did', 'doing',
+        'will', 'would', 'could', 'should', 'may', 'might', 'must',
+        'can', 'cannot', 'this', 'that', 'these', 'those',
+        'so', 'than', 'then',  # Added these
+        'about', 'above', 'across', 'after', 'against', 'along', 'among',
+        'around', 'at', 'before', 'behind', 'below', 'beneath', 'beside',
+        'between', 'beyond', 'by', 'during', 'except', 'for', 'from',
+        'in', 'inside', 'into', 'like', 'near', 'of', 'off', 'on',
+        'onto', 'out', 'outside', 'over', 'past', 'since', 'through',
+        'throughout', 'till', 'to', 'toward', 'under', 'underneath',
+        'until', 'up', 'upon', 'with', 'within', 'without'
+    ])
+    # Remove punctuation and lowercase for comparison
+    words = list(filter(lambda x: x.lower().strip().rstrip('.,!?;:') not in stopwords_set, words))
     return words
 
 
 def lemmatize_tokens(token_list):
+    """Lemmatize tokens with proper POS tagging for better accuracy"""
     lemmatizer = WordNetLemmatizer()
     lemmatized_words = []
-    for token in token_list:
-        lemmatized_words.append(lemmatizer.lemmatize(token))
-
+    
+    # Try to use POS tagging for better accuracy
+    try:
+        from nltk.corpus import wordnet
+        from nltk.tag import pos_tag
+        
+        # Get POS tags for better lemmatization
+        try:
+            pos_tags = pos_tag(token_list)
+            
+            # Map NLTK POS tags to WordNet POS tags
+            def get_wordnet_pos(nltk_tag):
+                if nltk_tag.startswith('J'):
+                    return wordnet.ADJ
+                elif nltk_tag.startswith('V'):
+                    return wordnet.VERB
+                elif nltk_tag.startswith('N'):
+                    return wordnet.NOUN
+                elif nltk_tag.startswith('R'):
+                    return wordnet.ADV
+                else:
+                    return wordnet.NOUN  # Default to noun
+            
+            for token, pos_tag_val in pos_tags:
+                wordnet_pos = get_wordnet_pos(pos_tag_val)
+                lemmatized = lemmatizer.lemmatize(token.lower(), wordnet_pos)
+                lemmatized_words.append(lemmatized)
+        except Exception as e:
+            # If POS tagging fails, use simple lemmatization
+            logger.warning(f"POS tagging failed: {e}, using simple lemmatization")
+            for token in token_list:
+                # Try verb first (most common), then noun
+                lemmatized = lemmatizer.lemmatize(token.lower(), wordnet.VERB)
+                if lemmatized == token.lower():
+                    lemmatized = lemmatizer.lemmatize(token.lower(), wordnet.NOUN)
+                lemmatized_words.append(lemmatized)
+    except ImportError:
+        # If wordnet or pos_tag not available, use simple lemmatization
+        logger.warning("NLTK wordnet/pos_tag not available, using simple lemmatization")
+        for token in token_list:
+            lemmatized = lemmatizer.lemmatize(token.lower())
+            lemmatized_words.append(lemmatized)
+    except Exception as e:
+        # Fallback to simple lemmatization
+        logger.error(f"Lemmatization error: {e}, using simple fallback")
+        for token in token_list:
+            try:
+                lemmatized = lemmatizer.lemmatize(token.lower())
+                lemmatized_words.append(lemmatized)
+            except:
+                # If everything fails, just lowercase
+                lemmatized_words.append(token.lower())
+    
     return lemmatized_words
 
 
@@ -169,13 +294,29 @@ def check_java_available():
         return False
 
 def convert_eng_to_isl(input_string):
+    """
+    Convert English to ISL using ML model (if available) or Stanford Parser (fallback)
+    """
+    # Try ML model first if available
+    if ML_TRANSLATION_AVAILABLE:
+        try:
+            translation_service = get_translation_service()
+            if translation_service._model_loaded and translation_service.use_ml_model:
+                logger.info("Using ML translation model")
+                isl_tokens = translation_service.translate_ml(input_string)
+                return isl_tokens
+        except Exception as e:
+            logger.warning(f"ML translation failed: {e}, falling back to Stanford Parser")
+    
+    # Fallback to Stanford Parser (rule-based)
+    logger.info("Using Stanford Parser (rule-based translation)")
+    
     # Check if Java is available before proceeding
     if not check_java_available():
         # If Java is not available, return a simple tokenized version
         # This allows the app to work partially until Java is installed
-        print("WARNING: Java is not installed. Stanford Parser requires Java.")
-        print("Please install Java (JDK 8 or later) to enable full parsing functionality.")
-        print("On macOS, you can install it with: brew install openjdk")
+        logger.warning("Java is not installed. Stanford Parser requires Java.")
+        logger.warning("Please install Java (JDK 8 or later) to enable full parsing functionality.")
         # Return simple tokenized input as fallback
         return input_string.split()
     
@@ -194,14 +335,7 @@ def convert_eng_to_isl(input_string):
 
         # Get most probable parse tree
         parse_tree = possible_parse_tree_list[0]
-        print(parse_tree)
-        # output = '(ROOT
-        #               (S
-        #                   (PP (IN As) (NP (DT an) (NN accountant)))
-        #                   (NP (PRP I))
-        #                   (VP (VBP want) (S (VP (TO to) (VP (VB make) (NP (DT a) (NN payment))))))
-        #                )
-        #             )'
+        logger.debug(f"Parse tree: {parse_tree}")
 
         # Convert into tree data structure
         parent_tree = ParentedTree.convert(parse_tree)
@@ -212,64 +346,412 @@ def convert_eng_to_isl(input_string):
         return parsed_sent
     except OSError as e:
         # If Java fails, provide a fallback
-        print(f"ERROR: Stanford Parser failed - {str(e)}")
-        print("Falling back to simple tokenization. Please install Java to enable full parsing.")
+        logger.error(f"Stanford Parser failed - {str(e)}")
+        logger.warning("Falling back to simple tokenization. Please install Java to enable full parsing.")
         return input_string.split()
 
 
 def pre_process(sentence):
+    """
+    Pre-process sentence: break words not in words.txt into letters
+    This is for the avatar player which needs to spell out unknown words
+    """
     words = list(sentence.split())
-    f = open('words.txt', 'r')
-    eligible_words = f.read()
-    f.close()
+    try:
+        f = open('words.txt', 'r')
+        eligible_words = f.read()
+        f.close()
+    except:
+        logger.warning("words.txt not found, all words will be kept as-is")
+        return sentence
+    
     final_string = ""
 
     for word in words:
-        if word not in eligible_words:
-            for letter in word:
-                final_string += " " + letter
-        else:
+        # Clean word (remove punctuation for checking)
+        clean_word = word.lower().rstrip('.,!?;:')
+        
+        # Check if word or its clean version is in eligible words
+        if word in eligible_words or clean_word in eligible_words:
             final_string += " " + word
-
+        else:
+            # Break into letters if not found
+            for letter in word:
+                if letter.isalnum():  # Only letters/numbers
+                    final_string += " " + letter
+    
     return final_string
+
+@app.route('/api/transcribe', methods=['POST'])
+@limiter.limit("10 per minute")
+def transcribe_audio():
+    """
+    Whisper ASR endpoint for speech-to-text conversion
+    Accepts audio file upload or base64 encoded audio
+    """
+    if not WHISPER_AVAILABLE:
+        return json.dumps({
+            'error': 'Whisper service not available',
+            'fallback': 'Use Web Speech API in browser'
+        }), 503, {'Content-Type': 'application/json'}
+    
+    try:
+        # Check if audio file is uploaded
+        if 'audio' in request.files:
+            audio_file = request.files['audio']
+            if audio_file.filename == '':
+                return json.dumps({'error': 'No audio file provided'}), 400
+            
+            # Save uploaded file temporarily with proper extension
+            filename = secure_filename(audio_file.filename)
+            # Get content type to determine actual format
+            content_type = audio_file.content_type or 'audio/webm'
+            logger.info(f"Received audio file: {filename}, content-type: {content_type}")
+            
+            # Determine file extension from content type
+            ext_map = {
+                'audio/webm': '.webm',
+                'audio/wav': '.wav',
+                'audio/wave': '.wav',
+                'audio/x-wav': '.wav',
+                'audio/mpeg': '.mp3',
+                'audio/mp3': '.mp3'
+            }
+            ext = ext_map.get(content_type, '.webm')  # Default to webm for browser recordings
+            
+            temp_path = os.path.join(tempfile.gettempdir(), f"whisper_audio_{int(time.time())}{ext}")
+            audio_file.save(temp_path)
+            
+            try:
+                # Check file was saved
+                if not os.path.exists(temp_path) or os.path.getsize(temp_path) == 0:
+                    return json.dumps({'error': 'Failed to save audio file'}), 400
+                
+                logger.info(f"Saved audio to: {temp_path} ({os.path.getsize(temp_path)} bytes)")
+                
+                # Validate audio file (basic check)
+                file_size = os.path.getsize(temp_path)
+                if file_size == 0:
+                    return json.dumps({'error': 'Audio file is empty'}), 400
+                if file_size > 50 * 1024 * 1024:  # 50MB max
+                    return json.dumps({'error': 'Audio file too large'}), 400
+                
+                # Try to transcribe with Whisper
+                # Note: Whisper internally uses ffmpeg for some formats
+                # If ffmpeg is not available, this will fail gracefully
+                try:
+                    asr_service = get_asr_service(model_size="base")
+                    result = asr_service.transcribe(temp_path)
+                    
+                    return json.dumps({
+                        'text': result['text'],
+                        'language': result.get('language', 'en'),
+                        'success': True
+                    }), 200, {'Content-Type': 'application/json'}
+                    
+                except RuntimeError as e:
+                    # FFmpeg-related error
+                    error_msg = str(e)
+                    logger.warning(f"Whisper transcription failed (likely ffmpeg issue): {error_msg}")
+                    return json.dumps({
+                        'error': 'Whisper requires ffmpeg for audio processing. Please install ffmpeg or use Web Speech API.',
+                        'fallback': 'Use Web Speech API in browser',
+                        'details': error_msg,
+                        'success': False
+                    }), 503, {'Content-Type': 'application/json'}
+                
+            finally:
+                # Clean up temporary file
+                if os.path.exists(temp_path):
+                    try:
+                        os.unlink(temp_path)
+                    except Exception as e:
+                        logger.warning(f"Failed to delete temp file: {e}")
+        
+        # Check for base64 encoded audio
+        elif 'audio_data' in request.json:
+            import base64
+            audio_data = request.json['audio_data']
+            # Decode base64
+            audio_bytes = base64.b64decode(audio_data.split(',')[1] if ',' in audio_data else audio_data)
+            
+            # Transcribe
+            asr_service = get_asr_service(model_size="base")
+            result = asr_service.transcribe_bytes(audio_bytes)
+            
+            return json.dumps({
+                'text': result['text'],
+                'language': result.get('language', 'en'),
+                'success': True
+            }), 200, {'Content-Type': 'application/json'}
+        
+        else:
+            return json.dumps({'error': 'No audio data provided'}), 400
+            
+    except Exception as e:
+        logger.error(f"Transcription error: {str(e)}")
+        return json.dumps({
+            'error': f'Transcription failed: {str(e)}',
+            'success': False
+        }), 500, {'Content-Type': 'application/json'}
+
+
+@app.route('/api/health', methods=['GET'])
+def health_check():
+    """Health check endpoint"""
+    whisper_status = WHISPER_AVAILABLE
+    if WHISPER_AVAILABLE:
+        try:
+            asr_service = get_asr_service()
+            whisper_status = asr_service.is_available()
+        except:
+            whisper_status = False
+    
+    # Check ML translation model
+    ml_translation_status = False
+    if ML_TRANSLATION_AVAILABLE:
+        try:
+            ml_translation_status = is_ml_model_available()
+        except:
+            ml_translation_status = False
+    
+    return json.dumps({
+        'status': 'healthy',
+        'whisper_available': whisper_status,
+        'ml_translation_available': ml_translation_status
+    }), 200, {'Content-Type': 'application/json'}
+
+
+@app.route('/api/annotations', methods=['POST'])
+@limiter.limit("20 per minute")
+def add_annotation():
+    """Add translation pair annotation"""
+    try:
+        from ml_pipeline.data_collector import DataCollector
+        
+        data = request.get_json()
+        collector = DataCollector()
+        
+        pair_id = collector.add_translation_pair(
+            english_text=data.get('english_text'),
+            isl_text=data.get('isl_text'),
+            isl_gloss=data.get('isl_gloss'),
+            sigml_file=data.get('sigml_file'),
+            source='manual_annotation',
+            verified=False
+        )
+        
+        return json.dumps({
+            'id': pair_id,
+            'success': True
+        }), 200, {'Content-Type': 'application/json'}
+        
+    except Exception as e:
+        logger.error(f"Annotation error: {str(e)}")
+        return json.dumps({
+            'error': str(e),
+            'success': False
+        }), 500, {'Content-Type': 'application/json'}
+
+
+@app.route('/api/feedback', methods=['POST'])
+@limiter.limit("30 per minute")
+def add_feedback():
+    """Add user feedback on translation"""
+    try:
+        from ml_pipeline.data_collector import DataCollector
+        
+        data = request.get_json()
+        collector = DataCollector()
+        
+        feedback_id = collector.add_feedback(
+            translation_pair_id=data.get('translation_pair_id'),
+            feedback_type=data.get('feedback_type', 'user_correction'),
+            is_correct=data.get('is_correct', True),
+            corrected_text=data.get('corrected_text'),
+            comments=data.get('comments')
+        )
+        
+        return json.dumps({
+            'id': feedback_id,
+            'success': True
+        }), 200, {'Content-Type': 'application/json'}
+        
+    except Exception as e:
+        logger.error(f"Feedback error: {str(e)}")
+        return json.dumps({
+            'error': str(e),
+            'success': False
+        }), 500, {'Content-Type': 'application/json'}
+
+
+@app.route('/annotation-tool', methods=['GET'])
+def annotation_tool():
+    """Serve annotation tool HTML"""
+    annotation_path = os.path.join(BASE_DIR, 'data_collection', 'annotation_tool.html')
+    if os.path.exists(annotation_path):
+        return send_file(annotation_path)
+    return "Annotation tool not found", 404
+
+
+@app.route('/api/evaluation/metrics', methods=['GET'])
+def get_evaluation_metrics():
+    """Get current evaluation metrics"""
+    try:
+        # Load latest metrics from file (if available)
+        metrics_file = os.path.join(BASE_DIR, 'data', 'latest_metrics.json')
+        if os.path.exists(metrics_file):
+            with open(metrics_file, 'r') as f:
+                metrics = json.load(f)
+            return json.dumps(metrics), 200, {'Content-Type': 'application/json'}
+        else:
+            return json.dumps({
+                'message': 'No metrics available yet. Run evaluation first.'
+            }), 200, {'Content-Type': 'application/json'}
+    except Exception as e:
+        logger.error(f"Error loading metrics: {str(e)}")
+        return json.dumps({'error': str(e)}), 500, {'Content-Type': 'application/json'}
+
+
+@app.route('/evaluation-dashboard', methods=['GET'])
+def evaluation_dashboard():
+    """Serve evaluation dashboard HTML"""
+    dashboard_path = os.path.join(BASE_DIR, 'evaluation', 'dashboard.html')
+    if os.path.exists(dashboard_path):
+        return send_file(dashboard_path)
+    return "Evaluation dashboard not found", 404
+
+
+@app.route('/api/system/health', methods=['GET'])
+def system_health():
+    """Get detailed system health metrics"""
+    try:
+        from monitoring.health_check import get_system_health, check_service_health
+        
+        system = get_system_health()
+        services = check_service_health()
+        
+        return json.dumps({
+            'system': system,
+            'services': services,
+            'timestamp': time.time()
+        }), 200, {'Content-Type': 'application/json'}
+    except Exception as e:
+        logger.error(f"Health check error: {str(e)}")
+        return json.dumps({
+            'error': str(e),
+            'status': 'error'
+        }), 500, {'Content-Type': 'application/json'}
+
 
 @app.route('/parser', methods=['GET', 'POST'])
 def parseit():
-    if request.method == "POST":
-        input_string = request.form['text']
-    else:
-        input_string = request.args.get('speech')
+    try:
+        if request.method == "POST":
+            input_string = request.form.get('text', '')
+        else:
+            input_string = request.args.get('speech', '')
+        
+        if not input_string:
+            return json.dumps({
+                'error': 'No input text provided',
+                'isl_text_string': '',
+                'pre_process_string': ''
+            }), 400, {'Content-Type': 'application/json'}
 
-    # print("input_string: " + input_string)
-    input_string = input_string.capitalize()
-    # input_string = input_string.lower()
-    isl_parsed_token_list = convert_eng_to_isl(input_string)
-    # print("isl_parsed_token_list: " + ' '.join(isl_parsed_token_list))
+        # print("input_string: " + input_string)
+        input_string = input_string.capitalize()
+        # input_string = input_string.lower()
+        
+        try:
+            isl_parsed_token_list = convert_eng_to_isl(input_string)
+        except Exception as e:
+            logger.error(f"Error in convert_eng_to_isl: {e}")
+            # Fallback to simple tokenization
+            isl_parsed_token_list = input_string.split()
+        
+        # print("isl_parsed_token_list: " + ' '.join(isl_parsed_token_list))
 
-    # lemmatize tokens
-    lemmatized_isl_token_list = lemmatize_tokens(isl_parsed_token_list)
-    # print("lemmatized_isl_token_list: " + ' '.join(lemmatized_isl_token_list))
+        # Remove stop words FIRST (before lemmatization to reduce work)
+        try:
+            filtered_tokens = filter_stop_words(isl_parsed_token_list)
+            logger.info(f"After stop word removal: {filtered_tokens}")
+        except Exception as e:
+            logger.error(f"Error in filter_stop_words: {e}")
+            import traceback
+            logger.error(traceback.format_exc())
+            filtered_tokens = isl_parsed_token_list
 
-    # remove stop words
-    filtered_isl_token_list = filter_stop_words(lemmatized_isl_token_list)
-    # print("filtered_isl_token_list: " + ' '.join(filtered_isl_token_list))
+        # Lemmatize tokens (convert "learning" -> "learn", "students" -> "student")
+        try:
+            lemmatized_tokens = lemmatize_tokens(filtered_tokens)
+            logger.info(f"After lemmatization: {lemmatized_tokens}")
+        except Exception as e:
+            logger.error(f"Error in lemmatize_tokens: {e}")
+            import traceback
+            logger.error(traceback.format_exc())
+            # Fallback: just lowercase tokens
+            lemmatized_tokens = [t.lower() for t in filtered_tokens]
 
+        # Map English tokens to ISL glosses (AFTER lemmatization)
+        isl_glosses = lemmatized_tokens
+        if ISL_MAPPER_AVAILABLE:
+            try:
+                isl_mapper = get_isl_mapper()
+                isl_glosses = isl_mapper.map_tokens_to_isl(lemmatized_tokens)
+                logger.info(f"Mapped tokens: {lemmatized_tokens} -> {isl_glosses}")
+            except Exception as e:
+                logger.warning(f"ISL mapping failed: {e}, using original tokens")
+                import traceback
+                logger.warning(traceback.format_exc())
+                isl_glosses = lemmatized_tokens
 
+        isl_text_string = ""
 
+        for gloss in isl_glosses:
+            isl_text_string += gloss
+            isl_text_string += " "
 
-    isl_text_string = ""
+        isl_text_string = isl_text_string.lower().strip()
+        
+        # Log final ISL text for debugging
+        logger.info(f"🔤 Final ISL Text (after all processing): '{isl_text_string}'")
+        logger.info(f"📝 Tokens used: {isl_glosses}")
 
-    for token in filtered_isl_token_list:
-        isl_text_string += token
-        isl_text_string += " "
+        try:
+            pre_processed = pre_process(isl_text_string)
+        except Exception as e:
+            logger.error(f"Error in pre_process: {e}")
+            pre_processed = isl_text_string
 
-    isl_text_string = isl_text_string.lower()
-
-    data = {
-        'isl_text_string': isl_text_string,
-        'pre_process_string': pre_process(isl_text_string)
-    }
-    return json.dumps(data)
+        # Log final ISL text to server console as well
+        logger.info("=" * 80)
+        logger.info("🎯 FINAL TRANSLATION RESULT")
+        logger.info("=" * 80)
+        logger.info(f"📝 Original English: {input_string}")
+        logger.info(f"✅ FINAL ISL TEXT (used for avatar): {isl_text_string}")
+        logger.info(f"🔧 Pre-processed String: {pre_processed}")
+        logger.info("=" * 80)
+        
+        data = {
+            'isl_text_string': isl_text_string,
+            'pre_process_string': pre_processed,
+            'original_english': input_string  # Include original for reference
+        }
+        return json.dumps(data), 200, {'Content-Type': 'application/json'}
+        
+    except Exception as e:
+        logger.error(f"Error in /parser endpoint: {e}")
+        import traceback
+        error_trace = traceback.format_exc()
+        logger.error(f"Full traceback: {error_trace}")
+        # Return error response with details
+        return json.dumps({
+            'error': f'Parsing failed: {str(e)}',
+            'error_details': error_trace.split('\n')[-3] if error_trace else str(e),
+            'isl_text_string': '',
+            'pre_process_string': ''
+        }), 500, {'Content-Type': 'application/json'}
 
 
 @app.route('/')
@@ -553,4 +1035,18 @@ def serve_h2s_xsl():
         return Response(f'Error: {str(e)}', status=500, mimetype='text/plain')
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5001, debug=True)
+    import argparse
+    
+    parser = argparse.ArgumentParser(description='Audio-to-Sign-Language Converter Server')
+    parser.add_argument('--host', type=str, default='0.0.0.0', help='Host to bind to')
+    parser.add_argument('--port', type=int, default=5001, help='Port to bind to')
+    parser.add_argument('--debug', action='store_true', help='Enable debug mode')
+    parser.add_argument('--no-debug', dest='debug', action='store_false', help='Disable debug mode')
+    parser.set_defaults(debug=True)
+    
+    args = parser.parse_args()
+    
+    logger.info(f"Starting server on {args.host}:{args.port}")
+    logger.info(f"Debug mode: {args.debug}")
+    
+    app.run(host=args.host, port=args.port, debug=args.debug)

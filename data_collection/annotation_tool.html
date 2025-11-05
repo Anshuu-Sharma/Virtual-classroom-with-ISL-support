@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISL Translation Annotation Tool</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        textarea {
+            min-height: 100px;
+            resize: vertical;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .feedback-section {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border-radius: 4px;
+        }
+        .status {
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        .success {
+            background-color: #d4edda;
+            color: #155724;
+        }
+        .error {
+            background-color: #f8d7da;
+            color: #721c24;
+        }
+    </style>
+</head>
+<body>
+    <h1>ISL Translation Annotation Tool</h1>
+    
+    <div class="container">
+        <h2>Add Translation Pair</h2>
+        <form id="annotationForm">
+            <div class="form-group">
+                <label for="englishText">English Text:</label>
+                <textarea id="englishText" required></textarea>
+            </div>
+            
+            <div class="form-group">
+                <label for="islText">ISL Text/Gloss:</label>
+                <textarea id="islText" required></textarea>
+            </div>
+            
+            <div class="form-group">
+                <label for="islGloss">ISL Gloss (optional):</label>
+                <input type="text" id="islGloss">
+            </div>
+            
+            <div class="form-group">
+                <label for="sigmlFile">SiGML File (optional):</label>
+                <input type="text" id="sigmlFile">
+            </div>
+            
+            <button type="submit">Submit Annotation</button>
+        </form>
+        
+        <div id="status"></div>
+    </div>
+    
+    <div class="container feedback-section">
+        <h2>Provide Feedback</h2>
+        <form id="feedbackForm">
+            <div class="form-group">
+                <label for="pairId">Translation Pair ID:</label>
+                <input type="number" id="pairId" required>
+            </div>
+            
+            <div class="form-group">
+                <label>Is translation correct?</label>
+                <input type="radio" name="isCorrect" value="true" checked> Yes
+                <input type="radio" name="isCorrect" value="false"> No
+            </div>
+            
+            <div class="form-group">
+                <label for="correctedText">Corrected Text (if incorrect):</label>
+                <textarea id="correctedText"></textarea>
+            </div>
+            
+            <div class="form-group">
+                <label for="comments">Comments:</label>
+                <textarea id="comments"></textarea>
+            </div>
+            
+            <button type="submit">Submit Feedback</button>
+        </form>
+        
+        <div id="feedbackStatus"></div>
+    </div>
+
+    <script>
+        const API_BASE = 'http://localhost:5001';
+        
+        document.getElementById('annotationForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const data = {
+                english_text: document.getElementById('englishText').value,
+                isl_text: document.getElementById('islText').value,
+                isl_gloss: document.getElementById('islGloss').value || null,
+                sigml_file: document.getElementById('sigmlFile').value || null
+            };
+            
+            try {
+                const response = await fetch(`${API_BASE}/api/annotations`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(data)
+                });
+                
+                const result = await response.json();
+                
+                if (response.ok) {
+                    document.getElementById('status').innerHTML = 
+                        `<div class="status success">Annotation added successfully! ID: ${result.id}</div>`;
+                    document.getElementById('annotationForm').reset();
+                } else {
+                    document.getElementById('status').innerHTML = 
+                        `<div class="status error">Error: ${result.error}</div>`;
+                }
+            } catch (error) {
+                document.getElementById('status').innerHTML = 
+                    `<div class="status error">Error: ${error.message}</div>`;
+            }
+        });
+        
+        document.getElementById('feedbackForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const data = {
+                translation_pair_id: parseInt(document.getElementById('pairId').value),
+                feedback_type: 'user_correction',
+                is_correct: document.querySelector('input[name="isCorrect"]:checked').value === 'true',
+                corrected_text: document.getElementById('correctedText').value || null,
+                comments: document.getElementById('comments').value || null
+            };
+            
+            try {
+                const response = await fetch(`${API_BASE}/api/feedback`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(data)
+                });
+                
+                const result = await response.json();
+                
+                if (response.ok) {
+                    document.getElementById('feedbackStatus').innerHTML = 
+                        `<div class="status success">Feedback submitted successfully!</div>`;
+                    document.getElementById('feedbackForm').reset();
+                } else {
+                    document.getElementById('feedbackStatus').innerHTML = 
+                        `<div class="status error">Error: ${result.error}</div>`;
+                }
+            } catch (error) {
+                document.getElementById('feedbackStatus').innerHTML = 
+                    `<div class="status error">Error: ${error.message}</div>`;
+            }
+        });
+    </script>
+</body>
+</html>
+
