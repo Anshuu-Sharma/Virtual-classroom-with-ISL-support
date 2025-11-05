@@ -1,7 +1,7 @@
 {
   "description"     : "========  CWASA installation configuration data  ========",
 
-  "jasBase"         : "http://vhg.cmp.uea.ac.uk/tech/jas/vhg2017/",
+  "jasBase"         : "http://127.0.0.1:5001/",
   "jasVersionTag"   : "vhg2017",
 
   "sigmlBase"       : "sigml",
@@ -10,7 +10,7 @@
   "useAvatarJARs"   : true,
 
   "animgenFPS"      : 120,
-  "animgenServer"   : "http://vhg.cmp.uea.ac.uk/cgi-bin/animgen/animgenserver.pl",
+  "animgenServer"   : "http://127.0.0.1:5001/animgen",
 
   "avs" : [
     "anna", "marc", "francoise"

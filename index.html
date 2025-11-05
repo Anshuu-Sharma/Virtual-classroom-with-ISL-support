@@ -37,7 +37,10 @@
         // Initial configuration
         var initCfg = {
             "avsbsl" : ["luna", "siggi", "anna", "marc", "francoise"],
-            "avSettings" : { "avList": "avsbsl", "initAv": "marc" }
+            "avSettings" : { "avList": "avsbsl", "initAv": "marc" },
+            "jasBase" : "http://127.0.0.1:5001/",
+            "avJARBase" : "avatars",
+            "animgenServer": "http://127.0.0.1:5001/animgen"
         };
 
         // global variable to store the sigmal list
@@ -69,10 +72,7 @@
 <body onload="CWASA.init(initCfg);" >
     <nav>
         <div class="nav-wrapper" id="navbar">
-            <!-- <a href="https://pec.ac.in" class="brand-logo"><img src="images/peclogo.png" style="margin-top: 10%; padding: 2%; width: 70%; height:100%;"></a> -->
-    		<!-- <img src="images/enchulettalogo.png" style="padding: 1%; width: 10%; height: 115%; margin-left: 47%;"> -->
-            <a href="https://pec.ac.in" class="brand-logo" style="position: absolute;left: 2%;"><img src="images/peclogo.png" style="margin-top: 10%;padding: 2%;height: 100%;"></a>
-    		<img src="images/enchulettalogo.png" style="height: 100%; margin-left: auto;margin-right: auto;display: block">
+            <!-- Logos removed -->
     	</div>
     	
  	</nav>
