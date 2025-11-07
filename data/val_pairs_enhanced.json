@@ -1,0 +1,738 @@
+[
+  {
+    "english": "<sos> little-fingerhand <eos>",
+    "isl": "<sos> little-fingerhand <eos>"
+  },
+  {
+    "english": "<sos> yourhobbieswhat <eos>",
+    "isl": "<sos> yourhobbieswhat <eos>"
+  },
+  {
+    "english": "<sos> carrot <eos>",
+    "isl": "<sos> carrot <eos>"
+  },
+  {
+    "english": "<sos> bag <eos>",
+    "isl": "<sos> bag <eos>"
+  },
+  {
+    "english": "<sos> doctor1 <eos>",
+    "isl": "<sos> doctor1 <eos>"
+  },
+  {
+    "english": "<sos> contact(pointhand) <eos>",
+    "isl": "<sos> contact(pointhand) <eos>"
+  },
+  {
+    "english": "<sos> open <eos>",
+    "isl": "<sos> open <eos>"
+  },
+  {
+    "english": "<sos> eyelash <eos>",
+    "isl": "<sos> eyelash <eos>"
+  },
+  {
+    "english": "<sos> nurse <eos>",
+    "isl": "<sos> nurse <eos>"
+  },
+  {
+    "english": "<sos> 11 <eos>",
+    "isl": "<sos> 11 <eos>"
+  },
+  {
+    "english": "<sos> tabla <eos>",
+    "isl": "<sos> tabla <eos>"
+  },
+  {
+    "english": "<sos> justamoment <eos>",
+    "isl": "<sos> justamoment <eos>"
+  },
+  {
+    "english": "<sos> canyousign <eos>",
+    "isl": "<sos> canyousign <eos>"
+  },
+  {
+    "english": "<sos> how <eos>",
+    "isl": "<sos> how <eos>"
+  },
+  {
+    "english": "<sos> green <eos>",
+    "isl": "<sos> green <eos>"
+  },
+  {
+    "english": "<sos> wish <eos>",
+    "isl": "<sos> wish <eos>"
+  },
+  {
+    "english": "<sos> pretend <eos>",
+    "isl": "<sos> pretend <eos>"
+  },
+  {
+    "english": "<sos> ladder <eos>",
+    "isl": "<sos> ladder <eos>"
+  },
+  {
+    "english": "<sos> understand <eos>",
+    "isl": "<sos> understand <eos>"
+  },
+  {
+    "english": "<sos> keep <eos>",
+    "isl": "<sos> keep <eos>"
+  },
+  {
+    "english": "<sos> tuesday <eos>",
+    "isl": "<sos> tuesday <eos>"
+  },
+  {
+    "english": "<sos> cauliflower <eos>",
+    "isl": "<sos> cauliflower <eos>"
+  },
+  {
+    "english": "<sos> lend <eos>",
+    "isl": "<sos> lend <eos>"
+  },
+  {
+    "english": "<sos> on <eos>",
+    "isl": "<sos> on <eos>"
+  },
+  {
+    "english": "<sos> congratulations <eos>",
+    "isl": "<sos> congratulations <eos>"
+  },
+  {
+    "english": "<sos> sevenoclock <eos>",
+    "isl": "<sos> sevenoclock <eos>"
+  },
+  {
+    "english": "<sos> why are you sad <eos>",
+    "isl": "<sos> you sad why <eos>"
+  },
+  {
+    "english": "<sos> they are happy <eos>",
+    "isl": "<sos> they happy <eos>"
+  },
+  {
+    "english": "<sos> truth <eos>",
+    "isl": "<sos> truth <eos>"
+  },
+  {
+    "english": "<sos> jesus <eos>",
+    "isl": "<sos> jesus <eos>"
+  },
+  {
+    "english": "<sos> sunday <eos>",
+    "isl": "<sos> sunday <eos>"
+  },
+  {
+    "english": "<sos> roof <eos>",
+    "isl": "<sos> roof <eos>"
+  },
+  {
+    "english": "<sos> associate <eos>",
+    "isl": "<sos> associate <eos>"
+  },
+  {
+    "english": "<sos> lick <eos>",
+    "isl": "<sos> lick <eos>"
+  },
+  {
+    "english": "<sos> drinking <eos>",
+    "isl": "<sos> drinking <eos>"
+  },
+  {
+    "english": "<sos> search <eos>",
+    "isl": "<sos> search <eos>"
+  },
+  {
+    "english": "<sos> arrive <eos>",
+    "isl": "<sos> arrive <eos>"
+  },
+  {
+    "english": "<sos> operation <eos>",
+    "isl": "<sos> operation <eos>"
+  },
+  {
+    "english": "<sos> putonleft <eos>",
+    "isl": "<sos> putonleft <eos>"
+  },
+  {
+    "english": "<sos> quiet <eos>",
+    "isl": "<sos> quiet <eos>"
+  },
+  {
+    "english": "<sos> like <eos>",
+    "isl": "<sos> like <eos>"
+  },
+  {
+    "english": "<sos> his <eos>",
+    "isl": "<sos> his <eos>"
+  },
+  {
+    "english": "<sos> twenty <eos>",
+    "isl": "<sos> twenty <eos>"
+  },
+  {
+    "english": "<sos> we meet in class <eos>",
+    "isl": "<sos> class we meet <eos>"
+  },
+  {
+    "english": "<sos> everyyear <eos>",
+    "isl": "<sos> everyyear <eos>"
+  },
+  {
+    "english": "<sos> allah <eos>",
+    "isl": "<sos> allah <eos>"
+  },
+  {
+    "english": "<sos> bell <eos>",
+    "isl": "<sos> bell <eos>"
+  },
+  {
+    "english": "<sos> was <eos>",
+    "isl": "<sos> was <eos>"
+  },
+  {
+    "english": "<sos> break <eos>",
+    "isl": "<sos> break <eos>"
+  },
+  {
+    "english": "<sos> they <eos>",
+    "isl": "<sos> they <eos>"
+  },
+  {
+    "english": "<sos> bogies <eos>",
+    "isl": "<sos> bogies <eos>"
+  },
+  {
+    "english": "<sos> detail <eos>",
+    "isl": "<sos> detail <eos>"
+  },
+  {
+    "english": "<sos> it is easy <eos>",
+    "isl": "<sos> it easy <eos>"
+  },
+  {
+    "english": "<sos> bsl <eos>",
+    "isl": "<sos> bsl <eos>"
+  },
+  {
+    "english": "<sos> appear <eos>",
+    "isl": "<sos> appear <eos>"
+  },
+  {
+    "english": "<sos> fourhundred <eos>",
+    "isl": "<sos> fourhundred <eos>"
+  },
+  {
+    "english": "<sos> experience <eos>",
+    "isl": "<sos> experience <eos>"
+  },
+  {
+    "english": "<sos> france <eos>",
+    "isl": "<sos> france <eos>"
+  },
+  {
+    "english": "<sos> this is important <eos>",
+    "isl": "<sos> this important <eos>"
+  },
+  {
+    "english": "<sos> h <eos>",
+    "isl": "<sos> h <eos>"
+  },
+  {
+    "english": "<sos> karate <eos>",
+    "isl": "<sos> karate <eos>"
+  },
+  {
+    "english": "<sos> clerk <eos>",
+    "isl": "<sos> clerk <eos>"
+  },
+  {
+    "english": "<sos> electrician <eos>",
+    "isl": "<sos> electrician <eos>"
+  },
+  {
+    "english": "<sos> my <eos>",
+    "isl": "<sos> my <eos>"
+  },
+  {
+    "english": "<sos> cucumber <eos>",
+    "isl": "<sos> cucumber <eos>"
+  },
+  {
+    "english": "<sos> table <eos>",
+    "isl": "<sos> table <eos>"
+  },
+  {
+    "english": "<sos> fear <eos>",
+    "isl": "<sos> fear <eos>"
+  },
+  {
+    "english": "<sos> sewingmachine <eos>",
+    "isl": "<sos> sewingmachine <eos>"
+  },
+  {
+    "english": "<sos> national <eos>",
+    "isl": "<sos> national <eos>"
+  },
+  {
+    "english": "<sos> i will see you tomorrow <eos>",
+    "isl": "<sos> tomorrow i you see <eos>"
+  },
+  {
+    "english": "<sos> bhangra <eos>",
+    "isl": "<sos> bhangra <eos>"
+  },
+  {
+    "english": "<sos> equal <eos>",
+    "isl": "<sos> equal <eos>"
+  },
+  {
+    "english": "<sos> better <eos>",
+    "isl": "<sos> better <eos>"
+  },
+  {
+    "english": "<sos> jain <eos>",
+    "isl": "<sos> jain <eos>"
+  },
+  {
+    "english": "<sos> angry <eos>",
+    "isl": "<sos> angry <eos>"
+  },
+  {
+    "english": "<sos> your <eos>",
+    "isl": "<sos> your <eos>"
+  },
+  {
+    "english": "<sos> i do not understand <eos>",
+    "isl": "<sos> i understand not <eos>"
+  },
+  {
+    "english": "<sos> cometoyou <eos>",
+    "isl": "<sos> cometoyou <eos>"
+  },
+  {
+    "english": "<sos> weaver <eos>",
+    "isl": "<sos> weaver <eos>"
+  },
+  {
+    "english": "<sos> brighton <eos>",
+    "isl": "<sos> brighton <eos>"
+  },
+  {
+    "english": "<sos> yesterday <eos>",
+    "isl": "<sos> yesterday <eos>"
+  },
+  {
+    "english": "<sos> answer <eos>",
+    "isl": "<sos> answer <eos>"
+  },
+  {
+    "english": "<sos> purple <eos>",
+    "isl": "<sos> purple <eos>"
+  },
+  {
+    "english": "<sos> loss <eos>",
+    "isl": "<sos> loss <eos>"
+  },
+  {
+    "english": "<sos> 3 <eos>",
+    "isl": "<sos> 3 <eos>"
+  },
+  {
+    "english": "<sos> languages <eos>",
+    "isl": "<sos> languages <eos>"
+  },
+  {
+    "english": "<sos> spelling <eos>",
+    "isl": "<sos> spelling <eos>"
+  },
+  {
+    "english": "<sos> wrong <eos>",
+    "isl": "<sos> wrong <eos>"
+  },
+  {
+    "english": "<sos> pink <eos>",
+    "isl": "<sos> pink <eos>"
+  },
+  {
+    "english": "<sos> transport <eos>",
+    "isl": "<sos> transport <eos>"
+  },
+  {
+    "english": "<sos> him <eos>",
+    "isl": "<sos> him <eos>"
+  },
+  {
+    "english": "<sos> clown <eos>",
+    "isl": "<sos> clown <eos>"
+  },
+  {
+    "english": "<sos> fingerspell <eos>",
+    "isl": "<sos> fingerspell <eos>"
+  },
+  {
+    "english": "<sos> onion <eos>",
+    "isl": "<sos> onion <eos>"
+  },
+  {
+    "english": "<sos> tenoclock <eos>",
+    "isl": "<sos> tenoclock <eos>"
+  },
+  {
+    "english": "<sos> laugh <eos>",
+    "isl": "<sos> laugh <eos>"
+  },
+  {
+    "english": "<sos> fly <eos>",
+    "isl": "<sos> fly <eos>"
+  },
+  {
+    "english": "<sos> scotland <eos>",
+    "isl": "<sos> scotland <eos>"
+  },
+  {
+    "english": "<sos> profit <eos>",
+    "isl": "<sos> profit <eos>"
+  },
+  {
+    "english": "<sos> thankyou <eos>",
+    "isl": "<sos> thankyou <eos>"
+  },
+  {
+    "english": "<sos> relation <eos>",
+    "isl": "<sos> relation <eos>"
+  },
+  {
+    "english": "<sos> town <eos>",
+    "isl": "<sos> town <eos>"
+  },
+  {
+    "english": "<sos> new <eos>",
+    "isl": "<sos> new <eos>"
+  },
+  {
+    "english": "<sos> waste <eos>",
+    "isl": "<sos> waste <eos>"
+  },
+  {
+    "english": "<sos> 10 <eos>",
+    "isl": "<sos> 10 <eos>"
+  },
+  {
+    "english": "<sos> askanything <eos>",
+    "isl": "<sos> askanything <eos>"
+  },
+  {
+    "english": "<sos> clap <eos>",
+    "isl": "<sos> clap <eos>"
+  },
+  {
+    "english": "<sos> home <eos>",
+    "isl": "<sos> home <eos>"
+  },
+  {
+    "english": "<sos> quick <eos>",
+    "isl": "<sos> quick <eos>"
+  },
+  {
+    "english": "<sos> hill <eos>",
+    "isl": "<sos> hill <eos>"
+  },
+  {
+    "english": "<sos> note-book <eos>",
+    "isl": "<sos> note-book <eos>"
+  },
+  {
+    "english": "<sos> boil <eos>",
+    "isl": "<sos> boil <eos>"
+  },
+  {
+    "english": "<sos> carrom <eos>",
+    "isl": "<sos> carrom <eos>"
+  },
+  {
+    "english": "<sos> arrest <eos>",
+    "isl": "<sos> arrest <eos>"
+  },
+  {
+    "english": "<sos> attend <eos>",
+    "isl": "<sos> attend <eos>"
+  },
+  {
+    "english": "<sos> teacher teaches sign language <eos>",
+    "isl": "<sos> teacher sign language teach <eos>"
+  },
+  {
+    "english": "<sos> hello <eos>",
+    "isl": "<sos> hello <eos>"
+  },
+  {
+    "english": "<sos> silver <eos>",
+    "isl": "<sos> silver <eos>"
+  },
+  {
+    "english": "<sos> 1 <eos>",
+    "isl": "<sos> 1 <eos>"
+  },
+  {
+    "english": "<sos> we <eos>",
+    "isl": "<sos> we <eos>"
+  },
+  {
+    "english": "<sos> shake <eos>",
+    "isl": "<sos> shake <eos>"
+  },
+  {
+    "english": "<sos> come <eos>",
+    "isl": "<sos> come <eos>"
+  },
+  {
+    "english": "<sos> vomit <eos>",
+    "isl": "<sos> vomit <eos>"
+  },
+  {
+    "english": "<sos> screen <eos>",
+    "isl": "<sos> screen <eos>"
+  },
+  {
+    "english": "<sos> blackboard <eos>",
+    "isl": "<sos> blackboard <eos>"
+  },
+  {
+    "english": "<sos> andhrapradesh <eos>",
+    "isl": "<sos> andhrapradesh <eos>"
+  },
+  {
+    "english": "<sos> openhand <eos>",
+    "isl": "<sos> openhand <eos>"
+  },
+  {
+    "english": "<sos> officer <eos>",
+    "isl": "<sos> officer <eos>"
+  },
+  {
+    "english": "<sos> after <eos>",
+    "isl": "<sos> after <eos>"
+  },
+  {
+    "english": "<sos> issues <eos>",
+    "isl": "<sos> issues <eos>"
+  },
+  {
+    "english": "<sos> note-money <eos>",
+    "isl": "<sos> note-money <eos>"
+  },
+  {
+    "english": "<sos> june <eos>",
+    "isl": "<sos> june <eos>"
+  },
+  {
+    "english": "<sos> reach <eos>",
+    "isl": "<sos> reach <eos>"
+  },
+  {
+    "english": "<sos> crash <eos>",
+    "isl": "<sos> crash <eos>"
+  },
+  {
+    "english": "<sos> mistake <eos>",
+    "isl": "<sos> mistake <eos>"
+  },
+  {
+    "english": "<sos> man <eos>",
+    "isl": "<sos> man <eos>"
+  },
+  {
+    "english": "<sos> tablet <eos>",
+    "isl": "<sos> tablet <eos>"
+  },
+  {
+    "english": "<sos> eighteen <eos>",
+    "isl": "<sos> eighteen <eos>"
+  },
+  {
+    "english": "<sos> april <eos>",
+    "isl": "<sos> april <eos>"
+  },
+  {
+    "english": "<sos> offer <eos>",
+    "isl": "<sos> offer <eos>"
+  },
+  {
+    "english": "<sos> number <eos>",
+    "isl": "<sos> number <eos>"
+  },
+  {
+    "english": "<sos> engineer <eos>",
+    "isl": "<sos> engineer <eos>"
+  },
+  {
+    "english": "<sos> g <eos>",
+    "isl": "<sos> g <eos>"
+  },
+  {
+    "english": "<sos> long <eos>",
+    "isl": "<sos> long <eos>"
+  },
+  {
+    "english": "<sos> jump <eos>",
+    "isl": "<sos> jump <eos>"
+  },
+  {
+    "english": "<sos> hers <eos>",
+    "isl": "<sos> hers <eos>"
+  },
+  {
+    "english": "<sos> available <eos>",
+    "isl": "<sos> available <eos>"
+  },
+  {
+    "english": "<sos> alone <eos>",
+    "isl": "<sos> alone <eos>"
+  },
+  {
+    "english": "<sos> one <eos>",
+    "isl": "<sos> one <eos>"
+  },
+  {
+    "english": "<sos> you can speak sign language <eos>",
+    "isl": "<sos> you sign language speak can <eos>"
+  },
+  {
+    "english": "<sos> wash <eos>",
+    "isl": "<sos> wash <eos>"
+  },
+  {
+    "english": "<sos> welcome <eos>",
+    "isl": "<sos> welcome <eos>"
+  },
+  {
+    "english": "<sos> taxi <eos>",
+    "isl": "<sos> taxi <eos>"
+  },
+  {
+    "english": "<sos> bhagat <eos>",
+    "isl": "<sos> bhagat <eos>"
+  },
+  {
+    "english": "<sos> turnleft <eos>",
+    "isl": "<sos> turnleft <eos>"
+  },
+  {
+    "english": "<sos> i did not see <eos>",
+    "isl": "<sos> i see not <eos>"
+  },
+  {
+    "english": "<sos> fill-in <eos>",
+    "isl": "<sos> fill-in <eos>"
+  },
+  {
+    "english": "<sos> tailor <eos>",
+    "isl": "<sos> tailor <eos>"
+  },
+  {
+    "english": "<sos> organise <eos>",
+    "isl": "<sos> organise <eos>"
+  },
+  {
+    "english": "<sos> education <eos>",
+    "isl": "<sos> education <eos>"
+  },
+  {
+    "english": "<sos> argue <eos>",
+    "isl": "<sos> argue <eos>"
+  },
+  {
+    "english": "<sos> accident <eos>",
+    "isl": "<sos> accident <eos>"
+  },
+  {
+    "english": "<sos> thread <eos>",
+    "isl": "<sos> thread <eos>"
+  },
+  {
+    "english": "<sos> twooclock <eos>",
+    "isl": "<sos> twooclock <eos>"
+  },
+  {
+    "english": "<sos> never <eos>",
+    "isl": "<sos> never <eos>"
+  },
+  {
+    "english": "<sos> 2-3fingerbent <eos>",
+    "isl": "<sos> 2-3fingerbent <eos>"
+  },
+  {
+    "english": "<sos> about <eos>",
+    "isl": "<sos> about <eos>"
+  },
+  {
+    "english": "<sos> access <eos>",
+    "isl": "<sos> access <eos>"
+  },
+  {
+    "english": "<sos> go-with-you <eos>",
+    "isl": "<sos> go-with-you <eos>"
+  },
+  {
+    "english": "<sos> i am going to school <eos>",
+    "isl": "<sos> i school go <eos>"
+  },
+  {
+    "english": "<sos> thumbup <eos>",
+    "isl": "<sos> thumbup <eos>"
+  },
+  {
+    "english": "<sos> climbdown <eos>",
+    "isl": "<sos> climbdown <eos>"
+  },
+  {
+    "english": "<sos> near <eos>",
+    "isl": "<sos> near <eos>"
+  },
+  {
+    "english": "<sos> turn <eos>",
+    "isl": "<sos> turn <eos>"
+  },
+  {
+    "english": "<sos> contact <eos>",
+    "isl": "<sos> contact <eos>"
+  },
+  {
+    "english": "<sos> technical <eos>",
+    "isl": "<sos> technical <eos>"
+  },
+  {
+    "english": "<sos> i went last week <eos>",
+    "isl": "<sos> last week i go <eos>"
+  },
+  {
+    "english": "<sos> veryverydifficult <eos>",
+    "isl": "<sos> veryverydifficult <eos>"
+  },
+  {
+    "english": "<sos> avoid <eos>",
+    "isl": "<sos> avoid <eos>"
+  },
+  {
+    "english": "<sos> slow <eos>",
+    "isl": "<sos> slow <eos>"
+  },
+  {
+    "english": "<sos> i want to learn sign language <eos>",
+    "isl": "<sos> i sign language learn want <eos>"
+  },
+  {
+    "english": "<sos> no <eos>",
+    "isl": "<sos> no <eos>"
+  },
+  {
+    "english": "<sos> he will come tomorrow <eos>",
+    "isl": "<sos> he tomorrow come <eos>"
+  },
+  {
+    "english": "<sos> impossible <eos>",
+    "isl": "<sos> impossible <eos>"
+  }
+]

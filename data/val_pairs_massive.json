@@ -1,0 +1,6534 @@
+[
+  {
+    "english": "<sos> he will read sunday <eos>",
+    "isl": "<sos> sunday he read <eos>"
+  },
+  {
+    "english": "<sos> they go new work <eos>",
+    "isl": "<sos> they new work go <eos>"
+  },
+  {
+    "english": "<sos> we does not write <eos>",
+    "isl": "<sos> we write not <eos>"
+  },
+  {
+    "english": "<sos> you will write now <eos>",
+    "isl": "<sos> now you write <eos>"
+  },
+  {
+    "english": "<sos> we like sad name <eos>",
+    "isl": "<sos> we sad name like <eos>"
+  },
+  {
+    "english": "<sos> i go easy work <eos>",
+    "isl": "<sos> i easy work go <eos>"
+  },
+  {
+    "english": "<sos> we want big name <eos>",
+    "isl": "<sos> we big name want <eos>"
+  },
+  {
+    "english": "<sos> we want to see name <eos>",
+    "isl": "<sos> we name see want <eos>"
+  },
+  {
+    "english": "<sos> will they learn phone <eos>",
+    "isl": "<sos> they phone learn will <eos>"
+  },
+  {
+    "english": "<sos> we will learn thursday <eos>",
+    "isl": "<sos> thursday we learn <eos>"
+  },
+  {
+    "english": "<sos> they will work thursday <eos>",
+    "isl": "<sos> thursday they work <eos>"
+  },
+  {
+    "english": "<sos> we need to think day <eos>",
+    "isl": "<sos> we day think need <eos>"
+  },
+  {
+    "english": "<sos> will he want computer <eos>",
+    "isl": "<sos> he computer want will <eos>"
+  },
+  {
+    "english": "<sos> you like big time <eos>",
+    "isl": "<sos> you big time like <eos>"
+  },
+  {
+    "english": "<sos> you will want sunday <eos>",
+    "isl": "<sos> sunday you want <eos>"
+  },
+  {
+    "english": "<sos> i like sad name <eos>",
+    "isl": "<sos> i sad name like <eos>"
+  },
+  {
+    "english": "<sos> we need to teach question <eos>",
+    "isl": "<sos> we question teach need <eos>"
+  },
+  {
+    "english": "<sos> he want to come problem <eos>",
+    "isl": "<sos> he problem come want <eos>"
+  },
+  {
+    "english": "<sos> will i come phone <eos>",
+    "isl": "<sos> i phone come will <eos>"
+  },
+  {
+    "english": "<sos> i need difficult day <eos>",
+    "isl": "<sos> i difficult day need <eos>"
+  },
+  {
+    "english": "<sos> i like big time <eos>",
+    "isl": "<sos> i big time like <eos>"
+  },
+  {
+    "english": "<sos> they go easy day <eos>",
+    "isl": "<sos> they easy day go <eos>"
+  },
+  {
+    "english": "<sos> he eat at class <eos>",
+    "isl": "<sos> class he eat <eos>"
+  },
+  {
+    "english": "<sos> we wants tomorrow <eos>",
+    "isl": "<sos> tomorrow we want <eos>"
+  },
+  {
+    "english": "<sos> you want to teach idea <eos>",
+    "isl": "<sos> you idea teach want <eos>"
+  },
+  {
+    "english": "<sos> can you work table <eos>",
+    "isl": "<sos> you table work can <eos>"
+  },
+  {
+    "english": "<sos> you like sad work <eos>",
+    "isl": "<sos> you sad work like <eos>"
+  },
+  {
+    "english": "<sos> you need to write problem <eos>",
+    "isl": "<sos> you problem write need <eos>"
+  },
+  {
+    "english": "<sos> i need to understand name <eos>",
+    "isl": "<sos> i name understand need <eos>"
+  },
+  {
+    "english": "<sos> you cannot go water <eos>",
+    "isl": "<sos> you water go not can <eos>"
+  },
+  {
+    "english": "<sos> you come sad question <eos>",
+    "isl": "<sos> you sad question come <eos>"
+  },
+  {
+    "english": "<sos> we may write money <eos>",
+    "isl": "<sos> we money write may <eos>"
+  },
+  {
+    "english": "<sos> can you like water <eos>",
+    "isl": "<sos> you water like can <eos>"
+  },
+  {
+    "english": "<sos> they want to write answer <eos>",
+    "isl": "<sos> they answer write want <eos>"
+  },
+  {
+    "english": "<sos> they go nice time <eos>",
+    "isl": "<sos> they nice time go <eos>"
+  },
+  {
+    "english": "<sos> they do not go chair <eos>",
+    "isl": "<sos> they chair go not <eos>"
+  },
+  {
+    "english": "<sos> he will work food <eos>",
+    "isl": "<sos> he food work will <eos>"
+  },
+  {
+    "english": "<sos> i can learn food <eos>",
+    "isl": "<sos> i food learn can <eos>"
+  },
+  {
+    "english": "<sos> i do not need book <eos>",
+    "isl": "<sos> i book need not <eos>"
+  },
+  {
+    "english": "<sos> they comes morning <eos>",
+    "isl": "<sos> morning they come <eos>"
+  },
+  {
+    "english": "<sos> you cannot come book <eos>",
+    "isl": "<sos> you book come not can <eos>"
+  },
+  {
+    "english": "<sos> he like sad problem <eos>",
+    "isl": "<sos> he sad problem like <eos>"
+  },
+  {
+    "english": "<sos> i may need computer <eos>",
+    "isl": "<sos> i computer need may <eos>"
+  },
+  {
+    "english": "<sos> he go new day <eos>",
+    "isl": "<sos> he new day go <eos>"
+  },
+  {
+    "english": "<sos> you need to understand sign <eos>",
+    "isl": "<sos> you sign understand need <eos>"
+  },
+  {
+    "english": "<sos> you need to know time <eos>",
+    "isl": "<sos> you time know need <eos>"
+  },
+  {
+    "english": "<sos> you come old problem <eos>",
+    "isl": "<sos> you old problem come <eos>"
+  },
+  {
+    "english": "<sos> we write pen <eos>",
+    "isl": "<sos> we pen write <eos>"
+  },
+  {
+    "english": "<sos> students are studying in class <eos>",
+    "isl": "<sos> student class study <eos>"
+  },
+  {
+    "english": "<sos> he go good problem <eos>",
+    "isl": "<sos> he good problem go <eos>"
+  },
+  {
+    "english": "<sos> they come new answer <eos>",
+    "isl": "<sos> they new answer come <eos>"
+  },
+  {
+    "english": "<sos> we will need sunday <eos>",
+    "isl": "<sos> sunday we need <eos>"
+  },
+  {
+    "english": "<sos> you can go computer <eos>",
+    "isl": "<sos> you computer go can <eos>"
+  },
+  {
+    "english": "<sos> we come easy question <eos>",
+    "isl": "<sos> we easy question come <eos>"
+  },
+  {
+    "english": "<sos> may they read food <eos>",
+    "isl": "<sos> they food read may <eos>"
+  },
+  {
+    "english": "<sos> i want to come question <eos>",
+    "isl": "<sos> i question come want <eos>"
+  },
+  {
+    "english": "<sos> he go new problem <eos>",
+    "isl": "<sos> he new problem go <eos>"
+  },
+  {
+    "english": "<sos> they gos today <eos>",
+    "isl": "<sos> today they go <eos>"
+  },
+  {
+    "english": "<sos> you cannot sign computer <eos>",
+    "isl": "<sos> you computer sign not can <eos>"
+  },
+  {
+    "english": "<sos> may they want pen <eos>",
+    "isl": "<sos> they pen want may <eos>"
+  },
+  {
+    "english": "<sos> he is runing money <eos>",
+    "isl": "<sos> he money run <eos>"
+  },
+  {
+    "english": "<sos> may you come book <eos>",
+    "isl": "<sos> you book come may <eos>"
+  },
+  {
+    "english": "<sos> i can write book <eos>",
+    "isl": "<sos> i book write can <eos>"
+  },
+  {
+    "english": "<sos> you do not write table <eos>",
+    "isl": "<sos> you table write not <eos>"
+  },
+  {
+    "english": "<sos> we can like food <eos>",
+    "isl": "<sos> we food like can <eos>"
+  },
+  {
+    "english": "<sos> we do not know food <eos>",
+    "isl": "<sos> we food know not <eos>"
+  },
+  {
+    "english": "<sos> he go difficult idea <eos>",
+    "isl": "<sos> he difficult idea go <eos>"
+  },
+  {
+    "english": "<sos> when will he like <eos>",
+    "isl": "<sos> he like when <eos>"
+  },
+  {
+    "english": "<sos> they will teach tuesday <eos>",
+    "isl": "<sos> tuesday they teach <eos>"
+  },
+  {
+    "english": "<sos> will we learn food <eos>",
+    "isl": "<sos> we food learn will <eos>"
+  },
+  {
+    "english": "<sos> will we write computer <eos>",
+    "isl": "<sos> we computer write will <eos>"
+  },
+  {
+    "english": "<sos> they want to like problem <eos>",
+    "isl": "<sos> they problem like want <eos>"
+  },
+  {
+    "english": "<sos> i will work tuesday <eos>",
+    "isl": "<sos> tuesday i work <eos>"
+  },
+  {
+    "english": "<sos> we will go chair <eos>",
+    "isl": "<sos> we chair go will <eos>"
+  },
+  {
+    "english": "<sos> they want new work <eos>",
+    "isl": "<sos> they new work want <eos>"
+  },
+  {
+    "english": "<sos> they need sad problem <eos>",
+    "isl": "<sos> they sad problem need <eos>"
+  },
+  {
+    "english": "<sos> he may want money <eos>",
+    "isl": "<sos> he money want may <eos>"
+  },
+  {
+    "english": "<sos> you needs afternoon <eos>",
+    "isl": "<sos> afternoon you need <eos>"
+  },
+  {
+    "english": "<sos> we go nice sign <eos>",
+    "isl": "<sos> we nice sign go <eos>"
+  },
+  {
+    "english": "<sos> you do not need book <eos>",
+    "isl": "<sos> you book need not <eos>"
+  },
+  {
+    "english": "<sos> may you come computer <eos>",
+    "isl": "<sos> you computer come may <eos>"
+  },
+  {
+    "english": "<sos> they may need computer <eos>",
+    "isl": "<sos> they computer need may <eos>"
+  },
+  {
+    "english": "<sos> he want to teach idea <eos>",
+    "isl": "<sos> he idea teach want <eos>"
+  },
+  {
+    "english": "<sos> you want to know time <eos>",
+    "isl": "<sos> you time know want <eos>"
+  },
+  {
+    "english": "<sos> we like nice problem <eos>",
+    "isl": "<sos> we nice problem like <eos>"
+  },
+  {
+    "english": "<sos> may i come chair <eos>",
+    "isl": "<sos> i chair come may <eos>"
+  },
+  {
+    "english": "<sos> we want to learn time <eos>",
+    "isl": "<sos> we time learn want <eos>"
+  },
+  {
+    "english": "<sos> today <eos>",
+    "isl": "<sos> today <eos>"
+  },
+  {
+    "english": "<sos> i may want table <eos>",
+    "isl": "<sos> i table want may <eos>"
+  },
+  {
+    "english": "<sos> he do not know water <eos>",
+    "isl": "<sos> he water know not <eos>"
+  },
+  {
+    "english": "<sos> we sign computer <eos>",
+    "isl": "<sos> we computer sign <eos>"
+  },
+  {
+    "english": "<sos> you see chair <eos>",
+    "isl": "<sos> you chair see <eos>"
+  },
+  {
+    "english": "<sos> will they write pen <eos>",
+    "isl": "<sos> they pen write will <eos>"
+  },
+  {
+    "english": "<sos> they need to sign question <eos>",
+    "isl": "<sos> they question sign need <eos>"
+  },
+  {
+    "english": "<sos> i am finishing pen <eos>",
+    "isl": "<sos> i pen finish <eos>"
+  },
+  {
+    "english": "<sos> he come computer <eos>",
+    "isl": "<sos> he computer come <eos>"
+  },
+  {
+    "english": "<sos> you likes morning <eos>",
+    "isl": "<sos> morning you like <eos>"
+  },
+  {
+    "english": "<sos> you are trying water <eos>",
+    "isl": "<sos> you water try <eos>"
+  },
+  {
+    "english": "<sos> he do not like table <eos>",
+    "isl": "<sos> he table like not <eos>"
+  },
+  {
+    "english": "<sos> he is continueing chair <eos>",
+    "isl": "<sos> he chair continue <eos>"
+  },
+  {
+    "english": "<sos> they go difficult name <eos>",
+    "isl": "<sos> they difficult name go <eos>"
+  },
+  {
+    "english": "<sos> they can work computer <eos>",
+    "isl": "<sos> they computer work can <eos>"
+  },
+  {
+    "english": "<sos> you reads sunday <eos>",
+    "isl": "<sos> sunday you read <eos>"
+  },
+  {
+    "english": "<sos> we do not go food <eos>",
+    "isl": "<sos> we food go not <eos>"
+  },
+  {
+    "english": "<sos> they sign phone <eos>",
+    "isl": "<sos> they phone sign <eos>"
+  },
+  {
+    "english": "<sos> he finishs in class <eos>",
+    "isl": "<sos> class he finish <eos>"
+  },
+  {
+    "english": "<sos> they trys in office <eos>",
+    "isl": "<sos> office they try <eos>"
+  },
+  {
+    "english": "<sos> you want good work <eos>",
+    "isl": "<sos> you good work want <eos>"
+  },
+  {
+    "english": "<sos> i come important work <eos>",
+    "isl": "<sos> i important work come <eos>"
+  },
+  {
+    "english": "<sos> he work money <eos>",
+    "isl": "<sos> he money work <eos>"
+  },
+  {
+    "english": "<sos> please show <eos>",
+    "isl": "<sos> please show <eos>"
+  },
+  {
+    "english": "<sos> i will work book <eos>",
+    "isl": "<sos> i book work will <eos>"
+  },
+  {
+    "english": "<sos> may they read table <eos>",
+    "isl": "<sos> they table read may <eos>"
+  },
+  {
+    "english": "<sos> may i go computer <eos>",
+    "isl": "<sos> i computer go may <eos>"
+  },
+  {
+    "english": "<sos> i like good answer <eos>",
+    "isl": "<sos> i good answer like <eos>"
+  },
+  {
+    "english": "<sos> we will need table <eos>",
+    "isl": "<sos> we table need will <eos>"
+  },
+  {
+    "english": "<sos> we need to want problem <eos>",
+    "isl": "<sos> we problem want need <eos>"
+  },
+  {
+    "english": "<sos> we can read money <eos>",
+    "isl": "<sos> we money read can <eos>"
+  },
+  {
+    "english": "<sos> i could not finish <eos>",
+    "isl": "<sos> i finish not could <eos>"
+  },
+  {
+    "english": "<sos> they want to sign answer <eos>",
+    "isl": "<sos> they answer sign want <eos>"
+  },
+  {
+    "english": "<sos> he come nice name <eos>",
+    "isl": "<sos> he nice name come <eos>"
+  },
+  {
+    "english": "<sos> we will not work <eos>",
+    "isl": "<sos> we work not <eos>"
+  },
+  {
+    "english": "<sos> i may like money <eos>",
+    "isl": "<sos> i money like may <eos>"
+  },
+  {
+    "english": "<sos> he reads thursday <eos>",
+    "isl": "<sos> thursday he read <eos>"
+  },
+  {
+    "english": "<sos> i come important question <eos>",
+    "isl": "<sos> i important question come <eos>"
+  },
+  {
+    "english": "<sos> he will learn yesterday <eos>",
+    "isl": "<sos> yesterday he learn <eos>"
+  },
+  {
+    "english": "<sos> he is trying book <eos>",
+    "isl": "<sos> he book try <eos>"
+  },
+  {
+    "english": "<sos> he do not sign phone <eos>",
+    "isl": "<sos> he phone sign not <eos>"
+  },
+  {
+    "english": "<sos> we want to go day <eos>",
+    "isl": "<sos> we day go want <eos>"
+  },
+  {
+    "english": "<sos> we want to need name <eos>",
+    "isl": "<sos> we name need want <eos>"
+  },
+  {
+    "english": "<sos> you need to teach question <eos>",
+    "isl": "<sos> you question teach need <eos>"
+  },
+  {
+    "english": "<sos> i does not read <eos>",
+    "isl": "<sos> i read not <eos>"
+  },
+  {
+    "english": "<sos> he like easy day <eos>",
+    "isl": "<sos> he easy day like <eos>"
+  },
+  {
+    "english": "<sos> he do not read pen <eos>",
+    "isl": "<sos> he pen read not <eos>"
+  },
+  {
+    "english": "<sos> you will come phone <eos>",
+    "isl": "<sos> you phone come will <eos>"
+  },
+  {
+    "english": "<sos> you may learn food <eos>",
+    "isl": "<sos> you food learn may <eos>"
+  },
+  {
+    "english": "<sos> you need old name <eos>",
+    "isl": "<sos> you old name need <eos>"
+  },
+  {
+    "english": "<sos> he want good problem <eos>",
+    "isl": "<sos> he good problem want <eos>"
+  },
+  {
+    "english": "<sos> you like sad problem <eos>",
+    "isl": "<sos> you sad problem like <eos>"
+  },
+  {
+    "english": "<sos> they gos afternoon <eos>",
+    "isl": "<sos> afternoon they go <eos>"
+  },
+  {
+    "english": "<sos> we wants sunday <eos>",
+    "isl": "<sos> sunday we want <eos>"
+  },
+  {
+    "english": "<sos> he need nice question <eos>",
+    "isl": "<sos> he nice question need <eos>"
+  },
+  {
+    "english": "<sos> they can want chair <eos>",
+    "isl": "<sos> they chair want can <eos>"
+  },
+  {
+    "english": "<sos> he do not teach pen <eos>",
+    "isl": "<sos> he pen teach not <eos>"
+  },
+  {
+    "english": "<sos> we come easy name <eos>",
+    "isl": "<sos> we easy name come <eos>"
+  },
+  {
+    "english": "<sos> can i need table <eos>",
+    "isl": "<sos> i table need can <eos>"
+  },
+  {
+    "english": "<sos> i like bad day <eos>",
+    "isl": "<sos> i bad day like <eos>"
+  },
+  {
+    "english": "<sos> can you learn phone <eos>",
+    "isl": "<sos> you phone learn can <eos>"
+  },
+  {
+    "english": "<sos> i do not see food <eos>",
+    "isl": "<sos> i food see not <eos>"
+  },
+  {
+    "english": "<sos> he reads now <eos>",
+    "isl": "<sos> now he read <eos>"
+  },
+  {
+    "english": "<sos> he like nice sign <eos>",
+    "isl": "<sos> he nice sign like <eos>"
+  },
+  {
+    "english": "<sos> can they learn book <eos>",
+    "isl": "<sos> they book learn can <eos>"
+  },
+  {
+    "english": "<sos> he teachs morning <eos>",
+    "isl": "<sos> morning he teach <eos>"
+  },
+  {
+    "english": "<sos> i write phone <eos>",
+    "isl": "<sos> i phone write <eos>"
+  },
+  {
+    "english": "<sos> you do not think food <eos>",
+    "isl": "<sos> you food think not <eos>"
+  },
+  {
+    "english": "<sos> they need difficult time <eos>",
+    "isl": "<sos> they difficult time need <eos>"
+  },
+  {
+    "english": "<sos> will we need water <eos>",
+    "isl": "<sos> we water need will <eos>"
+  },
+  {
+    "english": "<sos> when will we go <eos>",
+    "isl": "<sos> we go when <eos>"
+  },
+  {
+    "english": "<sos> he like good question <eos>",
+    "isl": "<sos> he good question like <eos>"
+  },
+  {
+    "english": "<sos> you do not come phone <eos>",
+    "isl": "<sos> you phone come not <eos>"
+  },
+  {
+    "english": "<sos> we like good answer <eos>",
+    "isl": "<sos> we good answer like <eos>"
+  },
+  {
+    "english": "<sos> we come computer <eos>",
+    "isl": "<sos> we computer come <eos>"
+  },
+  {
+    "english": "<sos> he may come water <eos>",
+    "isl": "<sos> he water come may <eos>"
+  },
+  {
+    "english": "<sos> students come to school early <eos>",
+    "isl": "<sos> early school student come <eos>"
+  },
+  {
+    "english": "<sos> they like sad sign <eos>",
+    "isl": "<sos> they sad sign like <eos>"
+  },
+  {
+    "english": "<sos> he need good question <eos>",
+    "isl": "<sos> he good question need <eos>"
+  },
+  {
+    "english": "<sos> can you work water <eos>",
+    "isl": "<sos> you water work can <eos>"
+  },
+  {
+    "english": "<sos> you cannot like computer <eos>",
+    "isl": "<sos> you computer like not can <eos>"
+  },
+  {
+    "english": "<sos> will we teach food <eos>",
+    "isl": "<sos> we food teach will <eos>"
+  },
+  {
+    "english": "<sos> you cannot see water <eos>",
+    "isl": "<sos> you water see not can <eos>"
+  },
+  {
+    "english": "<sos> they will learn morning <eos>",
+    "isl": "<sos> morning they learn <eos>"
+  },
+  {
+    "english": "<sos> i may read computer <eos>",
+    "isl": "<sos> i computer read may <eos>"
+  },
+  {
+    "english": "<sos> may they read computer <eos>",
+    "isl": "<sos> they computer read may <eos>"
+  },
+  {
+    "english": "<sos> he will teach money <eos>",
+    "isl": "<sos> he money teach will <eos>"
+  },
+  {
+    "english": "<sos> he go big day <eos>",
+    "isl": "<sos> he big day go <eos>"
+  },
+  {
+    "english": "<sos> five <eos>",
+    "isl": "<sos> five <eos>"
+  },
+  {
+    "english": "<sos> you will teach phone <eos>",
+    "isl": "<sos> you phone teach will <eos>"
+  },
+  {
+    "english": "<sos> they like good question <eos>",
+    "isl": "<sos> they good question like <eos>"
+  },
+  {
+    "english": "<sos> come to the front <eos>",
+    "isl": "<sos> front come <eos>"
+  },
+  {
+    "english": "<sos> we come old work <eos>",
+    "isl": "<sos> we old work come <eos>"
+  },
+  {
+    "english": "<sos> they want to know work <eos>",
+    "isl": "<sos> they work know want <eos>"
+  },
+  {
+    "english": "<sos> can you help me <eos>",
+    "isl": "<sos> you me help can <eos>"
+  },
+  {
+    "english": "<sos> i want important work <eos>",
+    "isl": "<sos> i important work want <eos>"
+  },
+  {
+    "english": "<sos> he need big answer <eos>",
+    "isl": "<sos> he big answer need <eos>"
+  },
+  {
+    "english": "<sos> we takes in office <eos>",
+    "isl": "<sos> office we take <eos>"
+  },
+  {
+    "english": "<sos> you will read water <eos>",
+    "isl": "<sos> you water read will <eos>"
+  },
+  {
+    "english": "<sos> we want to sign name <eos>",
+    "isl": "<sos> we name sign want <eos>"
+  },
+  {
+    "english": "<sos> we will like yesterday <eos>",
+    "isl": "<sos> yesterday we like <eos>"
+  },
+  {
+    "english": "<sos> may he need chair <eos>",
+    "isl": "<sos> he chair need may <eos>"
+  },
+  {
+    "english": "<sos> can you like phone <eos>",
+    "isl": "<sos> you phone like can <eos>"
+  },
+  {
+    "english": "<sos> i come food <eos>",
+    "isl": "<sos> i food come <eos>"
+  },
+  {
+    "english": "<sos> you want nice sign <eos>",
+    "isl": "<sos> you nice sign want <eos>"
+  },
+  {
+    "english": "<sos> they will not sign <eos>",
+    "isl": "<sos> they sign not <eos>"
+  },
+  {
+    "english": "<sos> will they teach water <eos>",
+    "isl": "<sos> they water teach will <eos>"
+  },
+  {
+    "english": "<sos> you need bad work <eos>",
+    "isl": "<sos> you bad work need <eos>"
+  },
+  {
+    "english": "<sos> we want to know name <eos>",
+    "isl": "<sos> we name know want <eos>"
+  },
+  {
+    "english": "<sos> i teachs yesterday <eos>",
+    "isl": "<sos> yesterday i teach <eos>"
+  },
+  {
+    "english": "<sos> you cannot learn table <eos>",
+    "isl": "<sos> you table learn not can <eos>"
+  },
+  {
+    "english": "<sos> he may learn book <eos>",
+    "isl": "<sos> he book learn may <eos>"
+  },
+  {
+    "english": "<sos> you may read chair <eos>",
+    "isl": "<sos> you chair read may <eos>"
+  },
+  {
+    "english": "<sos> we learn money <eos>",
+    "isl": "<sos> we money learn <eos>"
+  },
+  {
+    "english": "<sos> will he learn book <eos>",
+    "isl": "<sos> he book learn will <eos>"
+  },
+  {
+    "english": "<sos> you want to read answer <eos>",
+    "isl": "<sos> you answer read want <eos>"
+  },
+  {
+    "english": "<sos> you come sad time <eos>",
+    "isl": "<sos> you sad time come <eos>"
+  },
+  {
+    "english": "<sos> they are runing money <eos>",
+    "isl": "<sos> they money run <eos>"
+  },
+  {
+    "english": "<sos> you cannot work book <eos>",
+    "isl": "<sos> you book work not can <eos>"
+  },
+  {
+    "english": "<sos> you need to come sign <eos>",
+    "isl": "<sos> you sign come need <eos>"
+  },
+  {
+    "english": "<sos> he cannot go food <eos>",
+    "isl": "<sos> he food go not can <eos>"
+  },
+  {
+    "english": "<sos> they will want chair <eos>",
+    "isl": "<sos> they chair want will <eos>"
+  },
+  {
+    "english": "<sos> he come new day <eos>",
+    "isl": "<sos> he new day come <eos>"
+  },
+  {
+    "english": "<sos> when can i see you <eos>",
+    "isl": "<sos> i you see when can <eos>"
+  },
+  {
+    "english": "<sos> he come sad problem <eos>",
+    "isl": "<sos> he sad problem come <eos>"
+  },
+  {
+    "english": "<sos> you come important idea <eos>",
+    "isl": "<sos> you important idea come <eos>"
+  },
+  {
+    "english": "<sos> i want to teach work <eos>",
+    "isl": "<sos> i work teach want <eos>"
+  },
+  {
+    "english": "<sos> they go sad name <eos>",
+    "isl": "<sos> they sad name go <eos>"
+  },
+  {
+    "english": "<sos> he can go pen <eos>",
+    "isl": "<sos> he pen go can <eos>"
+  },
+  {
+    "english": "<sos> you like sad name <eos>",
+    "isl": "<sos> you sad name like <eos>"
+  },
+  {
+    "english": "<sos> i need sad idea <eos>",
+    "isl": "<sos> i sad idea need <eos>"
+  },
+  {
+    "english": "<sos> he need new work <eos>",
+    "isl": "<sos> he new work need <eos>"
+  },
+  {
+    "english": "<sos> he cannot see pen <eos>",
+    "isl": "<sos> he pen see not can <eos>"
+  },
+  {
+    "english": "<sos> i do not know pen <eos>",
+    "isl": "<sos> i pen know not <eos>"
+  },
+  {
+    "english": "<sos> we do not understand phone <eos>",
+    "isl": "<sos> we phone understand not <eos>"
+  },
+  {
+    "english": "<sos> may they like computer <eos>",
+    "isl": "<sos> they computer like may <eos>"
+  },
+  {
+    "english": "<sos> they will work book <eos>",
+    "isl": "<sos> they book work will <eos>"
+  },
+  {
+    "english": "<sos> they will learn money <eos>",
+    "isl": "<sos> they money learn will <eos>"
+  },
+  {
+    "english": "<sos> i need new work <eos>",
+    "isl": "<sos> i new work need <eos>"
+  },
+  {
+    "english": "<sos> they need to come question <eos>",
+    "isl": "<sos> they question come need <eos>"
+  },
+  {
+    "english": "<sos> we need to need problem <eos>",
+    "isl": "<sos> we problem need need <eos>"
+  },
+  {
+    "english": "<sos> i like sad problem <eos>",
+    "isl": "<sos> i sad problem like <eos>"
+  },
+  {
+    "english": "<sos> we will want table <eos>",
+    "isl": "<sos> we table want will <eos>"
+  },
+  {
+    "english": "<sos> they come computer <eos>",
+    "isl": "<sos> they computer come <eos>"
+  },
+  {
+    "english": "<sos> may we need book <eos>",
+    "isl": "<sos> we book need may <eos>"
+  },
+  {
+    "english": "<sos> i sign money <eos>",
+    "isl": "<sos> i money sign <eos>"
+  },
+  {
+    "english": "<sos> can he like chair <eos>",
+    "isl": "<sos> he chair like can <eos>"
+  },
+  {
+    "english": "<sos> he do not go pen <eos>",
+    "isl": "<sos> he pen go not <eos>"
+  },
+  {
+    "english": "<sos> they need difficult problem <eos>",
+    "isl": "<sos> they difficult problem need <eos>"
+  },
+  {
+    "english": "<sos> we like big time <eos>",
+    "isl": "<sos> we big time like <eos>"
+  },
+  {
+    "english": "<sos> we do not understand computer <eos>",
+    "isl": "<sos> we computer understand not <eos>"
+  },
+  {
+    "english": "<sos> you like bad question <eos>",
+    "isl": "<sos> you bad question like <eos>"
+  },
+  {
+    "english": "<sos> you do not see computer <eos>",
+    "isl": "<sos> you computer see not <eos>"
+  },
+  {
+    "english": "<sos> i will go money <eos>",
+    "isl": "<sos> i money go will <eos>"
+  },
+  {
+    "english": "<sos> i want to know question <eos>",
+    "isl": "<sos> i question know want <eos>"
+  },
+  {
+    "english": "<sos> will they read computer <eos>",
+    "isl": "<sos> they computer read will <eos>"
+  },
+  {
+    "english": "<sos> they go sad work <eos>",
+    "isl": "<sos> they sad work go <eos>"
+  },
+  {
+    "english": "<sos> you will go thursday <eos>",
+    "isl": "<sos> thursday you go <eos>"
+  },
+  {
+    "english": "<sos> he want computer <eos>",
+    "isl": "<sos> he computer want <eos>"
+  },
+  {
+    "english": "<sos> we can teach water <eos>",
+    "isl": "<sos> we water teach can <eos>"
+  },
+  {
+    "english": "<sos> he read pen <eos>",
+    "isl": "<sos> he pen read <eos>"
+  },
+  {
+    "english": "<sos> he will not come <eos>",
+    "isl": "<sos> he come not <eos>"
+  },
+  {
+    "english": "<sos> you need to understand idea <eos>",
+    "isl": "<sos> you idea understand need <eos>"
+  },
+  {
+    "english": "<sos> he cannot work chair <eos>",
+    "isl": "<sos> he chair work not can <eos>"
+  },
+  {
+    "english": "<sos> they do not sign chair <eos>",
+    "isl": "<sos> they chair sign not <eos>"
+  },
+  {
+    "english": "<sos> they need to know problem <eos>",
+    "isl": "<sos> they problem know need <eos>"
+  },
+  {
+    "english": "<sos> you come good sign <eos>",
+    "isl": "<sos> you good sign come <eos>"
+  },
+  {
+    "english": "<sos> we will need food <eos>",
+    "isl": "<sos> we food need will <eos>"
+  },
+  {
+    "english": "<sos> we need big answer <eos>",
+    "isl": "<sos> we big answer need <eos>"
+  },
+  {
+    "english": "<sos> i go nice problem <eos>",
+    "isl": "<sos> i nice problem go <eos>"
+  },
+  {
+    "english": "<sos> they will read monday <eos>",
+    "isl": "<sos> monday they read <eos>"
+  },
+  {
+    "english": "<sos> i do not read <eos>",
+    "isl": "<sos> i read not <eos>"
+  },
+  {
+    "english": "<sos> they need to need answer <eos>",
+    "isl": "<sos> they answer need need <eos>"
+  },
+  {
+    "english": "<sos> you cannot need food <eos>",
+    "isl": "<sos> you food need not can <eos>"
+  },
+  {
+    "english": "<sos> i need to work problem <eos>",
+    "isl": "<sos> i problem work need <eos>"
+  },
+  {
+    "english": "<sos> i cannot come food <eos>",
+    "isl": "<sos> i food come not can <eos>"
+  },
+  {
+    "english": "<sos> they see computer <eos>",
+    "isl": "<sos> they computer see <eos>"
+  },
+  {
+    "english": "<sos> he need bad day <eos>",
+    "isl": "<sos> he bad day need <eos>"
+  },
+  {
+    "english": "<sos> can he write chair <eos>",
+    "isl": "<sos> he chair write can <eos>"
+  },
+  {
+    "english": "<sos> i am runing phone <eos>",
+    "isl": "<sos> i phone run <eos>"
+  },
+  {
+    "english": "<sos> you want good time <eos>",
+    "isl": "<sos> you good time want <eos>"
+  },
+  {
+    "english": "<sos> you can read money <eos>",
+    "isl": "<sos> you money read can <eos>"
+  },
+  {
+    "english": "<sos> they cannot like pen <eos>",
+    "isl": "<sos> they pen like not can <eos>"
+  },
+  {
+    "english": "<sos> they do not read book <eos>",
+    "isl": "<sos> they book read not <eos>"
+  },
+  {
+    "english": "<sos> you reads now <eos>",
+    "isl": "<sos> now you read <eos>"
+  },
+  {
+    "english": "<sos> i comes friday <eos>",
+    "isl": "<sos> friday i come <eos>"
+  },
+  {
+    "english": "<sos> they cannot sign table <eos>",
+    "isl": "<sos> they table sign not can <eos>"
+  },
+  {
+    "english": "<sos> you will write yesterday <eos>",
+    "isl": "<sos> yesterday you write <eos>"
+  },
+  {
+    "english": "<sos> you want to learn question <eos>",
+    "isl": "<sos> you question learn want <eos>"
+  },
+  {
+    "english": "<sos> they want difficult day <eos>",
+    "isl": "<sos> they difficult day want <eos>"
+  },
+  {
+    "english": "<sos> they are finishing pen <eos>",
+    "isl": "<sos> they pen finish <eos>"
+  },
+  {
+    "english": "<sos> he cannot teach table <eos>",
+    "isl": "<sos> he table teach not can <eos>"
+  },
+  {
+    "english": "<sos> we come good work <eos>",
+    "isl": "<sos> we good work come <eos>"
+  },
+  {
+    "english": "<sos> i want to write sign <eos>",
+    "isl": "<sos> i sign write want <eos>"
+  },
+  {
+    "english": "<sos> i understand food <eos>",
+    "isl": "<sos> i food understand <eos>"
+  },
+  {
+    "english": "<sos> i may write computer <eos>",
+    "isl": "<sos> i computer write may <eos>"
+  },
+  {
+    "english": "<sos> what does they learn <eos>",
+    "isl": "<sos> they learn what <eos>"
+  },
+  {
+    "english": "<sos> they learn chair <eos>",
+    "isl": "<sos> they chair learn <eos>"
+  },
+  {
+    "english": "<sos> they are trying phone <eos>",
+    "isl": "<sos> they phone try <eos>"
+  },
+  {
+    "english": "<sos> i can read money <eos>",
+    "isl": "<sos> i money read can <eos>"
+  },
+  {
+    "english": "<sos> we may need book <eos>",
+    "isl": "<sos> we book need may <eos>"
+  },
+  {
+    "english": "<sos> you come big time <eos>",
+    "isl": "<sos> you big time come <eos>"
+  },
+  {
+    "english": "<sos> grammar <eos>",
+    "isl": "<sos> grammar <eos>"
+  },
+  {
+    "english": "<sos> can i want pen <eos>",
+    "isl": "<sos> i pen want can <eos>"
+  },
+  {
+    "english": "<sos> we sign pen <eos>",
+    "isl": "<sos> we pen sign <eos>"
+  },
+  {
+    "english": "<sos> they want difficult name <eos>",
+    "isl": "<sos> they difficult name want <eos>"
+  },
+  {
+    "english": "<sos> he need to go answer <eos>",
+    "isl": "<sos> he answer go need <eos>"
+  },
+  {
+    "english": "<sos> he cannot like table <eos>",
+    "isl": "<sos> he table like not can <eos>"
+  },
+  {
+    "english": "<sos> we may need pen <eos>",
+    "isl": "<sos> we pen need may <eos>"
+  },
+  {
+    "english": "<sos> they need nice answer <eos>",
+    "isl": "<sos> they nice answer need <eos>"
+  },
+  {
+    "english": "<sos> we want new answer <eos>",
+    "isl": "<sos> we new answer want <eos>"
+  },
+  {
+    "english": "<sos> we are trying chair <eos>",
+    "isl": "<sos> we chair try <eos>"
+  },
+  {
+    "english": "<sos> may they want water <eos>",
+    "isl": "<sos> they water want may <eos>"
+  },
+  {
+    "english": "<sos> i will read evening <eos>",
+    "isl": "<sos> evening i read <eos>"
+  },
+  {
+    "english": "<sos> i continues in class <eos>",
+    "isl": "<sos> class i continue <eos>"
+  },
+  {
+    "english": "<sos> we want food <eos>",
+    "isl": "<sos> we food want <eos>"
+  },
+  {
+    "english": "<sos> you need new time <eos>",
+    "isl": "<sos> you new time need <eos>"
+  },
+  {
+    "english": "<sos> you practices in office <eos>",
+    "isl": "<sos> office you practice <eos>"
+  },
+  {
+    "english": "<sos> may i go chair <eos>",
+    "isl": "<sos> i chair go may <eos>"
+  },
+  {
+    "english": "<sos> we can write pen <eos>",
+    "isl": "<sos> we pen write can <eos>"
+  },
+  {
+    "english": "<sos> they like important sign <eos>",
+    "isl": "<sos> they important sign like <eos>"
+  },
+  {
+    "english": "<sos> how old is it <eos>",
+    "isl": "<sos> it old how <eos>"
+  },
+  {
+    "english": "<sos> you are trying food <eos>",
+    "isl": "<sos> you food try <eos>"
+  },
+  {
+    "english": "<sos> where do you finish <eos>",
+    "isl": "<sos> you finish where <eos>"
+  },
+  {
+    "english": "<sos> i am practiceing table <eos>",
+    "isl": "<sos> i table practice <eos>"
+  },
+  {
+    "english": "<sos> please stand up <eos>",
+    "isl": "<sos> please stand <eos>"
+  },
+  {
+    "english": "<sos> i work chair <eos>",
+    "isl": "<sos> i chair work <eos>"
+  },
+  {
+    "english": "<sos> i like good name <eos>",
+    "isl": "<sos> i good name like <eos>"
+  },
+  {
+    "english": "<sos> i may read food <eos>",
+    "isl": "<sos> i food read may <eos>"
+  },
+  {
+    "english": "<sos> they need to think work <eos>",
+    "isl": "<sos> they work think need <eos>"
+  },
+  {
+    "english": "<sos> will i read money <eos>",
+    "isl": "<sos> i money read will <eos>"
+  },
+  {
+    "english": "<sos> they cannot know book <eos>",
+    "isl": "<sos> they book know not can <eos>"
+  },
+  {
+    "english": "<sos> i comes today <eos>",
+    "isl": "<sos> today i come <eos>"
+  },
+  {
+    "english": "<sos> they cannot need chair <eos>",
+    "isl": "<sos> they chair need not can <eos>"
+  },
+  {
+    "english": "<sos> can they want table <eos>",
+    "isl": "<sos> they table want can <eos>"
+  },
+  {
+    "english": "<sos> you teach food <eos>",
+    "isl": "<sos> you food teach <eos>"
+  },
+  {
+    "english": "<sos> you like important time <eos>",
+    "isl": "<sos> you important time like <eos>"
+  },
+  {
+    "english": "<sos> we do not read water <eos>",
+    "isl": "<sos> we water read not <eos>"
+  },
+  {
+    "english": "<sos> they cannot sign food <eos>",
+    "isl": "<sos> they food sign not can <eos>"
+  },
+  {
+    "english": "<sos> they need to come sign <eos>",
+    "isl": "<sos> they sign come need <eos>"
+  },
+  {
+    "english": "<sos> he can read phone <eos>",
+    "isl": "<sos> he phone read can <eos>"
+  },
+  {
+    "english": "<sos> they do not sign food <eos>",
+    "isl": "<sos> they food sign not <eos>"
+  },
+  {
+    "english": "<sos> they does not understand <eos>",
+    "isl": "<sos> they understand not <eos>"
+  },
+  {
+    "english": "<sos> you like good idea <eos>",
+    "isl": "<sos> you good idea like <eos>"
+  },
+  {
+    "english": "<sos> they learns morning <eos>",
+    "isl": "<sos> morning they learn <eos>"
+  },
+  {
+    "english": "<sos> you come nice answer <eos>",
+    "isl": "<sos> you nice answer come <eos>"
+  },
+  {
+    "english": "<sos> you want chair <eos>",
+    "isl": "<sos> you chair want <eos>"
+  },
+  {
+    "english": "<sos> they gos tuesday <eos>",
+    "isl": "<sos> tuesday they go <eos>"
+  },
+  {
+    "english": "<sos> you will work afternoon <eos>",
+    "isl": "<sos> afternoon you work <eos>"
+  },
+  {
+    "english": "<sos> will you want money <eos>",
+    "isl": "<sos> you money want will <eos>"
+  },
+  {
+    "english": "<sos> he may write pen <eos>",
+    "isl": "<sos> he pen write may <eos>"
+  },
+  {
+    "english": "<sos> we cannot teach food <eos>",
+    "isl": "<sos> we food teach not can <eos>"
+  },
+  {
+    "english": "<sos> when will you like <eos>",
+    "isl": "<sos> you like when <eos>"
+  },
+  {
+    "english": "<sos> he like nice problem <eos>",
+    "isl": "<sos> he nice problem like <eos>"
+  },
+  {
+    "english": "<sos> we go nice problem <eos>",
+    "isl": "<sos> we nice problem go <eos>"
+  },
+  {
+    "english": "<sos> they need big problem <eos>",
+    "isl": "<sos> they big problem need <eos>"
+  },
+  {
+    "english": "<sos> what do they need <eos>",
+    "isl": "<sos> they need what <eos>"
+  },
+  {
+    "english": "<sos> he do not work phone <eos>",
+    "isl": "<sos> he phone work not <eos>"
+  },
+  {
+    "english": "<sos> may they need chair <eos>",
+    "isl": "<sos> they chair need may <eos>"
+  },
+  {
+    "english": "<sos> they need to like sign <eos>",
+    "isl": "<sos> they sign like need <eos>"
+  },
+  {
+    "english": "<sos> we can learn computer <eos>",
+    "isl": "<sos> we computer learn can <eos>"
+  },
+  {
+    "english": "<sos> i need to understand question <eos>",
+    "isl": "<sos> i question understand need <eos>"
+  },
+  {
+    "english": "<sos> i will go pen <eos>",
+    "isl": "<sos> i pen go will <eos>"
+  },
+  {
+    "english": "<sos> he need more time <eos>",
+    "isl": "<sos> he more time need <eos>"
+  },
+  {
+    "english": "<sos> he like important question <eos>",
+    "isl": "<sos> he important question like <eos>"
+  },
+  {
+    "english": "<sos> can you see the board <eos>",
+    "isl": "<sos> you board see can <eos>"
+  },
+  {
+    "english": "<sos> they want to learn work <eos>",
+    "isl": "<sos> they work learn want <eos>"
+  },
+  {
+    "english": "<sos> will they come book <eos>",
+    "isl": "<sos> they book come will <eos>"
+  },
+  {
+    "english": "<sos> you need to know problem <eos>",
+    "isl": "<sos> you problem know need <eos>"
+  },
+  {
+    "english": "<sos> he is trying phone <eos>",
+    "isl": "<sos> he phone try <eos>"
+  },
+  {
+    "english": "<sos> they needs morning <eos>",
+    "isl": "<sos> morning they need <eos>"
+  },
+  {
+    "english": "<sos> i cannot see table <eos>",
+    "isl": "<sos> i table see not can <eos>"
+  },
+  {
+    "english": "<sos> we need to see name <eos>",
+    "isl": "<sos> we name see need <eos>"
+  },
+  {
+    "english": "<sos> i work computer <eos>",
+    "isl": "<sos> i computer work <eos>"
+  },
+  {
+    "english": "<sos> we can like phone <eos>",
+    "isl": "<sos> we phone like can <eos>"
+  },
+  {
+    "english": "<sos> you do not like phone <eos>",
+    "isl": "<sos> you phone like not <eos>"
+  },
+  {
+    "english": "<sos> you write pen <eos>",
+    "isl": "<sos> you pen write <eos>"
+  },
+  {
+    "english": "<sos> we want to like problem <eos>",
+    "isl": "<sos> we problem like want <eos>"
+  },
+  {
+    "english": "<sos> i go good time <eos>",
+    "isl": "<sos> i good time go <eos>"
+  },
+  {
+    "english": "<sos> we think water <eos>",
+    "isl": "<sos> we water think <eos>"
+  },
+  {
+    "english": "<sos> we want to sign work <eos>",
+    "isl": "<sos> we work sign want <eos>"
+  },
+  {
+    "english": "<sos> can we want table <eos>",
+    "isl": "<sos> we table want can <eos>"
+  },
+  {
+    "english": "<sos> i comes tuesday <eos>",
+    "isl": "<sos> tuesday i come <eos>"
+  },
+  {
+    "english": "<sos> we go easy problem <eos>",
+    "isl": "<sos> we easy problem go <eos>"
+  },
+  {
+    "english": "<sos> i learns sunday <eos>",
+    "isl": "<sos> sunday i learn <eos>"
+  },
+  {
+    "english": "<sos> may we go book <eos>",
+    "isl": "<sos> we book go may <eos>"
+  },
+  {
+    "english": "<sos> will he come phone <eos>",
+    "isl": "<sos> he phone come will <eos>"
+  },
+  {
+    "english": "<sos> we finishs in work <eos>",
+    "isl": "<sos> work we finish <eos>"
+  },
+  {
+    "english": "<sos> will they teach computer <eos>",
+    "isl": "<sos> they computer teach will <eos>"
+  },
+  {
+    "english": "<sos> i need good question <eos>",
+    "isl": "<sos> i good question need <eos>"
+  },
+  {
+    "english": "<sos> they cannot want book <eos>",
+    "isl": "<sos> they book want not can <eos>"
+  },
+  {
+    "english": "<sos> i will come yesterday <eos>",
+    "isl": "<sos> yesterday i come <eos>"
+  },
+  {
+    "english": "<sos> they may want book <eos>",
+    "isl": "<sos> they book want may <eos>"
+  },
+  {
+    "english": "<sos> i want to need question <eos>",
+    "isl": "<sos> i question need want <eos>"
+  },
+  {
+    "english": "<sos> we will like tuesday <eos>",
+    "isl": "<sos> tuesday we like <eos>"
+  },
+  {
+    "english": "<sos> can they like table <eos>",
+    "isl": "<sos> they table like can <eos>"
+  },
+  {
+    "english": "<sos> will you read money <eos>",
+    "isl": "<sos> you money read will <eos>"
+  },
+  {
+    "english": "<sos> he continues in class <eos>",
+    "isl": "<sos> class he continue <eos>"
+  },
+  {
+    "english": "<sos> you needs sunday <eos>",
+    "isl": "<sos> sunday you need <eos>"
+  },
+  {
+    "english": "<sos> we want to like day <eos>",
+    "isl": "<sos> we day like want <eos>"
+  },
+  {
+    "english": "<sos> can i write table <eos>",
+    "isl": "<sos> i table write can <eos>"
+  },
+  {
+    "english": "<sos> you do not write book <eos>",
+    "isl": "<sos> you book write not <eos>"
+  },
+  {
+    "english": "<sos> you will not go <eos>",
+    "isl": "<sos> you go not <eos>"
+  },
+  {
+    "english": "<sos> he take at class <eos>",
+    "isl": "<sos> class he take <eos>"
+  },
+  {
+    "english": "<sos> he will like book <eos>",
+    "isl": "<sos> he book like will <eos>"
+  },
+  {
+    "english": "<sos> may you teach money <eos>",
+    "isl": "<sos> you money teach may <eos>"
+  },
+  {
+    "english": "<sos> i cannot need pen <eos>",
+    "isl": "<sos> i pen need not can <eos>"
+  },
+  {
+    "english": "<sos> he need to go sign <eos>",
+    "isl": "<sos> he sign go need <eos>"
+  },
+  {
+    "english": "<sos> you go bad day <eos>",
+    "isl": "<sos> you bad day go <eos>"
+  },
+  {
+    "english": "<sos> will we read computer <eos>",
+    "isl": "<sos> we computer read will <eos>"
+  },
+  {
+    "english": "<sos> you are not correct <eos>",
+    "isl": "<sos> you correct not <eos>"
+  },
+  {
+    "english": "<sos> you come difficult time <eos>",
+    "isl": "<sos> you difficult time come <eos>"
+  },
+  {
+    "english": "<sos> you want sad idea <eos>",
+    "isl": "<sos> you sad idea want <eos>"
+  },
+  {
+    "english": "<sos> you need big day <eos>",
+    "isl": "<sos> you big day need <eos>"
+  },
+  {
+    "english": "<sos> learn <eos>",
+    "isl": "<sos> learn <eos>"
+  },
+  {
+    "english": "<sos> what is your work <eos>",
+    "isl": "<sos> your work what <eos>"
+  },
+  {
+    "english": "<sos> i go easy sign <eos>",
+    "isl": "<sos> i easy sign go <eos>"
+  },
+  {
+    "english": "<sos> he understand book <eos>",
+    "isl": "<sos> he book understand <eos>"
+  },
+  {
+    "english": "<sos> we cannot come food <eos>",
+    "isl": "<sos> we food come not can <eos>"
+  },
+  {
+    "english": "<sos> they want important idea <eos>",
+    "isl": "<sos> they important idea want <eos>"
+  },
+  {
+    "english": "<sos> he will write sunday <eos>",
+    "isl": "<sos> sunday he write <eos>"
+  },
+  {
+    "english": "<sos> may we work chair <eos>",
+    "isl": "<sos> we chair work may <eos>"
+  },
+  {
+    "english": "<sos> i cannot go table <eos>",
+    "isl": "<sos> i table go not can <eos>"
+  },
+  {
+    "english": "<sos> he need nice day <eos>",
+    "isl": "<sos> he nice day need <eos>"
+  },
+  {
+    "english": "<sos> we may like chair <eos>",
+    "isl": "<sos> we chair like may <eos>"
+  },
+  {
+    "english": "<sos> may i work money <eos>",
+    "isl": "<sos> i money work may <eos>"
+  },
+  {
+    "english": "<sos> may we write pen <eos>",
+    "isl": "<sos> we pen write may <eos>"
+  },
+  {
+    "english": "<sos> he can need phone <eos>",
+    "isl": "<sos> he phone need can <eos>"
+  },
+  {
+    "english": "<sos> what does he read <eos>",
+    "isl": "<sos> he read what <eos>"
+  },
+  {
+    "english": "<sos> he need to come day <eos>",
+    "isl": "<sos> he day come need <eos>"
+  },
+  {
+    "english": "<sos> i will learn evening <eos>",
+    "isl": "<sos> evening i learn <eos>"
+  },
+  {
+    "english": "<sos> he need big time <eos>",
+    "isl": "<sos> he big time need <eos>"
+  },
+  {
+    "english": "<sos> he will come afternoon <eos>",
+    "isl": "<sos> afternoon he come <eos>"
+  },
+  {
+    "english": "<sos> i want to sign answer <eos>",
+    "isl": "<sos> i answer sign want <eos>"
+  },
+  {
+    "english": "<sos> i want to see question <eos>",
+    "isl": "<sos> i question see want <eos>"
+  },
+  {
+    "english": "<sos> i like important answer <eos>",
+    "isl": "<sos> i important answer like <eos>"
+  },
+  {
+    "english": "<sos> we teachs monday <eos>",
+    "isl": "<sos> monday we teach <eos>"
+  },
+  {
+    "english": "<sos> he does not read <eos>",
+    "isl": "<sos> he read not <eos>"
+  },
+  {
+    "english": "<sos> they may read phone <eos>",
+    "isl": "<sos> they phone read may <eos>"
+  },
+  {
+    "english": "<sos> they understand table <eos>",
+    "isl": "<sos> they table understand <eos>"
+  },
+  {
+    "english": "<sos> he is takeing computer <eos>",
+    "isl": "<sos> he computer take <eos>"
+  },
+  {
+    "english": "<sos> we sign food <eos>",
+    "isl": "<sos> we food sign <eos>"
+  },
+  {
+    "english": "<sos> will you write water <eos>",
+    "isl": "<sos> you water write will <eos>"
+  },
+  {
+    "english": "<sos> you teachs tomorrow <eos>",
+    "isl": "<sos> tomorrow you teach <eos>"
+  },
+  {
+    "english": "<sos> book <eos>",
+    "isl": "<sos> book <eos>"
+  },
+  {
+    "english": "<sos> they want to learn question <eos>",
+    "isl": "<sos> they question learn want <eos>"
+  },
+  {
+    "english": "<sos> read <eos>",
+    "isl": "<sos> read <eos>"
+  },
+  {
+    "english": "<sos> we go important answer <eos>",
+    "isl": "<sos> we important answer go <eos>"
+  },
+  {
+    "english": "<sos> we will write evening <eos>",
+    "isl": "<sos> evening we write <eos>"
+  },
+  {
+    "english": "<sos> i am takeing chair <eos>",
+    "isl": "<sos> i chair take <eos>"
+  },
+  {
+    "english": "<sos> you need table <eos>",
+    "isl": "<sos> you table need <eos>"
+  },
+  {
+    "english": "<sos> you need to work name <eos>",
+    "isl": "<sos> you name work need <eos>"
+  },
+  {
+    "english": "<sos> we like good work <eos>",
+    "isl": "<sos> we good work like <eos>"
+  },
+  {
+    "english": "<sos> he do not see phone <eos>",
+    "isl": "<sos> he phone see not <eos>"
+  },
+  {
+    "english": "<sos> can you teach pen <eos>",
+    "isl": "<sos> you pen teach can <eos>"
+  },
+  {
+    "english": "<sos> may he teach pen <eos>",
+    "isl": "<sos> he pen teach may <eos>"
+  },
+  {
+    "english": "<sos> you like big question <eos>",
+    "isl": "<sos> you big question like <eos>"
+  },
+  {
+    "english": "<sos> you cannot see book <eos>",
+    "isl": "<sos> you book see not can <eos>"
+  },
+  {
+    "english": "<sos> we read phone <eos>",
+    "isl": "<sos> we phone read <eos>"
+  },
+  {
+    "english": "<sos> you need to write answer <eos>",
+    "isl": "<sos> you answer write need <eos>"
+  },
+  {
+    "english": "<sos> i may come chair <eos>",
+    "isl": "<sos> i chair come may <eos>"
+  },
+  {
+    "english": "<sos> we need sad sign <eos>",
+    "isl": "<sos> we sad sign need <eos>"
+  },
+  {
+    "english": "<sos> you will read morning <eos>",
+    "isl": "<sos> morning you read <eos>"
+  },
+  {
+    "english": "<sos> can i come phone <eos>",
+    "isl": "<sos> i phone come can <eos>"
+  },
+  {
+    "english": "<sos> you want to learn work <eos>",
+    "isl": "<sos> you work learn want <eos>"
+  },
+  {
+    "english": "<sos> he want nice day <eos>",
+    "isl": "<sos> he nice day want <eos>"
+  },
+  {
+    "english": "<sos> he do not know book <eos>",
+    "isl": "<sos> he book know not <eos>"
+  },
+  {
+    "english": "<sos> you need to understand name <eos>",
+    "isl": "<sos> you name understand need <eos>"
+  },
+  {
+    "english": "<sos> he can teach book <eos>",
+    "isl": "<sos> he book teach can <eos>"
+  },
+  {
+    "english": "<sos> can he work water <eos>",
+    "isl": "<sos> he water work can <eos>"
+  },
+  {
+    "english": "<sos> we are finishing table <eos>",
+    "isl": "<sos> we table finish <eos>"
+  },
+  {
+    "english": "<sos> can they learn computer <eos>",
+    "isl": "<sos> they computer learn can <eos>"
+  },
+  {
+    "english": "<sos> they go big question <eos>",
+    "isl": "<sos> they big question go <eos>"
+  },
+  {
+    "english": "<sos> you learns night <eos>",
+    "isl": "<sos> night you learn <eos>"
+  },
+  {
+    "english": "<sos> will you go food <eos>",
+    "isl": "<sos> you food go will <eos>"
+  },
+  {
+    "english": "<sos> we go big name <eos>",
+    "isl": "<sos> we big name go <eos>"
+  },
+  {
+    "english": "<sos> you do not read phone <eos>",
+    "isl": "<sos> you phone read not <eos>"
+  },
+  {
+    "english": "<sos> can they write water <eos>",
+    "isl": "<sos> they water write can <eos>"
+  },
+  {
+    "english": "<sos> we likes yesterday <eos>",
+    "isl": "<sos> yesterday we like <eos>"
+  },
+  {
+    "english": "<sos> can he like book <eos>",
+    "isl": "<sos> he book like can <eos>"
+  },
+  {
+    "english": "<sos> you cannot work pen <eos>",
+    "isl": "<sos> you pen work not can <eos>"
+  },
+  {
+    "english": "<sos> i will go tuesday <eos>",
+    "isl": "<sos> tuesday i go <eos>"
+  },
+  {
+    "english": "<sos> will i teach pen <eos>",
+    "isl": "<sos> i pen teach will <eos>"
+  },
+  {
+    "english": "<sos> i need to want day <eos>",
+    "isl": "<sos> i day want need <eos>"
+  },
+  {
+    "english": "<sos> may you teach food <eos>",
+    "isl": "<sos> you food teach may <eos>"
+  },
+  {
+    "english": "<sos> you come new work <eos>",
+    "isl": "<sos> you new work come <eos>"
+  },
+  {
+    "english": "<sos> they can learn chair <eos>",
+    "isl": "<sos> they chair learn can <eos>"
+  },
+  {
+    "english": "<sos> he need to want answer <eos>",
+    "isl": "<sos> he answer want need <eos>"
+  },
+  {
+    "english": "<sos> you wants friday <eos>",
+    "isl": "<sos> friday you want <eos>"
+  },
+  {
+    "english": "<sos> i may teach money <eos>",
+    "isl": "<sos> i money teach may <eos>"
+  },
+  {
+    "english": "<sos> will he teach table <eos>",
+    "isl": "<sos> he table teach will <eos>"
+  },
+  {
+    "english": "<sos> he need sad answer <eos>",
+    "isl": "<sos> he sad answer need <eos>"
+  },
+  {
+    "english": "<sos> you do not see table <eos>",
+    "isl": "<sos> you table see not <eos>"
+  },
+  {
+    "english": "<sos> he will teach chair <eos>",
+    "isl": "<sos> he chair teach will <eos>"
+  },
+  {
+    "english": "<sos> he can work food <eos>",
+    "isl": "<sos> he food work can <eos>"
+  },
+  {
+    "english": "<sos> you need to know answer <eos>",
+    "isl": "<sos> you answer know need <eos>"
+  },
+  {
+    "english": "<sos> they need to like question <eos>",
+    "isl": "<sos> they question like need <eos>"
+  },
+  {
+    "english": "<sos> we cannot see table <eos>",
+    "isl": "<sos> we table see not can <eos>"
+  },
+  {
+    "english": "<sos> you do not go table <eos>",
+    "isl": "<sos> you table go not <eos>"
+  },
+  {
+    "english": "<sos> i want to work day <eos>",
+    "isl": "<sos> i day work want <eos>"
+  },
+  {
+    "english": "<sos> you come easy question <eos>",
+    "isl": "<sos> you easy question come <eos>"
+  },
+  {
+    "english": "<sos> i will come pen <eos>",
+    "isl": "<sos> i pen come will <eos>"
+  },
+  {
+    "english": "<sos> can they teach chair <eos>",
+    "isl": "<sos> they chair teach can <eos>"
+  },
+  {
+    "english": "<sos> he will teach food <eos>",
+    "isl": "<sos> he food teach will <eos>"
+  },
+  {
+    "english": "<sos> you want new idea <eos>",
+    "isl": "<sos> you new idea want <eos>"
+  },
+  {
+    "english": "<sos> they like easy problem <eos>",
+    "isl": "<sos> they easy problem like <eos>"
+  },
+  {
+    "english": "<sos> you may need table <eos>",
+    "isl": "<sos> you table need may <eos>"
+  },
+  {
+    "english": "<sos> we do not like phone <eos>",
+    "isl": "<sos> we phone like not <eos>"
+  },
+  {
+    "english": "<sos> who is the teacher <eos>",
+    "isl": "<sos> teacher who <eos>"
+  },
+  {
+    "english": "<sos> i like bad answer <eos>",
+    "isl": "<sos> i bad answer like <eos>"
+  },
+  {
+    "english": "<sos> they go difficult problem <eos>",
+    "isl": "<sos> they difficult problem go <eos>"
+  },
+  {
+    "english": "<sos> i want food <eos>",
+    "isl": "<sos> i food want <eos>"
+  },
+  {
+    "english": "<sos> he can want pen <eos>",
+    "isl": "<sos> he pen want can <eos>"
+  },
+  {
+    "english": "<sos> i can go water <eos>",
+    "isl": "<sos> i water go can <eos>"
+  },
+  {
+    "english": "<sos> we want to think question <eos>",
+    "isl": "<sos> we question think want <eos>"
+  },
+  {
+    "english": "<sos> we like old sign <eos>",
+    "isl": "<sos> we old sign like <eos>"
+  },
+  {
+    "english": "<sos> can i read water <eos>",
+    "isl": "<sos> i water read can <eos>"
+  },
+  {
+    "english": "<sos> she will finish today <eos>",
+    "isl": "<sos> today she finish <eos>"
+  },
+  {
+    "english": "<sos> you will like friday <eos>",
+    "isl": "<sos> friday you like <eos>"
+  },
+  {
+    "english": "<sos> may he go phone <eos>",
+    "isl": "<sos> he phone go may <eos>"
+  },
+  {
+    "english": "<sos> may i come table <eos>",
+    "isl": "<sos> i table come may <eos>"
+  },
+  {
+    "english": "<sos> they writes today <eos>",
+    "isl": "<sos> today they write <eos>"
+  },
+  {
+    "english": "<sos> he go big answer <eos>",
+    "isl": "<sos> he big answer go <eos>"
+  },
+  {
+    "english": "<sos> we cannot sign food <eos>",
+    "isl": "<sos> we food sign not can <eos>"
+  },
+  {
+    "english": "<sos> they sign money <eos>",
+    "isl": "<sos> they money sign <eos>"
+  },
+  {
+    "english": "<sos> they do not come computer <eos>",
+    "isl": "<sos> they computer come not <eos>"
+  },
+  {
+    "english": "<sos> we do not like food <eos>",
+    "isl": "<sos> we food like not <eos>"
+  },
+  {
+    "english": "<sos> will he write book <eos>",
+    "isl": "<sos> he book write will <eos>"
+  },
+  {
+    "english": "<sos> i comes afternoon <eos>",
+    "isl": "<sos> afternoon i come <eos>"
+  },
+  {
+    "english": "<sos> we want to go time <eos>",
+    "isl": "<sos> we time go want <eos>"
+  },
+  {
+    "english": "<sos> will you come money <eos>",
+    "isl": "<sos> you money come will <eos>"
+  },
+  {
+    "english": "<sos> we want old time <eos>",
+    "isl": "<sos> we old time want <eos>"
+  },
+  {
+    "english": "<sos> may they go chair <eos>",
+    "isl": "<sos> they chair go may <eos>"
+  },
+  {
+    "english": "<sos> they can work food <eos>",
+    "isl": "<sos> they food work can <eos>"
+  },
+  {
+    "english": "<sos> he need difficult answer <eos>",
+    "isl": "<sos> he difficult answer need <eos>"
+  },
+  {
+    "english": "<sos> they want big answer <eos>",
+    "isl": "<sos> they big answer want <eos>"
+  },
+  {
+    "english": "<sos> we gos now <eos>",
+    "isl": "<sos> now we go <eos>"
+  },
+  {
+    "english": "<sos> he need easy sign <eos>",
+    "isl": "<sos> he easy sign need <eos>"
+  },
+  {
+    "english": "<sos> you likes tuesday <eos>",
+    "isl": "<sos> tuesday you like <eos>"
+  },
+  {
+    "english": "<sos> we want to need work <eos>",
+    "isl": "<sos> we work need want <eos>"
+  },
+  {
+    "english": "<sos> i may learn table <eos>",
+    "isl": "<sos> i table learn may <eos>"
+  },
+  {
+    "english": "<sos> you works thursday <eos>",
+    "isl": "<sos> thursday you work <eos>"
+  },
+  {
+    "english": "<sos> they will work morning <eos>",
+    "isl": "<sos> morning they work <eos>"
+  },
+  {
+    "english": "<sos> we want to read problem <eos>",
+    "isl": "<sos> we problem read want <eos>"
+  },
+  {
+    "english": "<sos> they cannot see phone <eos>",
+    "isl": "<sos> they phone see not can <eos>"
+  },
+  {
+    "english": "<sos> we do not write computer <eos>",
+    "isl": "<sos> we computer write not <eos>"
+  },
+  {
+    "english": "<sos> we want nice time <eos>",
+    "isl": "<sos> we nice time want <eos>"
+  },
+  {
+    "english": "<sos> he want to like work <eos>",
+    "isl": "<sos> he work like want <eos>"
+  },
+  {
+    "english": "<sos> he will come money <eos>",
+    "isl": "<sos> he money come will <eos>"
+  },
+  {
+    "english": "<sos> you may teach pen <eos>",
+    "isl": "<sos> you pen teach may <eos>"
+  },
+  {
+    "english": "<sos> you go nice problem <eos>",
+    "isl": "<sos> you nice problem go <eos>"
+  },
+  {
+    "english": "<sos> i wait outside <eos>",
+    "isl": "<sos> outside i wait <eos>"
+  },
+  {
+    "english": "<sos> what does i read <eos>",
+    "isl": "<sos> i read what <eos>"
+  },
+  {
+    "english": "<sos> i like old name <eos>",
+    "isl": "<sos> i old name like <eos>"
+  },
+  {
+    "english": "<sos> he do not see table <eos>",
+    "isl": "<sos> he table see not <eos>"
+  },
+  {
+    "english": "<sos> i need to want sign <eos>",
+    "isl": "<sos> i sign want need <eos>"
+  },
+  {
+    "english": "<sos> he cannot think food <eos>",
+    "isl": "<sos> he food think not can <eos>"
+  },
+  {
+    "english": "<sos> he cannot write water <eos>",
+    "isl": "<sos> he water write not can <eos>"
+  },
+  {
+    "english": "<sos> they are takeing money <eos>",
+    "isl": "<sos> they money take <eos>"
+  },
+  {
+    "english": "<sos> he will not like <eos>",
+    "isl": "<sos> he like not <eos>"
+  },
+  {
+    "english": "<sos> you need to understand answer <eos>",
+    "isl": "<sos> you answer understand need <eos>"
+  },
+  {
+    "english": "<sos> they need to teach answer <eos>",
+    "isl": "<sos> they answer teach need <eos>"
+  },
+  {
+    "english": "<sos> you writes yesterday <eos>",
+    "isl": "<sos> yesterday you write <eos>"
+  },
+  {
+    "english": "<sos> may they like water <eos>",
+    "isl": "<sos> they water like may <eos>"
+  },
+  {
+    "english": "<sos> you can write computer <eos>",
+    "isl": "<sos> you computer write can <eos>"
+  },
+  {
+    "english": "<sos> they come new day <eos>",
+    "isl": "<sos> they new day come <eos>"
+  },
+  {
+    "english": "<sos> they want to read problem <eos>",
+    "isl": "<sos> they problem read want <eos>"
+  },
+  {
+    "english": "<sos> he is runing table <eos>",
+    "isl": "<sos> he table run <eos>"
+  },
+  {
+    "english": "<sos> they take at home <eos>",
+    "isl": "<sos> home they take <eos>"
+  },
+  {
+    "english": "<sos> you can want money <eos>",
+    "isl": "<sos> you money want can <eos>"
+  },
+  {
+    "english": "<sos> they works today <eos>",
+    "isl": "<sos> today they work <eos>"
+  },
+  {
+    "english": "<sos> i come old idea <eos>",
+    "isl": "<sos> i old idea come <eos>"
+  },
+  {
+    "english": "<sos> they will go food <eos>",
+    "isl": "<sos> they food go will <eos>"
+  },
+  {
+    "english": "<sos> will we teach chair <eos>",
+    "isl": "<sos> we chair teach will <eos>"
+  },
+  {
+    "english": "<sos> you understand money <eos>",
+    "isl": "<sos> you money understand <eos>"
+  },
+  {
+    "english": "<sos> i go difficult work <eos>",
+    "isl": "<sos> i difficult work go <eos>"
+  },
+  {
+    "english": "<sos> he will read chair <eos>",
+    "isl": "<sos> he chair read will <eos>"
+  },
+  {
+    "english": "<sos> we may come pen <eos>",
+    "isl": "<sos> we pen come may <eos>"
+  },
+  {
+    "english": "<sos> i like big name <eos>",
+    "isl": "<sos> i big name like <eos>"
+  },
+  {
+    "english": "<sos> they teach chair <eos>",
+    "isl": "<sos> they chair teach <eos>"
+  },
+  {
+    "english": "<sos> he works friday <eos>",
+    "isl": "<sos> friday he work <eos>"
+  },
+  {
+    "english": "<sos> we need to work work <eos>",
+    "isl": "<sos> we work work need <eos>"
+  },
+  {
+    "english": "<sos> we want to work answer <eos>",
+    "isl": "<sos> we answer work want <eos>"
+  },
+  {
+    "english": "<sos> they comes monday <eos>",
+    "isl": "<sos> monday they come <eos>"
+  },
+  {
+    "english": "<sos> you can learn pen <eos>",
+    "isl": "<sos> you pen learn can <eos>"
+  },
+  {
+    "english": "<sos> i will like water <eos>",
+    "isl": "<sos> i water like will <eos>"
+  },
+  {
+    "english": "<sos> he do not read book <eos>",
+    "isl": "<sos> he book read not <eos>"
+  },
+  {
+    "english": "<sos> you will work night <eos>",
+    "isl": "<sos> night you work <eos>"
+  },
+  {
+    "english": "<sos> you can learn chair <eos>",
+    "isl": "<sos> you chair learn can <eos>"
+  },
+  {
+    "english": "<sos> they cannot go table <eos>",
+    "isl": "<sos> they table go not can <eos>"
+  },
+  {
+    "english": "<sos> we comes thursday <eos>",
+    "isl": "<sos> thursday we come <eos>"
+  },
+  {
+    "english": "<sos> we need to learn day <eos>",
+    "isl": "<sos> we day learn need <eos>"
+  },
+  {
+    "english": "<sos> they need to see name <eos>",
+    "isl": "<sos> they name see need <eos>"
+  },
+  {
+    "english": "<sos> you work pen <eos>",
+    "isl": "<sos> you pen work <eos>"
+  },
+  {
+    "english": "<sos> we like easy day <eos>",
+    "isl": "<sos> we easy day like <eos>"
+  },
+  {
+    "english": "<sos> we need important name <eos>",
+    "isl": "<sos> we important name need <eos>"
+  },
+  {
+    "english": "<sos> we are practiceing phone <eos>",
+    "isl": "<sos> we phone practice <eos>"
+  },
+  {
+    "english": "<sos> you want difficult day <eos>",
+    "isl": "<sos> you difficult day want <eos>"
+  },
+  {
+    "english": "<sos> we are learning sign language <eos>",
+    "isl": "<sos> we sign language learn <eos>"
+  },
+  {
+    "english": "<sos> may he work table <eos>",
+    "isl": "<sos> he table work may <eos>"
+  },
+  {
+    "english": "<sos> you want new sign <eos>",
+    "isl": "<sos> you new sign want <eos>"
+  },
+  {
+    "english": "<sos> we need table <eos>",
+    "isl": "<sos> we table need <eos>"
+  },
+  {
+    "english": "<sos> they will need now <eos>",
+    "isl": "<sos> now they need <eos>"
+  },
+  {
+    "english": "<sos> he teach food <eos>",
+    "isl": "<sos> he food teach <eos>"
+  },
+  {
+    "english": "<sos> i see computer <eos>",
+    "isl": "<sos> i computer see <eos>"
+  },
+  {
+    "english": "<sos> we wants today <eos>",
+    "isl": "<sos> today we want <eos>"
+  },
+  {
+    "english": "<sos> we go nice time <eos>",
+    "isl": "<sos> we nice time go <eos>"
+  },
+  {
+    "english": "<sos> i will read table <eos>",
+    "isl": "<sos> i table read will <eos>"
+  },
+  {
+    "english": "<sos> he go old name <eos>",
+    "isl": "<sos> he old name go <eos>"
+  },
+  {
+    "english": "<sos> he teachs today <eos>",
+    "isl": "<sos> today he teach <eos>"
+  },
+  {
+    "english": "<sos> we wants friday <eos>",
+    "isl": "<sos> friday we want <eos>"
+  },
+  {
+    "english": "<sos> i am runing food <eos>",
+    "isl": "<sos> i food run <eos>"
+  },
+  {
+    "english": "<sos> they will go friday <eos>",
+    "isl": "<sos> friday they go <eos>"
+  },
+  {
+    "english": "<sos> i go big name <eos>",
+    "isl": "<sos> i big name go <eos>"
+  },
+  {
+    "english": "<sos> we will write now <eos>",
+    "isl": "<sos> now we write <eos>"
+  },
+  {
+    "english": "<sos> you practices in home <eos>",
+    "isl": "<sos> home you practice <eos>"
+  },
+  {
+    "english": "<sos> you cannot know book <eos>",
+    "isl": "<sos> you book know not can <eos>"
+  },
+  {
+    "english": "<sos> we need to write sign <eos>",
+    "isl": "<sos> we sign write need <eos>"
+  },
+  {
+    "english": "<sos> we want to understand time <eos>",
+    "isl": "<sos> we time understand want <eos>"
+  },
+  {
+    "english": "<sos> he like old question <eos>",
+    "isl": "<sos> he old question like <eos>"
+  },
+  {
+    "english": "<sos> who will teach us <eos>",
+    "isl": "<sos> us teach who <eos>"
+  },
+  {
+    "english": "<sos> we want nice sign <eos>",
+    "isl": "<sos> we nice sign want <eos>"
+  },
+  {
+    "english": "<sos> i finishs in home <eos>",
+    "isl": "<sos> home i finish <eos>"
+  },
+  {
+    "english": "<sos> will i go table <eos>",
+    "isl": "<sos> i table go will <eos>"
+  },
+  {
+    "english": "<sos> i reads friday <eos>",
+    "isl": "<sos> friday i read <eos>"
+  },
+  {
+    "english": "<sos> i want to write day <eos>",
+    "isl": "<sos> i day write want <eos>"
+  },
+  {
+    "english": "<sos> they write water <eos>",
+    "isl": "<sos> they water write <eos>"
+  },
+  {
+    "english": "<sos> i want sad time <eos>",
+    "isl": "<sos> i sad time want <eos>"
+  },
+  {
+    "english": "<sos> do you need help <eos>",
+    "isl": "<sos> you help need <eos>"
+  },
+  {
+    "english": "<sos> you want to go work <eos>",
+    "isl": "<sos> you work go want <eos>"
+  },
+  {
+    "english": "<sos> i come big work <eos>",
+    "isl": "<sos> i big work come <eos>"
+  },
+  {
+    "english": "<sos> we need nice day <eos>",
+    "isl": "<sos> we nice day need <eos>"
+  },
+  {
+    "english": "<sos> we will write book <eos>",
+    "isl": "<sos> we book write will <eos>"
+  },
+  {
+    "english": "<sos> we sign water <eos>",
+    "isl": "<sos> we water sign <eos>"
+  },
+  {
+    "english": "<sos> you will work sunday <eos>",
+    "isl": "<sos> sunday you work <eos>"
+  },
+  {
+    "english": "<sos> you learn food <eos>",
+    "isl": "<sos> you food learn <eos>"
+  },
+  {
+    "english": "<sos> we need difficult problem <eos>",
+    "isl": "<sos> we difficult problem need <eos>"
+  },
+  {
+    "english": "<sos> you need bad idea <eos>",
+    "isl": "<sos> you bad idea need <eos>"
+  },
+  {
+    "english": "<sos> i go important day <eos>",
+    "isl": "<sos> i important day go <eos>"
+  },
+  {
+    "english": "<sos> when do you need <eos>",
+    "isl": "<sos> you need when <eos>"
+  },
+  {
+    "english": "<sos> will he read food <eos>",
+    "isl": "<sos> he food read will <eos>"
+  },
+  {
+    "english": "<sos> they want to like sign <eos>",
+    "isl": "<sos> they sign like want <eos>"
+  },
+  {
+    "english": "<sos> i do not understand water <eos>",
+    "isl": "<sos> i water understand not <eos>"
+  },
+  {
+    "english": "<sos> you do not read water <eos>",
+    "isl": "<sos> you water read not <eos>"
+  },
+  {
+    "english": "<sos> i likes tomorrow <eos>",
+    "isl": "<sos> tomorrow i like <eos>"
+  },
+  {
+    "english": "<sos> when do they go <eos>",
+    "isl": "<sos> they go when <eos>"
+  },
+  {
+    "english": "<sos> we like new answer <eos>",
+    "isl": "<sos> we new answer like <eos>"
+  },
+  {
+    "english": "<sos> they are continueing phone <eos>",
+    "isl": "<sos> they phone continue <eos>"
+  },
+  {
+    "english": "<sos> can they need table <eos>",
+    "isl": "<sos> they table need can <eos>"
+  },
+  {
+    "english": "<sos> you will need yesterday <eos>",
+    "isl": "<sos> yesterday you need <eos>"
+  },
+  {
+    "english": "<sos> i need to understand work <eos>",
+    "isl": "<sos> i work understand need <eos>"
+  },
+  {
+    "english": "<sos> what do i need <eos>",
+    "isl": "<sos> i need what <eos>"
+  },
+  {
+    "english": "<sos> they will come tuesday <eos>",
+    "isl": "<sos> tuesday they come <eos>"
+  },
+  {
+    "english": "<sos> you need to teach sign <eos>",
+    "isl": "<sos> you sign teach need <eos>"
+  },
+  {
+    "english": "<sos> may they go money <eos>",
+    "isl": "<sos> they money go may <eos>"
+  },
+  {
+    "english": "<sos> we want old idea <eos>",
+    "isl": "<sos> we old idea want <eos>"
+  },
+  {
+    "english": "<sos> he may like book <eos>",
+    "isl": "<sos> he book like may <eos>"
+  },
+  {
+    "english": "<sos> try again <eos>",
+    "isl": "<sos> again try <eos>"
+  },
+  {
+    "english": "<sos> will he like phone <eos>",
+    "isl": "<sos> he phone like will <eos>"
+  },
+  {
+    "english": "<sos> i will not know <eos>",
+    "isl": "<sos> i know not <eos>"
+  },
+  {
+    "english": "<sos> i do not need computer <eos>",
+    "isl": "<sos> i computer need not <eos>"
+  },
+  {
+    "english": "<sos> we go easy time <eos>",
+    "isl": "<sos> we easy time go <eos>"
+  },
+  {
+    "english": "<sos> he may read money <eos>",
+    "isl": "<sos> he money read may <eos>"
+  },
+  {
+    "english": "<sos> he come sad work <eos>",
+    "isl": "<sos> he sad work come <eos>"
+  },
+  {
+    "english": "<sos> we may read pen <eos>",
+    "isl": "<sos> we pen read may <eos>"
+  },
+  {
+    "english": "<sos> you are takeing computer <eos>",
+    "isl": "<sos> you computer take <eos>"
+  },
+  {
+    "english": "<sos> they want nice time <eos>",
+    "isl": "<sos> they nice time want <eos>"
+  },
+  {
+    "english": "<sos> can they learn food <eos>",
+    "isl": "<sos> they food learn can <eos>"
+  },
+  {
+    "english": "<sos> i will teach sunday <eos>",
+    "isl": "<sos> sunday i teach <eos>"
+  },
+  {
+    "english": "<sos> he cannot write food <eos>",
+    "isl": "<sos> he food write not can <eos>"
+  },
+  {
+    "english": "<sos> we come easy time <eos>",
+    "isl": "<sos> we easy time come <eos>"
+  },
+  {
+    "english": "<sos> can he come money <eos>",
+    "isl": "<sos> he money come can <eos>"
+  },
+  {
+    "english": "<sos> we will like chair <eos>",
+    "isl": "<sos> we chair like will <eos>"
+  },
+  {
+    "english": "<sos> we cannot work table <eos>",
+    "isl": "<sos> we table work not can <eos>"
+  },
+  {
+    "english": "<sos> i can like table <eos>",
+    "isl": "<sos> i table like can <eos>"
+  },
+  {
+    "english": "<sos> they want to teach problem <eos>",
+    "isl": "<sos> they problem teach want <eos>"
+  },
+  {
+    "english": "<sos> they may like chair <eos>",
+    "isl": "<sos> they chair like may <eos>"
+  },
+  {
+    "english": "<sos> we do not write chair <eos>",
+    "isl": "<sos> we chair write not <eos>"
+  },
+  {
+    "english": "<sos> you sit in front <eos>",
+    "isl": "<sos> front you sit <eos>"
+  },
+  {
+    "english": "<sos> i cannot come book <eos>",
+    "isl": "<sos> i book come not can <eos>"
+  },
+  {
+    "english": "<sos> i go bad problem <eos>",
+    "isl": "<sos> i bad problem go <eos>"
+  },
+  {
+    "english": "<sos> we do not come table <eos>",
+    "isl": "<sos> we table come not <eos>"
+  },
+  {
+    "english": "<sos> he see chair <eos>",
+    "isl": "<sos> he chair see <eos>"
+  },
+  {
+    "english": "<sos> i go bad idea <eos>",
+    "isl": "<sos> i bad idea go <eos>"
+  },
+  {
+    "english": "<sos> you continues in home <eos>",
+    "isl": "<sos> home you continue <eos>"
+  },
+  {
+    "english": "<sos> can they learn water <eos>",
+    "isl": "<sos> they water learn can <eos>"
+  },
+  {
+    "english": "<sos> can they read book <eos>",
+    "isl": "<sos> they book read can <eos>"
+  },
+  {
+    "english": "<sos> he is finishing chair <eos>",
+    "isl": "<sos> he chair finish <eos>"
+  },
+  {
+    "english": "<sos> when will i need <eos>",
+    "isl": "<sos> i need when <eos>"
+  },
+  {
+    "english": "<sos> they will like table <eos>",
+    "isl": "<sos> they table like will <eos>"
+  },
+  {
+    "english": "<sos> he teachs evening <eos>",
+    "isl": "<sos> evening he teach <eos>"
+  },
+  {
+    "english": "<sos> they are eating book <eos>",
+    "isl": "<sos> they book eat <eos>"
+  },
+  {
+    "english": "<sos> may they write book <eos>",
+    "isl": "<sos> they book write may <eos>"
+  },
+  {
+    "english": "<sos> they may read food <eos>",
+    "isl": "<sos> they food read may <eos>"
+  },
+  {
+    "english": "<sos> may i like chair <eos>",
+    "isl": "<sos> i chair like may <eos>"
+  },
+  {
+    "english": "<sos> you come difficult name <eos>",
+    "isl": "<sos> you difficult name come <eos>"
+  },
+  {
+    "english": "<sos> can they like food <eos>",
+    "isl": "<sos> they food like can <eos>"
+  },
+  {
+    "english": "<sos> i likes morning <eos>",
+    "isl": "<sos> morning i like <eos>"
+  },
+  {
+    "english": "<sos> i needs friday <eos>",
+    "isl": "<sos> friday i need <eos>"
+  },
+  {
+    "english": "<sos> he may come table <eos>",
+    "isl": "<sos> he table come may <eos>"
+  },
+  {
+    "english": "<sos> they can like computer <eos>",
+    "isl": "<sos> they computer like can <eos>"
+  },
+  {
+    "english": "<sos> he cannot need book <eos>",
+    "isl": "<sos> he book need not can <eos>"
+  },
+  {
+    "english": "<sos> can they learn pen <eos>",
+    "isl": "<sos> they pen learn can <eos>"
+  },
+  {
+    "english": "<sos> we want difficult name <eos>",
+    "isl": "<sos> we difficult name want <eos>"
+  },
+  {
+    "english": "<sos> may i go table <eos>",
+    "isl": "<sos> i table go may <eos>"
+  },
+  {
+    "english": "<sos> we want to work time <eos>",
+    "isl": "<sos> we time work want <eos>"
+  },
+  {
+    "english": "<sos> he need to understand work <eos>",
+    "isl": "<sos> he work understand need <eos>"
+  },
+  {
+    "english": "<sos> we want to work day <eos>",
+    "isl": "<sos> we day work want <eos>"
+  },
+  {
+    "english": "<sos> we go big time <eos>",
+    "isl": "<sos> we big time go <eos>"
+  },
+  {
+    "english": "<sos> he do not want table <eos>",
+    "isl": "<sos> he table want not <eos>"
+  },
+  {
+    "english": "<sos> they like good sign <eos>",
+    "isl": "<sos> they good sign like <eos>"
+  },
+  {
+    "english": "<sos> he is runing computer <eos>",
+    "isl": "<sos> he computer run <eos>"
+  },
+  {
+    "english": "<sos> i do not like book <eos>",
+    "isl": "<sos> i book like not <eos>"
+  },
+  {
+    "english": "<sos> you can teach book <eos>",
+    "isl": "<sos> you book teach can <eos>"
+  },
+  {
+    "english": "<sos> students come early <eos>",
+    "isl": "<sos> early student come <eos>"
+  },
+  {
+    "english": "<sos> he do not understand pen <eos>",
+    "isl": "<sos> he pen understand not <eos>"
+  },
+  {
+    "english": "<sos> i know money <eos>",
+    "isl": "<sos> i money know <eos>"
+  },
+  {
+    "english": "<sos> we works tomorrow <eos>",
+    "isl": "<sos> tomorrow we work <eos>"
+  },
+  {
+    "english": "<sos> he need big idea <eos>",
+    "isl": "<sos> he big idea need <eos>"
+  },
+  {
+    "english": "<sos> i come pen <eos>",
+    "isl": "<sos> i pen come <eos>"
+  },
+  {
+    "english": "<sos> he will like pen <eos>",
+    "isl": "<sos> he pen like will <eos>"
+  },
+  {
+    "english": "<sos> when do you write <eos>",
+    "isl": "<sos> you write when <eos>"
+  },
+  {
+    "english": "<sos> you want bad work <eos>",
+    "isl": "<sos> you bad work want <eos>"
+  },
+  {
+    "english": "<sos> may he teach chair <eos>",
+    "isl": "<sos> he chair teach may <eos>"
+  },
+  {
+    "english": "<sos> he need sad question <eos>",
+    "isl": "<sos> he sad question need <eos>"
+  },
+  {
+    "english": "<sos> can we go pen <eos>",
+    "isl": "<sos> we pen go can <eos>"
+  },
+  {
+    "english": "<sos> i will work monday <eos>",
+    "isl": "<sos> monday i work <eos>"
+  },
+  {
+    "english": "<sos> will he teach water <eos>",
+    "isl": "<sos> he water teach will <eos>"
+  },
+  {
+    "english": "<sos> we need to learn sign <eos>",
+    "isl": "<sos> we sign learn need <eos>"
+  },
+  {
+    "english": "<sos> we cannot like water <eos>",
+    "isl": "<sos> we water like not can <eos>"
+  },
+  {
+    "english": "<sos> we need easy work <eos>",
+    "isl": "<sos> we easy work need <eos>"
+  },
+  {
+    "english": "<sos> they will learn evening <eos>",
+    "isl": "<sos> evening they learn <eos>"
+  },
+  {
+    "english": "<sos> he understand table <eos>",
+    "isl": "<sos> he table understand <eos>"
+  },
+  {
+    "english": "<sos> i need to teach work <eos>",
+    "isl": "<sos> i work teach need <eos>"
+  },
+  {
+    "english": "<sos> you may like money <eos>",
+    "isl": "<sos> you money like may <eos>"
+  },
+  {
+    "english": "<sos> we cannot sign computer <eos>",
+    "isl": "<sos> we computer sign not can <eos>"
+  },
+  {
+    "english": "<sos> you cannot know pen <eos>",
+    "isl": "<sos> you pen know not can <eos>"
+  },
+  {
+    "english": "<sos> we are takeing table <eos>",
+    "isl": "<sos> we table take <eos>"
+  },
+  {
+    "english": "<sos> we cannot think book <eos>",
+    "isl": "<sos> we book think not can <eos>"
+  },
+  {
+    "english": "<sos> we cannot go computer <eos>",
+    "isl": "<sos> we computer go not can <eos>"
+  },
+  {
+    "english": "<sos> i see water <eos>",
+    "isl": "<sos> i water see <eos>"
+  },
+  {
+    "english": "<sos> i like new sign <eos>",
+    "isl": "<sos> i new sign like <eos>"
+  },
+  {
+    "english": "<sos> you works tomorrow <eos>",
+    "isl": "<sos> tomorrow you work <eos>"
+  },
+  {
+    "english": "<sos> he go book <eos>",
+    "isl": "<sos> he book go <eos>"
+  },
+  {
+    "english": "<sos> he need important idea <eos>",
+    "isl": "<sos> he important idea need <eos>"
+  },
+  {
+    "english": "<sos> i want to learn idea <eos>",
+    "isl": "<sos> i idea learn want <eos>"
+  },
+  {
+    "english": "<sos> we wants morning <eos>",
+    "isl": "<sos> morning we want <eos>"
+  },
+  {
+    "english": "<sos> he cannot teach chair <eos>",
+    "isl": "<sos> he chair teach not can <eos>"
+  },
+  {
+    "english": "<sos> you want easy name <eos>",
+    "isl": "<sos> you easy name want <eos>"
+  },
+  {
+    "english": "<sos> when do i need <eos>",
+    "isl": "<sos> i need when <eos>"
+  },
+  {
+    "english": "<sos> they gos sunday <eos>",
+    "isl": "<sos> sunday they go <eos>"
+  },
+  {
+    "english": "<sos> you come bad work <eos>",
+    "isl": "<sos> you bad work come <eos>"
+  },
+  {
+    "english": "<sos> i come new work <eos>",
+    "isl": "<sos> i new work come <eos>"
+  },
+  {
+    "english": "<sos> you will need monday <eos>",
+    "isl": "<sos> monday you need <eos>"
+  },
+  {
+    "english": "<sos> i will write today <eos>",
+    "isl": "<sos> today i write <eos>"
+  },
+  {
+    "english": "<sos> he cannot sign phone <eos>",
+    "isl": "<sos> he phone sign not can <eos>"
+  },
+  {
+    "english": "<sos> they need pen <eos>",
+    "isl": "<sos> they pen need <eos>"
+  },
+  {
+    "english": "<sos> we think chair <eos>",
+    "isl": "<sos> we chair think <eos>"
+  },
+  {
+    "english": "<sos> we want old name <eos>",
+    "isl": "<sos> we old name want <eos>"
+  },
+  {
+    "english": "<sos> we want to come answer <eos>",
+    "isl": "<sos> we answer come want <eos>"
+  },
+  {
+    "english": "<sos> they need sad idea <eos>",
+    "isl": "<sos> they sad idea need <eos>"
+  },
+  {
+    "english": "<sos> hello students <eos>",
+    "isl": "<sos> hello student <eos>"
+  },
+  {
+    "english": "<sos> i do not understand pen <eos>",
+    "isl": "<sos> i pen understand not <eos>"
+  },
+  {
+    "english": "<sos> we want new time <eos>",
+    "isl": "<sos> we new time want <eos>"
+  },
+  {
+    "english": "<sos> we like big sign <eos>",
+    "isl": "<sos> we big sign like <eos>"
+  },
+  {
+    "english": "<sos> you will like money <eos>",
+    "isl": "<sos> you money like will <eos>"
+  },
+  {
+    "english": "<sos> he will need tomorrow <eos>",
+    "isl": "<sos> tomorrow he need <eos>"
+  },
+  {
+    "english": "<sos> they are practiceing water <eos>",
+    "isl": "<sos> they water practice <eos>"
+  },
+  {
+    "english": "<sos> we do not see chair <eos>",
+    "isl": "<sos> we chair see not <eos>"
+  },
+  {
+    "english": "<sos> he may go pen <eos>",
+    "isl": "<sos> he pen go may <eos>"
+  },
+  {
+    "english": "<sos> they come difficult sign <eos>",
+    "isl": "<sos> they difficult sign come <eos>"
+  },
+  {
+    "english": "<sos> i need easy question <eos>",
+    "isl": "<sos> i easy question need <eos>"
+  },
+  {
+    "english": "<sos> may you want water <eos>",
+    "isl": "<sos> you water want may <eos>"
+  },
+  {
+    "english": "<sos> i am practiceing chair <eos>",
+    "isl": "<sos> i chair practice <eos>"
+  },
+  {
+    "english": "<sos> they cannot understand computer <eos>",
+    "isl": "<sos> they computer understand not can <eos>"
+  },
+  {
+    "english": "<sos> we do not see food <eos>",
+    "isl": "<sos> we food see not <eos>"
+  },
+  {
+    "english": "<sos> i want to need idea <eos>",
+    "isl": "<sos> i idea need want <eos>"
+  },
+  {
+    "english": "<sos> we can want water <eos>",
+    "isl": "<sos> we water want can <eos>"
+  },
+  {
+    "english": "<sos> you do not sign computer <eos>",
+    "isl": "<sos> you computer sign not <eos>"
+  },
+  {
+    "english": "<sos> we do not want chair <eos>",
+    "isl": "<sos> we chair want not <eos>"
+  },
+  {
+    "english": "<sos> i want to read work <eos>",
+    "isl": "<sos> i work read want <eos>"
+  },
+  {
+    "english": "<sos> he need to teach name <eos>",
+    "isl": "<sos> he name teach need <eos>"
+  },
+  {
+    "english": "<sos> we need to work time <eos>",
+    "isl": "<sos> we time work need <eos>"
+  },
+  {
+    "english": "<sos> teacher is at office <eos>",
+    "isl": "<sos> office teacher <eos>"
+  },
+  {
+    "english": "<sos> we will go yesterday <eos>",
+    "isl": "<sos> yesterday we go <eos>"
+  },
+  {
+    "english": "<sos> he want money <eos>",
+    "isl": "<sos> he money want <eos>"
+  },
+  {
+    "english": "<sos> we need easy sign <eos>",
+    "isl": "<sos> we easy sign need <eos>"
+  },
+  {
+    "english": "<sos> he go good name <eos>",
+    "isl": "<sos> he good name go <eos>"
+  },
+  {
+    "english": "<sos> may i teach computer <eos>",
+    "isl": "<sos> i computer teach may <eos>"
+  },
+  {
+    "english": "<sos> he want to like question <eos>",
+    "isl": "<sos> he question like want <eos>"
+  },
+  {
+    "english": "<sos> we are continueing book <eos>",
+    "isl": "<sos> we book continue <eos>"
+  },
+  {
+    "english": "<sos> i come good work <eos>",
+    "isl": "<sos> i good work come <eos>"
+  },
+  {
+    "english": "<sos> you will teach computer <eos>",
+    "isl": "<sos> you computer teach will <eos>"
+  },
+  {
+    "english": "<sos> i like new day <eos>",
+    "isl": "<sos> i new day like <eos>"
+  },
+  {
+    "english": "<sos> you will teach tomorrow <eos>",
+    "isl": "<sos> tomorrow you teach <eos>"
+  },
+  {
+    "english": "<sos> may i want table <eos>",
+    "isl": "<sos> i table want may <eos>"
+  },
+  {
+    "english": "<sos> i need to learn name <eos>",
+    "isl": "<sos> i name learn need <eos>"
+  },
+  {
+    "english": "<sos> i cannot know chair <eos>",
+    "isl": "<sos> i chair know not can <eos>"
+  },
+  {
+    "english": "<sos> will you learn food <eos>",
+    "isl": "<sos> you food learn will <eos>"
+  },
+  {
+    "english": "<sos> you likes tomorrow <eos>",
+    "isl": "<sos> tomorrow you like <eos>"
+  },
+  {
+    "english": "<sos> you will read money <eos>",
+    "isl": "<sos> you money read will <eos>"
+  },
+  {
+    "english": "<sos> i continue at home <eos>",
+    "isl": "<sos> home i continue <eos>"
+  },
+  {
+    "english": "<sos> we cannot want book <eos>",
+    "isl": "<sos> we book want not can <eos>"
+  },
+  {
+    "english": "<sos> we do not think computer <eos>",
+    "isl": "<sos> we computer think not <eos>"
+  },
+  {
+    "english": "<sos> we want nice question <eos>",
+    "isl": "<sos> we nice question want <eos>"
+  },
+  {
+    "english": "<sos> may you read book <eos>",
+    "isl": "<sos> you book read may <eos>"
+  },
+  {
+    "english": "<sos> i am trying computer <eos>",
+    "isl": "<sos> i computer try <eos>"
+  },
+  {
+    "english": "<sos> they cannot learn book <eos>",
+    "isl": "<sos> they book learn not can <eos>"
+  },
+  {
+    "english": "<sos> they want to see question <eos>",
+    "isl": "<sos> they question see want <eos>"
+  },
+  {
+    "english": "<sos> i will write monday <eos>",
+    "isl": "<sos> monday i write <eos>"
+  },
+  {
+    "english": "<sos> you will write afternoon <eos>",
+    "isl": "<sos> afternoon you write <eos>"
+  },
+  {
+    "english": "<sos> we will learn tomorrow <eos>",
+    "isl": "<sos> tomorrow we learn <eos>"
+  },
+  {
+    "english": "<sos> we see phone <eos>",
+    "isl": "<sos> we phone see <eos>"
+  },
+  {
+    "english": "<sos> we are finishing water <eos>",
+    "isl": "<sos> we water finish <eos>"
+  },
+  {
+    "english": "<sos> he need to come idea <eos>",
+    "isl": "<sos> he idea come need <eos>"
+  },
+  {
+    "english": "<sos> you cannot want water <eos>",
+    "isl": "<sos> you water want not can <eos>"
+  },
+  {
+    "english": "<sos> they eats in home <eos>",
+    "isl": "<sos> home they eat <eos>"
+  },
+  {
+    "english": "<sos> i need to write time <eos>",
+    "isl": "<sos> i time write need <eos>"
+  },
+  {
+    "english": "<sos> he may like computer <eos>",
+    "isl": "<sos> he computer like may <eos>"
+  },
+  {
+    "english": "<sos> he do not want pen <eos>",
+    "isl": "<sos> he pen want not <eos>"
+  },
+  {
+    "english": "<sos> i does not work <eos>",
+    "isl": "<sos> i work not <eos>"
+  },
+  {
+    "english": "<sos> they will come chair <eos>",
+    "isl": "<sos> they chair come will <eos>"
+  },
+  {
+    "english": "<sos> we need to teach sign <eos>",
+    "isl": "<sos> we sign teach need <eos>"
+  },
+  {
+    "english": "<sos> you will like evening <eos>",
+    "isl": "<sos> evening you like <eos>"
+  },
+  {
+    "english": "<sos> you gos friday <eos>",
+    "isl": "<sos> friday you go <eos>"
+  },
+  {
+    "english": "<sos> i come big sign <eos>",
+    "isl": "<sos> i big sign come <eos>"
+  },
+  {
+    "english": "<sos> i do not like food <eos>",
+    "isl": "<sos> i food like not <eos>"
+  },
+  {
+    "english": "<sos> he do not read computer <eos>",
+    "isl": "<sos> he computer read not <eos>"
+  },
+  {
+    "english": "<sos> you need old answer <eos>",
+    "isl": "<sos> you old answer need <eos>"
+  },
+  {
+    "english": "<sos> he want to teach day <eos>",
+    "isl": "<sos> he day teach want <eos>"
+  },
+  {
+    "english": "<sos> may we want money <eos>",
+    "isl": "<sos> we money want may <eos>"
+  },
+  {
+    "english": "<sos> he will come monday <eos>",
+    "isl": "<sos> monday he come <eos>"
+  },
+  {
+    "english": "<sos> they will write tomorrow <eos>",
+    "isl": "<sos> tomorrow they write <eos>"
+  },
+  {
+    "english": "<sos> he want to see name <eos>",
+    "isl": "<sos> he name see want <eos>"
+  },
+  {
+    "english": "<sos> they know chair <eos>",
+    "isl": "<sos> they chair know <eos>"
+  },
+  {
+    "english": "<sos> they need to want work <eos>",
+    "isl": "<sos> they work want need <eos>"
+  },
+  {
+    "english": "<sos> he come nice time <eos>",
+    "isl": "<sos> he nice time come <eos>"
+  },
+  {
+    "english": "<sos> you learn book <eos>",
+    "isl": "<sos> you book learn <eos>"
+  },
+  {
+    "english": "<sos> when will we read <eos>",
+    "isl": "<sos> we read when <eos>"
+  },
+  {
+    "english": "<sos> they do not go table <eos>",
+    "isl": "<sos> they table go not <eos>"
+  },
+  {
+    "english": "<sos> he comes afternoon <eos>",
+    "isl": "<sos> afternoon he come <eos>"
+  },
+  {
+    "english": "<sos> they need to write name <eos>",
+    "isl": "<sos> they name write need <eos>"
+  },
+  {
+    "english": "<sos> you go nice question <eos>",
+    "isl": "<sos> you nice question go <eos>"
+  },
+  {
+    "english": "<sos> they will read thursday <eos>",
+    "isl": "<sos> thursday they read <eos>"
+  },
+  {
+    "english": "<sos> i am continueing food <eos>",
+    "isl": "<sos> i food continue <eos>"
+  },
+  {
+    "english": "<sos> he go chair <eos>",
+    "isl": "<sos> he chair go <eos>"
+  },
+  {
+    "english": "<sos> they cannot come water <eos>",
+    "isl": "<sos> they water come not can <eos>"
+  },
+  {
+    "english": "<sos> they want to sign sign <eos>",
+    "isl": "<sos> they sign sign want <eos>"
+  },
+  {
+    "english": "<sos> they can like pen <eos>",
+    "isl": "<sos> they pen like can <eos>"
+  },
+  {
+    "english": "<sos> you do not need <eos>",
+    "isl": "<sos> you need not <eos>"
+  },
+  {
+    "english": "<sos> we like easy time <eos>",
+    "isl": "<sos> we easy time like <eos>"
+  },
+  {
+    "english": "<sos> they cannot write water <eos>",
+    "isl": "<sos> they water write not can <eos>"
+  },
+  {
+    "english": "<sos> they will go book <eos>",
+    "isl": "<sos> they book go will <eos>"
+  },
+  {
+    "english": "<sos> i write chair <eos>",
+    "isl": "<sos> i chair write <eos>"
+  },
+  {
+    "english": "<sos> they want old answer <eos>",
+    "isl": "<sos> they old answer want <eos>"
+  },
+  {
+    "english": "<sos> may they need computer <eos>",
+    "isl": "<sos> they computer need may <eos>"
+  },
+  {
+    "english": "<sos> you go important question <eos>",
+    "isl": "<sos> you important question go <eos>"
+  },
+  {
+    "english": "<sos> they takes in class <eos>",
+    "isl": "<sos> class they take <eos>"
+  },
+  {
+    "english": "<sos> can we need chair <eos>",
+    "isl": "<sos> we chair need can <eos>"
+  },
+  {
+    "english": "<sos> i can work table <eos>",
+    "isl": "<sos> i table work can <eos>"
+  },
+  {
+    "english": "<sos> she wants to learn <eos>",
+    "isl": "<sos> she learn want <eos>"
+  },
+  {
+    "english": "<sos> i run at home <eos>",
+    "isl": "<sos> home i run <eos>"
+  },
+  {
+    "english": "<sos> we will want today <eos>",
+    "isl": "<sos> today we want <eos>"
+  },
+  {
+    "english": "<sos> he go good day <eos>",
+    "isl": "<sos> he good day go <eos>"
+  },
+  {
+    "english": "<sos> i can teach money <eos>",
+    "isl": "<sos> i money teach can <eos>"
+  },
+  {
+    "english": "<sos> they like easy day <eos>",
+    "isl": "<sos> they easy day like <eos>"
+  },
+  {
+    "english": "<sos> you are takeing pen <eos>",
+    "isl": "<sos> you pen take <eos>"
+  },
+  {
+    "english": "<sos> i reads monday <eos>",
+    "isl": "<sos> monday i read <eos>"
+  },
+  {
+    "english": "<sos> will we read water <eos>",
+    "isl": "<sos> we water read will <eos>"
+  },
+  {
+    "english": "<sos> you need to understand problem <eos>",
+    "isl": "<sos> you problem understand need <eos>"
+  },
+  {
+    "english": "<sos> they need to work problem <eos>",
+    "isl": "<sos> they problem work need <eos>"
+  },
+  {
+    "english": "<sos> you will teach monday <eos>",
+    "isl": "<sos> monday you teach <eos>"
+  },
+  {
+    "english": "<sos> they want to know answer <eos>",
+    "isl": "<sos> they answer know want <eos>"
+  },
+  {
+    "english": "<sos> you want to sign problem <eos>",
+    "isl": "<sos> you problem sign want <eos>"
+  },
+  {
+    "english": "<sos> i want to sign problem <eos>",
+    "isl": "<sos> i problem sign want <eos>"
+  },
+  {
+    "english": "<sos> he go bad question <eos>",
+    "isl": "<sos> he bad question go <eos>"
+  },
+  {
+    "english": "<sos> i will learn sunday <eos>",
+    "isl": "<sos> sunday i learn <eos>"
+  },
+  {
+    "english": "<sos> he do not see chair <eos>",
+    "isl": "<sos> he chair see not <eos>"
+  },
+  {
+    "english": "<sos> i cannot know table <eos>",
+    "isl": "<sos> i table know not can <eos>"
+  },
+  {
+    "english": "<sos> you cannot teach phone <eos>",
+    "isl": "<sos> you phone teach not can <eos>"
+  },
+  {
+    "english": "<sos> can i come pen <eos>",
+    "isl": "<sos> i pen come can <eos>"
+  },
+  {
+    "english": "<sos> we need easy question <eos>",
+    "isl": "<sos> we easy question need <eos>"
+  },
+  {
+    "english": "<sos> i can write pen <eos>",
+    "isl": "<sos> i pen write can <eos>"
+  },
+  {
+    "english": "<sos> i want to write work <eos>",
+    "isl": "<sos> i work write want <eos>"
+  },
+  {
+    "english": "<sos> i want to see answer <eos>",
+    "isl": "<sos> i answer see want <eos>"
+  },
+  {
+    "english": "<sos> we do not read <eos>",
+    "isl": "<sos> we read not <eos>"
+  },
+  {
+    "english": "<sos> he want to teach answer <eos>",
+    "isl": "<sos> he answer teach want <eos>"
+  },
+  {
+    "english": "<sos> we will like evening <eos>",
+    "isl": "<sos> evening we like <eos>"
+  },
+  {
+    "english": "<sos> you come bad sign <eos>",
+    "isl": "<sos> you bad sign come <eos>"
+  },
+  {
+    "english": "<sos> how correct are you <eos>",
+    "isl": "<sos> you correct how <eos>"
+  },
+  {
+    "english": "<sos> i teachs tomorrow <eos>",
+    "isl": "<sos> tomorrow i teach <eos>"
+  },
+  {
+    "english": "<sos> you want difficult sign <eos>",
+    "isl": "<sos> you difficult sign want <eos>"
+  },
+  {
+    "english": "<sos> i go new day <eos>",
+    "isl": "<sos> i new day go <eos>"
+  },
+  {
+    "english": "<sos> we teachs thursday <eos>",
+    "isl": "<sos> thursday we teach <eos>"
+  },
+  {
+    "english": "<sos> he will write evening <eos>",
+    "isl": "<sos> evening he write <eos>"
+  },
+  {
+    "english": "<sos> you will need tomorrow <eos>",
+    "isl": "<sos> tomorrow you need <eos>"
+  },
+  {
+    "english": "<sos> we like old answer <eos>",
+    "isl": "<sos> we old answer like <eos>"
+  },
+  {
+    "english": "<sos> they are practiceing computer <eos>",
+    "isl": "<sos> they computer practice <eos>"
+  },
+  {
+    "english": "<sos> he need to sign time <eos>",
+    "isl": "<sos> he time sign need <eos>"
+  },
+  {
+    "english": "<sos> they do not see pen <eos>",
+    "isl": "<sos> they pen see not <eos>"
+  },
+  {
+    "english": "<sos> we like water <eos>",
+    "isl": "<sos> we water like <eos>"
+  },
+  {
+    "english": "<sos> you want sad problem <eos>",
+    "isl": "<sos> you sad problem want <eos>"
+  },
+  {
+    "english": "<sos> we run at class <eos>",
+    "isl": "<sos> class we run <eos>"
+  },
+  {
+    "english": "<sos> we do not write pen <eos>",
+    "isl": "<sos> we pen write not <eos>"
+  },
+  {
+    "english": "<sos> will they like food <eos>",
+    "isl": "<sos> they food like will <eos>"
+  },
+  {
+    "english": "<sos> he do not know computer <eos>",
+    "isl": "<sos> he computer know not <eos>"
+  },
+  {
+    "english": "<sos> practice <eos>",
+    "isl": "<sos> practice <eos>"
+  },
+  {
+    "english": "<sos> will you write phone <eos>",
+    "isl": "<sos> you phone write will <eos>"
+  },
+  {
+    "english": "<sos> can i go pen <eos>",
+    "isl": "<sos> i pen go can <eos>"
+  },
+  {
+    "english": "<sos> you practices in class <eos>",
+    "isl": "<sos> class you practice <eos>"
+  },
+  {
+    "english": "<sos> he want difficult time <eos>",
+    "isl": "<sos> he difficult time want <eos>"
+  },
+  {
+    "english": "<sos> how big is it <eos>",
+    "isl": "<sos> it big how <eos>"
+  },
+  {
+    "english": "<sos> you may go food <eos>",
+    "isl": "<sos> you food go may <eos>"
+  },
+  {
+    "english": "<sos> they need to need name <eos>",
+    "isl": "<sos> they name need need <eos>"
+  },
+  {
+    "english": "<sos> we will not sign <eos>",
+    "isl": "<sos> we sign not <eos>"
+  },
+  {
+    "english": "<sos> i write food <eos>",
+    "isl": "<sos> i food write <eos>"
+  },
+  {
+    "english": "<sos> you will teach food <eos>",
+    "isl": "<sos> you food teach will <eos>"
+  },
+  {
+    "english": "<sos> will you learn table <eos>",
+    "isl": "<sos> you table learn will <eos>"
+  },
+  {
+    "english": "<sos> i do not sign chair <eos>",
+    "isl": "<sos> i chair sign not <eos>"
+  },
+  {
+    "english": "<sos> you need important problem <eos>",
+    "isl": "<sos> you important problem need <eos>"
+  },
+  {
+    "english": "<sos> you likes night <eos>",
+    "isl": "<sos> night you like <eos>"
+  },
+  {
+    "english": "<sos> we do not know pen <eos>",
+    "isl": "<sos> we pen know not <eos>"
+  },
+  {
+    "english": "<sos> may you want money <eos>",
+    "isl": "<sos> you money want may <eos>"
+  },
+  {
+    "english": "<sos> they need to teach problem <eos>",
+    "isl": "<sos> they problem teach need <eos>"
+  },
+  {
+    "english": "<sos> you will need thursday <eos>",
+    "isl": "<sos> thursday you need <eos>"
+  },
+  {
+    "english": "<sos> study hard <eos>",
+    "isl": "<sos> hard study <eos>"
+  },
+  {
+    "english": "<sos> he want good idea <eos>",
+    "isl": "<sos> he good idea want <eos>"
+  },
+  {
+    "english": "<sos> will he need water <eos>",
+    "isl": "<sos> he water need will <eos>"
+  },
+  {
+    "english": "<sos> they will not need <eos>",
+    "isl": "<sos> they need not <eos>"
+  },
+  {
+    "english": "<sos> what did you say <eos>",
+    "isl": "<sos> you say what <eos>"
+  },
+  {
+    "english": "<sos> i can learn chair <eos>",
+    "isl": "<sos> i chair learn can <eos>"
+  },
+  {
+    "english": "<sos> when do you teach <eos>",
+    "isl": "<sos> you teach when <eos>"
+  },
+  {
+    "english": "<sos> they takes in office <eos>",
+    "isl": "<sos> office they take <eos>"
+  },
+  {
+    "english": "<sos> he will write table <eos>",
+    "isl": "<sos> he table write will <eos>"
+  },
+  {
+    "english": "<sos> you cannot learn chair <eos>",
+    "isl": "<sos> you chair learn not can <eos>"
+  },
+  {
+    "english": "<sos> i want nice name <eos>",
+    "isl": "<sos> i nice name want <eos>"
+  },
+  {
+    "english": "<sos> they cannot think food <eos>",
+    "isl": "<sos> they food think not can <eos>"
+  },
+  {
+    "english": "<sos> we are eating table <eos>",
+    "isl": "<sos> we table eat <eos>"
+  },
+  {
+    "english": "<sos> i will want water <eos>",
+    "isl": "<sos> i water want will <eos>"
+  },
+  {
+    "english": "<sos> he will want yesterday <eos>",
+    "isl": "<sos> yesterday he want <eos>"
+  },
+  {
+    "english": "<sos> we cannot go chair <eos>",
+    "isl": "<sos> we chair go not can <eos>"
+  },
+  {
+    "english": "<sos> they want to go time <eos>",
+    "isl": "<sos> they time go want <eos>"
+  },
+  {
+    "english": "<sos> you cannot teach computer <eos>",
+    "isl": "<sos> you computer teach not can <eos>"
+  },
+  {
+    "english": "<sos> what is problem <eos>",
+    "isl": "<sos> problem what <eos>"
+  },
+  {
+    "english": "<sos> he does not want <eos>",
+    "isl": "<sos> he want not <eos>"
+  },
+  {
+    "english": "<sos> i will write pen <eos>",
+    "isl": "<sos> i pen write will <eos>"
+  },
+  {
+    "english": "<sos> we work pen <eos>",
+    "isl": "<sos> we pen work <eos>"
+  },
+  {
+    "english": "<sos> may they go phone <eos>",
+    "isl": "<sos> they phone go may <eos>"
+  },
+  {
+    "english": "<sos> you want to sign idea <eos>",
+    "isl": "<sos> you idea sign want <eos>"
+  },
+  {
+    "english": "<sos> they like sad time <eos>",
+    "isl": "<sos> they sad time like <eos>"
+  },
+  {
+    "english": "<sos> will you read table <eos>",
+    "isl": "<sos> you table read will <eos>"
+  },
+  {
+    "english": "<sos> can we read food <eos>",
+    "isl": "<sos> we food read can <eos>"
+  },
+  {
+    "english": "<sos> they want to learn idea <eos>",
+    "isl": "<sos> they idea learn want <eos>"
+  },
+  {
+    "english": "<sos> you do not come water <eos>",
+    "isl": "<sos> you water come not <eos>"
+  },
+  {
+    "english": "<sos> i will not need <eos>",
+    "isl": "<sos> i need not <eos>"
+  },
+  {
+    "english": "<sos> they want table <eos>",
+    "isl": "<sos> they table want <eos>"
+  },
+  {
+    "english": "<sos> they do not write pen <eos>",
+    "isl": "<sos> they pen write not <eos>"
+  },
+  {
+    "english": "<sos> i am finishing money <eos>",
+    "isl": "<sos> i money finish <eos>"
+  },
+  {
+    "english": "<sos> he will write money <eos>",
+    "isl": "<sos> he money write will <eos>"
+  },
+  {
+    "english": "<sos> we come important day <eos>",
+    "isl": "<sos> we important day come <eos>"
+  },
+  {
+    "english": "<sos> we can read chair <eos>",
+    "isl": "<sos> we chair read can <eos>"
+  },
+  {
+    "english": "<sos> please bring <eos>",
+    "isl": "<sos> please bring <eos>"
+  },
+  {
+    "english": "<sos> they do not write water <eos>",
+    "isl": "<sos> they water write not <eos>"
+  },
+  {
+    "english": "<sos> they cannot work pen <eos>",
+    "isl": "<sos> they pen work not can <eos>"
+  },
+  {
+    "english": "<sos> they need nice name <eos>",
+    "isl": "<sos> they nice name need <eos>"
+  },
+  {
+    "english": "<sos> you need old day <eos>",
+    "isl": "<sos> you old day need <eos>"
+  },
+  {
+    "english": "<sos> may you come water <eos>",
+    "isl": "<sos> you water come may <eos>"
+  },
+  {
+    "english": "<sos> can you want computer <eos>",
+    "isl": "<sos> you computer want can <eos>"
+  },
+  {
+    "english": "<sos> we will write friday <eos>",
+    "isl": "<sos> friday we write <eos>"
+  },
+  {
+    "english": "<sos> we cannot know computer <eos>",
+    "isl": "<sos> we computer know not can <eos>"
+  },
+  {
+    "english": "<sos> i do not write table <eos>",
+    "isl": "<sos> i table write not <eos>"
+  },
+  {
+    "english": "<sos> we understand water <eos>",
+    "isl": "<sos> we water understand <eos>"
+  },
+  {
+    "english": "<sos> he cannot like chair <eos>",
+    "isl": "<sos> he chair like not can <eos>"
+  },
+  {
+    "english": "<sos> he like old sign <eos>",
+    "isl": "<sos> he old sign like <eos>"
+  },
+  {
+    "english": "<sos> can you like money <eos>",
+    "isl": "<sos> you money like can <eos>"
+  },
+  {
+    "english": "<sos> they reads tuesday <eos>",
+    "isl": "<sos> tuesday they read <eos>"
+  },
+  {
+    "english": "<sos> you want to think sign <eos>",
+    "isl": "<sos> you sign think want <eos>"
+  },
+  {
+    "english": "<sos> you like big name <eos>",
+    "isl": "<sos> you big name like <eos>"
+  },
+  {
+    "english": "<sos> they want to want day <eos>",
+    "isl": "<sos> they day want want <eos>"
+  },
+  {
+    "english": "<sos> you need to like work <eos>",
+    "isl": "<sos> you work like need <eos>"
+  },
+  {
+    "english": "<sos> i like difficult time <eos>",
+    "isl": "<sos> i difficult time like <eos>"
+  },
+  {
+    "english": "<sos> can i read chair <eos>",
+    "isl": "<sos> i chair read can <eos>"
+  },
+  {
+    "english": "<sos> i want new answer <eos>",
+    "isl": "<sos> i new answer want <eos>"
+  },
+  {
+    "english": "<sos> they want big time <eos>",
+    "isl": "<sos> they big time want <eos>"
+  },
+  {
+    "english": "<sos> you do not think computer <eos>",
+    "isl": "<sos> you computer think not <eos>"
+  },
+  {
+    "english": "<sos> they go good idea <eos>",
+    "isl": "<sos> they good idea go <eos>"
+  },
+  {
+    "english": "<sos> can they come pen <eos>",
+    "isl": "<sos> they pen come can <eos>"
+  },
+  {
+    "english": "<sos> you works sunday <eos>",
+    "isl": "<sos> sunday you work <eos>"
+  },
+  {
+    "english": "<sos> you do not come computer <eos>",
+    "isl": "<sos> you computer come not <eos>"
+  },
+  {
+    "english": "<sos> they want to sign day <eos>",
+    "isl": "<sos> they day sign want <eos>"
+  },
+  {
+    "english": "<sos> we want to write problem <eos>",
+    "isl": "<sos> we problem write want <eos>"
+  },
+  {
+    "english": "<sos> you need difficult work <eos>",
+    "isl": "<sos> you difficult work need <eos>"
+  },
+  {
+    "english": "<sos> we need big work <eos>",
+    "isl": "<sos> we big work need <eos>"
+  },
+  {
+    "english": "<sos> he want to know name <eos>",
+    "isl": "<sos> he name know want <eos>"
+  },
+  {
+    "english": "<sos> may we need pen <eos>",
+    "isl": "<sos> we pen need may <eos>"
+  },
+  {
+    "english": "<sos> you are continueing chair <eos>",
+    "isl": "<sos> you chair continue <eos>"
+  },
+  {
+    "english": "<sos> we like difficult answer <eos>",
+    "isl": "<sos> we difficult answer like <eos>"
+  },
+  {
+    "english": "<sos> we teachs morning <eos>",
+    "isl": "<sos> morning we teach <eos>"
+  },
+  {
+    "english": "<sos> they like difficult work <eos>",
+    "isl": "<sos> they difficult work like <eos>"
+  },
+  {
+    "english": "<sos> can i need pen <eos>",
+    "isl": "<sos> i pen need can <eos>"
+  },
+  {
+    "english": "<sos> they can want food <eos>",
+    "isl": "<sos> they food want can <eos>"
+  },
+  {
+    "english": "<sos> you may write table <eos>",
+    "isl": "<sos> you table write may <eos>"
+  },
+  {
+    "english": "<sos> you want bad name <eos>",
+    "isl": "<sos> you bad name want <eos>"
+  },
+  {
+    "english": "<sos> he want to need problem <eos>",
+    "isl": "<sos> he problem need want <eos>"
+  },
+  {
+    "english": "<sos> he does not come today <eos>",
+    "isl": "<sos> he today come not <eos>"
+  },
+  {
+    "english": "<sos> we go sad answer <eos>",
+    "isl": "<sos> we sad answer go <eos>"
+  },
+  {
+    "english": "<sos> i may go food <eos>",
+    "isl": "<sos> i food go may <eos>"
+  },
+  {
+    "english": "<sos> i cannot read table <eos>",
+    "isl": "<sos> i table read not can <eos>"
+  },
+  {
+    "english": "<sos> when do they like <eos>",
+    "isl": "<sos> they like when <eos>"
+  },
+  {
+    "english": "<sos> you may teach computer <eos>",
+    "isl": "<sos> you computer teach may <eos>"
+  },
+  {
+    "english": "<sos> i writes night <eos>",
+    "isl": "<sos> night i write <eos>"
+  },
+  {
+    "english": "<sos> you come sad sign <eos>",
+    "isl": "<sos> you sad sign come <eos>"
+  },
+  {
+    "english": "<sos> i need to think name <eos>",
+    "isl": "<sos> i name think need <eos>"
+  },
+  {
+    "english": "<sos> they may teach food <eos>",
+    "isl": "<sos> they food teach may <eos>"
+  },
+  {
+    "english": "<sos> he teach chair <eos>",
+    "isl": "<sos> he chair teach <eos>"
+  },
+  {
+    "english": "<sos> they likes tuesday <eos>",
+    "isl": "<sos> tuesday they like <eos>"
+  },
+  {
+    "english": "<sos> you are runing food <eos>",
+    "isl": "<sos> you food run <eos>"
+  },
+  {
+    "english": "<sos> he do not like phone <eos>",
+    "isl": "<sos> he phone like not <eos>"
+  },
+  {
+    "english": "<sos> he need to know time <eos>",
+    "isl": "<sos> he time know need <eos>"
+  },
+  {
+    "english": "<sos> he is takeing chair <eos>",
+    "isl": "<sos> he chair take <eos>"
+  },
+  {
+    "english": "<sos> he want to teach work <eos>",
+    "isl": "<sos> he work teach want <eos>"
+  },
+  {
+    "english": "<sos> you cannot need table <eos>",
+    "isl": "<sos> you table need not can <eos>"
+  },
+  {
+    "english": "<sos> he do not read <eos>",
+    "isl": "<sos> he read not <eos>"
+  },
+  {
+    "english": "<sos> you can come chair <eos>",
+    "isl": "<sos> you chair come can <eos>"
+  },
+  {
+    "english": "<sos> we can learn money <eos>",
+    "isl": "<sos> we money learn can <eos>"
+  },
+  {
+    "english": "<sos> may i like pen <eos>",
+    "isl": "<sos> i pen like may <eos>"
+  },
+  {
+    "english": "<sos> we may teach money <eos>",
+    "isl": "<sos> we money teach may <eos>"
+  },
+  {
+    "english": "<sos> we do not see phone <eos>",
+    "isl": "<sos> we phone see not <eos>"
+  },
+  {
+    "english": "<sos> may he want phone <eos>",
+    "isl": "<sos> he phone want may <eos>"
+  },
+  {
+    "english": "<sos> you do not need pen <eos>",
+    "isl": "<sos> you pen need not <eos>"
+  },
+  {
+    "english": "<sos> they need to need question <eos>",
+    "isl": "<sos> they question need need <eos>"
+  },
+  {
+    "english": "<sos> you cannot sign chair <eos>",
+    "isl": "<sos> you chair sign not can <eos>"
+  },
+  {
+    "english": "<sos> we do not write table <eos>",
+    "isl": "<sos> we table write not <eos>"
+  },
+  {
+    "english": "<sos> you can teach computer <eos>",
+    "isl": "<sos> you computer teach can <eos>"
+  },
+  {
+    "english": "<sos> he is takeing table <eos>",
+    "isl": "<sos> he table take <eos>"
+  },
+  {
+    "english": "<sos> he need to work answer <eos>",
+    "isl": "<sos> he answer work need <eos>"
+  },
+  {
+    "english": "<sos> i can write water <eos>",
+    "isl": "<sos> i water write can <eos>"
+  },
+  {
+    "english": "<sos> i understand money <eos>",
+    "isl": "<sos> i money understand <eos>"
+  },
+  {
+    "english": "<sos> they cannot want phone <eos>",
+    "isl": "<sos> they phone want not can <eos>"
+  },
+  {
+    "english": "<sos> i will need money <eos>",
+    "isl": "<sos> i money need will <eos>"
+  },
+  {
+    "english": "<sos> they will learn book <eos>",
+    "isl": "<sos> they book learn will <eos>"
+  },
+  {
+    "english": "<sos> he may learn food <eos>",
+    "isl": "<sos> he food learn may <eos>"
+  },
+  {
+    "english": "<sos> he wants to understand <eos>",
+    "isl": "<sos> he understand want <eos>"
+  },
+  {
+    "english": "<sos> he need bad answer <eos>",
+    "isl": "<sos> he bad answer need <eos>"
+  },
+  {
+    "english": "<sos> they go good question <eos>",
+    "isl": "<sos> they good question go <eos>"
+  },
+  {
+    "english": "<sos> he like bad question <eos>",
+    "isl": "<sos> he bad question like <eos>"
+  },
+  {
+    "english": "<sos> they likes today <eos>",
+    "isl": "<sos> today they like <eos>"
+  },
+  {
+    "english": "<sos> will he come money <eos>",
+    "isl": "<sos> he money come will <eos>"
+  },
+  {
+    "english": "<sos> you go nice answer <eos>",
+    "isl": "<sos> you nice answer go <eos>"
+  },
+  {
+    "english": "<sos> i do not sign pen <eos>",
+    "isl": "<sos> i pen sign not <eos>"
+  },
+  {
+    "english": "<sos> we reads now <eos>",
+    "isl": "<sos> now we read <eos>"
+  },
+  {
+    "english": "<sos> he like new question <eos>",
+    "isl": "<sos> he new question like <eos>"
+  },
+  {
+    "english": "<sos> i go nice day <eos>",
+    "isl": "<sos> i nice day go <eos>"
+  },
+  {
+    "english": "<sos> we meet in class <eos>",
+    "isl": "<sos> class we meet <eos>"
+  },
+  {
+    "english": "<sos> you come old day <eos>",
+    "isl": "<sos> you old day come <eos>"
+  },
+  {
+    "english": "<sos> he see food <eos>",
+    "isl": "<sos> he food see <eos>"
+  },
+  {
+    "english": "<sos> will we like food <eos>",
+    "isl": "<sos> we food like will <eos>"
+  },
+  {
+    "english": "<sos> may you need phone <eos>",
+    "isl": "<sos> you phone need may <eos>"
+  },
+  {
+    "english": "<sos> you do not think pen <eos>",
+    "isl": "<sos> you pen think not <eos>"
+  },
+  {
+    "english": "<sos> we want to read work <eos>",
+    "isl": "<sos> we work read want <eos>"
+  },
+  {
+    "english": "<sos> they needs yesterday <eos>",
+    "isl": "<sos> yesterday they need <eos>"
+  },
+  {
+    "english": "<sos> you are eating book <eos>",
+    "isl": "<sos> you book eat <eos>"
+  },
+  {
+    "english": "<sos> you need to want day <eos>",
+    "isl": "<sos> you day want need <eos>"
+  },
+  {
+    "english": "<sos> will you need table <eos>",
+    "isl": "<sos> you table need will <eos>"
+  },
+  {
+    "english": "<sos> we comes today <eos>",
+    "isl": "<sos> today we come <eos>"
+  },
+  {
+    "english": "<sos> they will teach money <eos>",
+    "isl": "<sos> they money teach will <eos>"
+  },
+  {
+    "english": "<sos> you wants monday <eos>",
+    "isl": "<sos> monday you want <eos>"
+  },
+  {
+    "english": "<sos> he is continueing book <eos>",
+    "isl": "<sos> he book continue <eos>"
+  },
+  {
+    "english": "<sos> we want to teach sign <eos>",
+    "isl": "<sos> we sign teach want <eos>"
+  },
+  {
+    "english": "<sos> i want to see problem <eos>",
+    "isl": "<sos> i problem see want <eos>"
+  },
+  {
+    "english": "<sos> you do not read chair <eos>",
+    "isl": "<sos> you chair read not <eos>"
+  },
+  {
+    "english": "<sos> he will work thursday <eos>",
+    "isl": "<sos> thursday he work <eos>"
+  },
+  {
+    "english": "<sos> we will need friday <eos>",
+    "isl": "<sos> friday we need <eos>"
+  },
+  {
+    "english": "<sos> they wants night <eos>",
+    "isl": "<sos> night they want <eos>"
+  },
+  {
+    "english": "<sos> he do not write computer <eos>",
+    "isl": "<sos> he computer write not <eos>"
+  },
+  {
+    "english": "<sos> may he write book <eos>",
+    "isl": "<sos> he book write may <eos>"
+  },
+  {
+    "english": "<sos> he want difficult sign <eos>",
+    "isl": "<sos> he difficult sign want <eos>"
+  },
+  {
+    "english": "<sos> can i go money <eos>",
+    "isl": "<sos> i money go can <eos>"
+  },
+  {
+    "english": "<sos> you write money <eos>",
+    "isl": "<sos> you money write <eos>"
+  },
+  {
+    "english": "<sos> they will not come <eos>",
+    "isl": "<sos> they come not <eos>"
+  },
+  {
+    "english": "<sos> when do they read <eos>",
+    "isl": "<sos> they read when <eos>"
+  },
+  {
+    "english": "<sos> we like nice name <eos>",
+    "isl": "<sos> we nice name like <eos>"
+  },
+  {
+    "english": "<sos> i come bad sign <eos>",
+    "isl": "<sos> i bad sign come <eos>"
+  },
+  {
+    "english": "<sos> he cannot learn table <eos>",
+    "isl": "<sos> he table learn not can <eos>"
+  },
+  {
+    "english": "<sos> he cannot like phone <eos>",
+    "isl": "<sos> he phone like not can <eos>"
+  },
+  {
+    "english": "<sos> he continue at office <eos>",
+    "isl": "<sos> office he continue <eos>"
+  },
+  {
+    "english": "<sos> i go pen <eos>",
+    "isl": "<sos> i pen go <eos>"
+  },
+  {
+    "english": "<sos> i will learn tuesday <eos>",
+    "isl": "<sos> tuesday i learn <eos>"
+  },
+  {
+    "english": "<sos> we do not see <eos>",
+    "isl": "<sos> we see not <eos>"
+  },
+  {
+    "english": "<sos> you like new problem <eos>",
+    "isl": "<sos> you new problem like <eos>"
+  },
+  {
+    "english": "<sos> he does not learn <eos>",
+    "isl": "<sos> he learn not <eos>"
+  },
+  {
+    "english": "<sos> will they need food <eos>",
+    "isl": "<sos> they food need will <eos>"
+  },
+  {
+    "english": "<sos> you will work tomorrow <eos>",
+    "isl": "<sos> tomorrow you work <eos>"
+  },
+  {
+    "english": "<sos> may they learn computer <eos>",
+    "isl": "<sos> they computer learn may <eos>"
+  },
+  {
+    "english": "<sos> i go bad sign <eos>",
+    "isl": "<sos> i bad sign go <eos>"
+  },
+  {
+    "english": "<sos> they will write night <eos>",
+    "isl": "<sos> night they write <eos>"
+  },
+  {
+    "english": "<sos> he can come phone <eos>",
+    "isl": "<sos> he phone come can <eos>"
+  },
+  {
+    "english": "<sos> he want to write time <eos>",
+    "isl": "<sos> he time write want <eos>"
+  },
+  {
+    "english": "<sos> i need new day <eos>",
+    "isl": "<sos> i new day need <eos>"
+  },
+  {
+    "english": "<sos> you go easy question <eos>",
+    "isl": "<sos> you easy question go <eos>"
+  },
+  {
+    "english": "<sos> he works monday <eos>",
+    "isl": "<sos> monday he work <eos>"
+  },
+  {
+    "english": "<sos> he reads today <eos>",
+    "isl": "<sos> today he read <eos>"
+  },
+  {
+    "english": "<sos> they do not read food <eos>",
+    "isl": "<sos> they food read not <eos>"
+  },
+  {
+    "english": "<sos> they like new idea <eos>",
+    "isl": "<sos> they new idea like <eos>"
+  },
+  {
+    "english": "<sos> may he write chair <eos>",
+    "isl": "<sos> he chair write may <eos>"
+  },
+  {
+    "english": "<sos> i come bad problem <eos>",
+    "isl": "<sos> i bad problem come <eos>"
+  },
+  {
+    "english": "<sos> he will not write <eos>",
+    "isl": "<sos> he write not <eos>"
+  },
+  {
+    "english": "<sos> they reads yesterday <eos>",
+    "isl": "<sos> yesterday they read <eos>"
+  },
+  {
+    "english": "<sos> we need to write name <eos>",
+    "isl": "<sos> we name write need <eos>"
+  },
+  {
+    "english": "<sos> i like new work <eos>",
+    "isl": "<sos> i new work like <eos>"
+  },
+  {
+    "english": "<sos> you go money <eos>",
+    "isl": "<sos> you money go <eos>"
+  },
+  {
+    "english": "<sos> we want to think time <eos>",
+    "isl": "<sos> we time think want <eos>"
+  },
+  {
+    "english": "<sos> we cannot sign water <eos>",
+    "isl": "<sos> we water sign not can <eos>"
+  },
+  {
+    "english": "<sos> you need to write time <eos>",
+    "isl": "<sos> you time write need <eos>"
+  },
+  {
+    "english": "<sos> i will teach monday <eos>",
+    "isl": "<sos> monday i teach <eos>"
+  },
+  {
+    "english": "<sos> i come good time <eos>",
+    "isl": "<sos> i good time come <eos>"
+  },
+  {
+    "english": "<sos> we sign phone <eos>",
+    "isl": "<sos> we phone sign <eos>"
+  },
+  {
+    "english": "<sos> where do he practice <eos>",
+    "isl": "<sos> he practice where <eos>"
+  },
+  {
+    "english": "<sos> will you need phone <eos>",
+    "isl": "<sos> you phone need will <eos>"
+  },
+  {
+    "english": "<sos> i cannot understand table <eos>",
+    "isl": "<sos> i table understand not can <eos>"
+  },
+  {
+    "english": "<sos> i want difficult name <eos>",
+    "isl": "<sos> i difficult name want <eos>"
+  },
+  {
+    "english": "<sos> i wants now <eos>",
+    "isl": "<sos> now i want <eos>"
+  },
+  {
+    "english": "<sos> when do you read <eos>",
+    "isl": "<sos> you read when <eos>"
+  },
+  {
+    "english": "<sos> they do not go food <eos>",
+    "isl": "<sos> they food go not <eos>"
+  },
+  {
+    "english": "<sos> we need to sign idea <eos>",
+    "isl": "<sos> we idea sign need <eos>"
+  },
+  {
+    "english": "<sos> they want to see time <eos>",
+    "isl": "<sos> they time see want <eos>"
+  },
+  {
+    "english": "<sos> you may work food <eos>",
+    "isl": "<sos> you food work may <eos>"
+  },
+  {
+    "english": "<sos> they come water <eos>",
+    "isl": "<sos> they water come <eos>"
+  },
+  {
+    "english": "<sos> you like old sign <eos>",
+    "isl": "<sos> you old sign like <eos>"
+  },
+  {
+    "english": "<sos> they try at work <eos>",
+    "isl": "<sos> work they try <eos>"
+  },
+  {
+    "english": "<sos> you want sad day <eos>",
+    "isl": "<sos> you sad day want <eos>"
+  },
+  {
+    "english": "<sos> he know chair <eos>",
+    "isl": "<sos> he chair know <eos>"
+  },
+  {
+    "english": "<sos> will i want pen <eos>",
+    "isl": "<sos> i pen want will <eos>"
+  },
+  {
+    "english": "<sos> he cannot like pen <eos>",
+    "isl": "<sos> he pen like not can <eos>"
+  },
+  {
+    "english": "<sos> we will go book <eos>",
+    "isl": "<sos> we book go will <eos>"
+  },
+  {
+    "english": "<sos> i am continueing water <eos>",
+    "isl": "<sos> i water continue <eos>"
+  },
+  {
+    "english": "<sos> they are practiceing chair <eos>",
+    "isl": "<sos> they chair practice <eos>"
+  },
+  {
+    "english": "<sos> may we like money <eos>",
+    "isl": "<sos> we money like may <eos>"
+  },
+  {
+    "english": "<sos> may they like food <eos>",
+    "isl": "<sos> they food like may <eos>"
+  },
+  {
+    "english": "<sos> he like difficult name <eos>",
+    "isl": "<sos> he difficult name like <eos>"
+  },
+  {
+    "english": "<sos> i need nice problem <eos>",
+    "isl": "<sos> i nice problem need <eos>"
+  },
+  {
+    "english": "<sos> you work money <eos>",
+    "isl": "<sos> you money work <eos>"
+  },
+  {
+    "english": "<sos> we like book <eos>",
+    "isl": "<sos> we book like <eos>"
+  },
+  {
+    "english": "<sos> they can go book <eos>",
+    "isl": "<sos> they book go can <eos>"
+  },
+  {
+    "english": "<sos> can we like money <eos>",
+    "isl": "<sos> we money like can <eos>"
+  },
+  {
+    "english": "<sos> can they need water <eos>",
+    "isl": "<sos> they water need can <eos>"
+  },
+  {
+    "english": "<sos> i can work book <eos>",
+    "isl": "<sos> i book work can <eos>"
+  },
+  {
+    "english": "<sos> i want to read name <eos>",
+    "isl": "<sos> i name read want <eos>"
+  },
+  {
+    "english": "<sos> you need to learn idea <eos>",
+    "isl": "<sos> you idea learn need <eos>"
+  },
+  {
+    "english": "<sos> you come good problem <eos>",
+    "isl": "<sos> you good problem come <eos>"
+  },
+  {
+    "english": "<sos> they may teach table <eos>",
+    "isl": "<sos> they table teach may <eos>"
+  },
+  {
+    "english": "<sos> you do not come chair <eos>",
+    "isl": "<sos> you chair come not <eos>"
+  },
+  {
+    "english": "<sos> he cannot think computer <eos>",
+    "isl": "<sos> he computer think not can <eos>"
+  },
+  {
+    "english": "<sos> you will write tuesday <eos>",
+    "isl": "<sos> tuesday you write <eos>"
+  },
+  {
+    "english": "<sos> will i learn chair <eos>",
+    "isl": "<sos> i chair learn will <eos>"
+  },
+  {
+    "english": "<sos> may they learn table <eos>",
+    "isl": "<sos> they table learn may <eos>"
+  },
+  {
+    "english": "<sos> we go old work <eos>",
+    "isl": "<sos> we old work go <eos>"
+  },
+  {
+    "english": "<sos> when will you learn <eos>",
+    "isl": "<sos> you learn when <eos>"
+  },
+  {
+    "english": "<sos> he want bad name <eos>",
+    "isl": "<sos> he bad name want <eos>"
+  },
+  {
+    "english": "<sos> they do not write <eos>",
+    "isl": "<sos> they write not <eos>"
+  },
+  {
+    "english": "<sos> they may work food <eos>",
+    "isl": "<sos> they food work may <eos>"
+  },
+  {
+    "english": "<sos> you want to think idea <eos>",
+    "isl": "<sos> you idea think want <eos>"
+  },
+  {
+    "english": "<sos> may we teach chair <eos>",
+    "isl": "<sos> we chair teach may <eos>"
+  },
+  {
+    "english": "<sos> he come sad day <eos>",
+    "isl": "<sos> he sad day come <eos>"
+  },
+  {
+    "english": "<sos> they need bad time <eos>",
+    "isl": "<sos> they bad time need <eos>"
+  },
+  {
+    "english": "<sos> you need to want work <eos>",
+    "isl": "<sos> you work want need <eos>"
+  },
+  {
+    "english": "<sos> we will work now <eos>",
+    "isl": "<sos> now we work <eos>"
+  },
+  {
+    "english": "<sos> i need sad answer <eos>",
+    "isl": "<sos> i sad answer need <eos>"
+  },
+  {
+    "english": "<sos> you go difficult work <eos>",
+    "isl": "<sos> you difficult work go <eos>"
+  },
+  {
+    "english": "<sos> he need to read day <eos>",
+    "isl": "<sos> he day read need <eos>"
+  },
+  {
+    "english": "<sos> he can come chair <eos>",
+    "isl": "<sos> he chair come can <eos>"
+  },
+  {
+    "english": "<sos> can i go food <eos>",
+    "isl": "<sos> i food go can <eos>"
+  },
+  {
+    "english": "<sos> you go nice time <eos>",
+    "isl": "<sos> you nice time go <eos>"
+  },
+  {
+    "english": "<sos> we will teach water <eos>",
+    "isl": "<sos> we water teach will <eos>"
+  },
+  {
+    "english": "<sos> you need to think idea <eos>",
+    "isl": "<sos> you idea think need <eos>"
+  },
+  {
+    "english": "<sos> he needs more practice <eos>",
+    "isl": "<sos> he more practice need <eos>"
+  },
+  {
+    "english": "<sos> you need important idea <eos>",
+    "isl": "<sos> you important idea need <eos>"
+  },
+  {
+    "english": "<sos> they need to see time <eos>",
+    "isl": "<sos> they time see need <eos>"
+  },
+  {
+    "english": "<sos> he trys in class <eos>",
+    "isl": "<sos> class he try <eos>"
+  },
+  {
+    "english": "<sos> they will go tuesday <eos>",
+    "isl": "<sos> tuesday they go <eos>"
+  },
+  {
+    "english": "<sos> they like big problem <eos>",
+    "isl": "<sos> they big problem like <eos>"
+  },
+  {
+    "english": "<sos> we will read yesterday <eos>",
+    "isl": "<sos> yesterday we read <eos>"
+  },
+  {
+    "english": "<sos> i need to like time <eos>",
+    "isl": "<sos> i time like need <eos>"
+  },
+  {
+    "english": "<sos> they need to understand answer <eos>",
+    "isl": "<sos> they answer understand need <eos>"
+  },
+  {
+    "english": "<sos> you cannot see chair <eos>",
+    "isl": "<sos> you chair see not can <eos>"
+  },
+  {
+    "english": "<sos> can they read water <eos>",
+    "isl": "<sos> they water read can <eos>"
+  },
+  {
+    "english": "<sos> i do not want table <eos>",
+    "isl": "<sos> i table want not <eos>"
+  },
+  {
+    "english": "<sos> they are continueing money <eos>",
+    "isl": "<sos> they money continue <eos>"
+  },
+  {
+    "english": "<sos> we go easy idea <eos>",
+    "isl": "<sos> we easy idea go <eos>"
+  },
+  {
+    "english": "<sos> he want new idea <eos>",
+    "isl": "<sos> he new idea want <eos>"
+  },
+  {
+    "english": "<sos> can they want water <eos>",
+    "isl": "<sos> they water want can <eos>"
+  },
+  {
+    "english": "<sos> may they want phone <eos>",
+    "isl": "<sos> they phone want may <eos>"
+  },
+  {
+    "english": "<sos> you think table <eos>",
+    "isl": "<sos> you table think <eos>"
+  },
+  {
+    "english": "<sos> they will like today <eos>",
+    "isl": "<sos> today they like <eos>"
+  },
+  {
+    "english": "<sos> you do not understand water <eos>",
+    "isl": "<sos> you water understand not <eos>"
+  },
+  {
+    "english": "<sos> they need difficult name <eos>",
+    "isl": "<sos> they difficult name need <eos>"
+  },
+  {
+    "english": "<sos> you go good idea <eos>",
+    "isl": "<sos> you good idea go <eos>"
+  },
+  {
+    "english": "<sos> we will learn today <eos>",
+    "isl": "<sos> today we learn <eos>"
+  },
+  {
+    "english": "<sos> we go big idea <eos>",
+    "isl": "<sos> we big idea go <eos>"
+  },
+  {
+    "english": "<sos> he will come phone <eos>",
+    "isl": "<sos> he phone come will <eos>"
+  },
+  {
+    "english": "<sos> they need bad answer <eos>",
+    "isl": "<sos> they bad answer need <eos>"
+  },
+  {
+    "english": "<sos> we can write money <eos>",
+    "isl": "<sos> we money write can <eos>"
+  },
+  {
+    "english": "<sos> you do not like food <eos>",
+    "isl": "<sos> you food like not <eos>"
+  },
+  {
+    "english": "<sos> will you like table <eos>",
+    "isl": "<sos> you table like will <eos>"
+  },
+  {
+    "english": "<sos> they will write book <eos>",
+    "isl": "<sos> they book write will <eos>"
+  },
+  {
+    "english": "<sos> we will teach friday <eos>",
+    "isl": "<sos> friday we teach <eos>"
+  },
+  {
+    "english": "<sos> will they need pen <eos>",
+    "isl": "<sos> they pen need will <eos>"
+  },
+  {
+    "english": "<sos> will you work computer <eos>",
+    "isl": "<sos> you computer work will <eos>"
+  },
+  {
+    "english": "<sos> they may write phone <eos>",
+    "isl": "<sos> they phone write may <eos>"
+  },
+  {
+    "english": "<sos> i need to want work <eos>",
+    "isl": "<sos> i work want need <eos>"
+  },
+  {
+    "english": "<sos> he need difficult sign <eos>",
+    "isl": "<sos> he difficult sign need <eos>"
+  },
+  {
+    "english": "<sos> may he like table <eos>",
+    "isl": "<sos> he table like may <eos>"
+  },
+  {
+    "english": "<sos> they do not think <eos>",
+    "isl": "<sos> they think not <eos>"
+  },
+  {
+    "english": "<sos> can they work water <eos>",
+    "isl": "<sos> they water work can <eos>"
+  },
+  {
+    "english": "<sos> will you want water <eos>",
+    "isl": "<sos> you water want will <eos>"
+  },
+  {
+    "english": "<sos> what does you want <eos>",
+    "isl": "<sos> you want what <eos>"
+  },
+  {
+    "english": "<sos> we cannot understand table <eos>",
+    "isl": "<sos> we table understand not can <eos>"
+  },
+  {
+    "english": "<sos> you gos sunday <eos>",
+    "isl": "<sos> sunday you go <eos>"
+  },
+  {
+    "english": "<sos> we do not read computer <eos>",
+    "isl": "<sos> we computer read not <eos>"
+  },
+  {
+    "english": "<sos> they come chair <eos>",
+    "isl": "<sos> they chair come <eos>"
+  },
+  {
+    "english": "<sos> i will want phone <eos>",
+    "isl": "<sos> i phone want will <eos>"
+  },
+  {
+    "english": "<sos> they go big name <eos>",
+    "isl": "<sos> they big name go <eos>"
+  },
+  {
+    "english": "<sos> he cannot think pen <eos>",
+    "isl": "<sos> he pen think not can <eos>"
+  },
+  {
+    "english": "<sos> we like food <eos>",
+    "isl": "<sos> we food like <eos>"
+  },
+  {
+    "english": "<sos> we go important sign <eos>",
+    "isl": "<sos> we important sign go <eos>"
+  },
+  {
+    "english": "<sos> i like pen <eos>",
+    "isl": "<sos> i pen like <eos>"
+  },
+  {
+    "english": "<sos> he works afternoon <eos>",
+    "isl": "<sos> afternoon he work <eos>"
+  },
+  {
+    "english": "<sos> i practice sign language <eos>",
+    "isl": "<sos> i sign language practice <eos>"
+  },
+  {
+    "english": "<sos> they needs tomorrow <eos>",
+    "isl": "<sos> tomorrow they need <eos>"
+  },
+  {
+    "english": "<sos> you need to know day <eos>",
+    "isl": "<sos> you day know need <eos>"
+  },
+  {
+    "english": "<sos> they cannot write food <eos>",
+    "isl": "<sos> they food write not can <eos>"
+  },
+  {
+    "english": "<sos> i need big work <eos>",
+    "isl": "<sos> i big work need <eos>"
+  },
+  {
+    "english": "<sos> he will write yesterday <eos>",
+    "isl": "<sos> yesterday he write <eos>"
+  },
+  {
+    "english": "<sos> he want to write question <eos>",
+    "isl": "<sos> he question write want <eos>"
+  },
+  {
+    "english": "<sos> they cannot understand phone <eos>",
+    "isl": "<sos> they phone understand not can <eos>"
+  },
+  {
+    "english": "<sos> they come food <eos>",
+    "isl": "<sos> they food come <eos>"
+  },
+  {
+    "english": "<sos> you come big name <eos>",
+    "isl": "<sos> you big name come <eos>"
+  },
+  {
+    "english": "<sos> you like nice question <eos>",
+    "isl": "<sos> you nice question like <eos>"
+  },
+  {
+    "english": "<sos> he think water <eos>",
+    "isl": "<sos> he water think <eos>"
+  },
+  {
+    "english": "<sos> he want to know problem <eos>",
+    "isl": "<sos> he problem know want <eos>"
+  },
+  {
+    "english": "<sos> he sign food <eos>",
+    "isl": "<sos> he food sign <eos>"
+  },
+  {
+    "english": "<sos> i need to know work <eos>",
+    "isl": "<sos> i work know need <eos>"
+  },
+  {
+    "english": "<sos> he reads tuesday <eos>",
+    "isl": "<sos> tuesday he read <eos>"
+  },
+  {
+    "english": "<sos> you want old idea <eos>",
+    "isl": "<sos> you old idea want <eos>"
+  },
+  {
+    "english": "<sos> he go easy sign <eos>",
+    "isl": "<sos> he easy sign go <eos>"
+  },
+  {
+    "english": "<sos> you want big problem <eos>",
+    "isl": "<sos> you big problem want <eos>"
+  },
+  {
+    "english": "<sos> he will work chair <eos>",
+    "isl": "<sos> he chair work will <eos>"
+  },
+  {
+    "english": "<sos> ten <eos>",
+    "isl": "<sos> ten <eos>"
+  },
+  {
+    "english": "<sos> can he go pen <eos>",
+    "isl": "<sos> he pen go can <eos>"
+  },
+  {
+    "english": "<sos> we need difficult sign <eos>",
+    "isl": "<sos> we difficult sign need <eos>"
+  },
+  {
+    "english": "<sos> he will need friday <eos>",
+    "isl": "<sos> friday he need <eos>"
+  },
+  {
+    "english": "<sos> she is learning <eos>",
+    "isl": "<sos> she learn <eos>"
+  },
+  {
+    "english": "<sos> may i like food <eos>",
+    "isl": "<sos> i food like may <eos>"
+  },
+  {
+    "english": "<sos> i can come food <eos>",
+    "isl": "<sos> i food come can <eos>"
+  },
+  {
+    "english": "<sos> we teach food <eos>",
+    "isl": "<sos> we food teach <eos>"
+  },
+  {
+    "english": "<sos> will we learn chair <eos>",
+    "isl": "<sos> we chair learn will <eos>"
+  },
+  {
+    "english": "<sos> may they want chair <eos>",
+    "isl": "<sos> they chair want may <eos>"
+  },
+  {
+    "english": "<sos> he will need pen <eos>",
+    "isl": "<sos> he pen need will <eos>"
+  },
+  {
+    "english": "<sos> you can need pen <eos>",
+    "isl": "<sos> you pen need can <eos>"
+  },
+  {
+    "english": "<sos> he need to sign work <eos>",
+    "isl": "<sos> he work sign need <eos>"
+  },
+  {
+    "english": "<sos> you need to come day <eos>",
+    "isl": "<sos> you day come need <eos>"
+  },
+  {
+    "english": "<sos> he know water <eos>",
+    "isl": "<sos> he water know <eos>"
+  },
+  {
+    "english": "<sos> we do not go <eos>",
+    "isl": "<sos> we go not <eos>"
+  },
+  {
+    "english": "<sos> i like water <eos>",
+    "isl": "<sos> i water like <eos>"
+  },
+  {
+    "english": "<sos> he need to like day <eos>",
+    "isl": "<sos> he day like need <eos>"
+  },
+  {
+    "english": "<sos> he come big time <eos>",
+    "isl": "<sos> he big time come <eos>"
+  },
+  {
+    "english": "<sos> he will read book <eos>",
+    "isl": "<sos> he book read will <eos>"
+  },
+  {
+    "english": "<sos> they will learn night <eos>",
+    "isl": "<sos> night they learn <eos>"
+  },
+  {
+    "english": "<sos> we come phone <eos>",
+    "isl": "<sos> we phone come <eos>"
+  },
+  {
+    "english": "<sos> they will want money <eos>",
+    "isl": "<sos> they money want will <eos>"
+  },
+  {
+    "english": "<sos> we come nice name <eos>",
+    "isl": "<sos> we nice name come <eos>"
+  },
+  {
+    "english": "<sos> they will not see <eos>",
+    "isl": "<sos> they see not <eos>"
+  },
+  {
+    "english": "<sos> i go old problem <eos>",
+    "isl": "<sos> i old problem go <eos>"
+  },
+  {
+    "english": "<sos> i need to work time <eos>",
+    "isl": "<sos> i time work need <eos>"
+  },
+  {
+    "english": "<sos> can they teach food <eos>",
+    "isl": "<sos> they food teach can <eos>"
+  },
+  {
+    "english": "<sos> we will like friday <eos>",
+    "isl": "<sos> friday we like <eos>"
+  },
+  {
+    "english": "<sos> we work computer <eos>",
+    "isl": "<sos> we computer work <eos>"
+  },
+  {
+    "english": "<sos> i may need food <eos>",
+    "isl": "<sos> i food need may <eos>"
+  },
+  {
+    "english": "<sos> you need to like answer <eos>",
+    "isl": "<sos> you answer like need <eos>"
+  },
+  {
+    "english": "<sos> i want to write question <eos>",
+    "isl": "<sos> i question write want <eos>"
+  },
+  {
+    "english": "<sos> he likes friday <eos>",
+    "isl": "<sos> friday he like <eos>"
+  },
+  {
+    "english": "<sos> he go important day <eos>",
+    "isl": "<sos> he important day go <eos>"
+  },
+  {
+    "english": "<sos> we like sad sign <eos>",
+    "isl": "<sos> we sad sign like <eos>"
+  },
+  {
+    "english": "<sos> you are takeing table <eos>",
+    "isl": "<sos> you table take <eos>"
+  },
+  {
+    "english": "<sos> he like big work <eos>",
+    "isl": "<sos> he big work like <eos>"
+  },
+  {
+    "english": "<sos> i will work table <eos>",
+    "isl": "<sos> i table work will <eos>"
+  },
+  {
+    "english": "<sos> we cannot go food <eos>",
+    "isl": "<sos> we food go not can <eos>"
+  },
+  {
+    "english": "<sos> you are continueing money <eos>",
+    "isl": "<sos> you money continue <eos>"
+  },
+  {
+    "english": "<sos> you can go water <eos>",
+    "isl": "<sos> you water go can <eos>"
+  },
+  {
+    "english": "<sos> you will want water <eos>",
+    "isl": "<sos> you water want will <eos>"
+  },
+  {
+    "english": "<sos> they may work chair <eos>",
+    "isl": "<sos> they chair work may <eos>"
+  },
+  {
+    "english": "<sos> i want to see day <eos>",
+    "isl": "<sos> i day see want <eos>"
+  },
+  {
+    "english": "<sos> we go money <eos>",
+    "isl": "<sos> we money go <eos>"
+  },
+  {
+    "english": "<sos> he want good sign <eos>",
+    "isl": "<sos> he good sign want <eos>"
+  },
+  {
+    "english": "<sos> i will work now <eos>",
+    "isl": "<sos> now i work <eos>"
+  },
+  {
+    "english": "<sos> i will not read <eos>",
+    "isl": "<sos> i read not <eos>"
+  },
+  {
+    "english": "<sos> he cannot understand water <eos>",
+    "isl": "<sos> he water understand not can <eos>"
+  },
+  {
+    "english": "<sos> can i learn chair <eos>",
+    "isl": "<sos> i chair learn can <eos>"
+  },
+  {
+    "english": "<sos> he can like computer <eos>",
+    "isl": "<sos> he computer like can <eos>"
+  },
+  {
+    "english": "<sos> i want to come answer <eos>",
+    "isl": "<sos> i answer come want <eos>"
+  },
+  {
+    "english": "<sos> you cannot come food <eos>",
+    "isl": "<sos> you food come not can <eos>"
+  },
+  {
+    "english": "<sos> we like difficult day <eos>",
+    "isl": "<sos> we difficult day like <eos>"
+  },
+  {
+    "english": "<sos> may he read phone <eos>",
+    "isl": "<sos> he phone read may <eos>"
+  },
+  {
+    "english": "<sos> he cannot teach computer <eos>",
+    "isl": "<sos> he computer teach not can <eos>"
+  },
+  {
+    "english": "<sos> what do they read <eos>",
+    "isl": "<sos> they read what <eos>"
+  },
+  {
+    "english": "<sos> will he come book <eos>",
+    "isl": "<sos> he book come will <eos>"
+  },
+  {
+    "english": "<sos> you need sad time <eos>",
+    "isl": "<sos> you sad time need <eos>"
+  },
+  {
+    "english": "<sos> he need to see question <eos>",
+    "isl": "<sos> he question see need <eos>"
+  },
+  {
+    "english": "<sos> he want important day <eos>",
+    "isl": "<sos> he important day want <eos>"
+  },
+  {
+    "english": "<sos> you works night <eos>",
+    "isl": "<sos> night you work <eos>"
+  },
+  {
+    "english": "<sos> may you learn chair <eos>",
+    "isl": "<sos> you chair learn may <eos>"
+  },
+  {
+    "english": "<sos> he will not teach <eos>",
+    "isl": "<sos> he teach not <eos>"
+  },
+  {
+    "english": "<sos> they go new idea <eos>",
+    "isl": "<sos> they new idea go <eos>"
+  },
+  {
+    "english": "<sos> i need big sign <eos>",
+    "isl": "<sos> i big sign need <eos>"
+  },
+  {
+    "english": "<sos> he do not work <eos>",
+    "isl": "<sos> he work not <eos>"
+  },
+  {
+    "english": "<sos> we will go money <eos>",
+    "isl": "<sos> we money go will <eos>"
+  },
+  {
+    "english": "<sos> good morning class <eos>",
+    "isl": "<sos> morning good class <eos>"
+  },
+  {
+    "english": "<sos> he may need pen <eos>",
+    "isl": "<sos> he pen need may <eos>"
+  },
+  {
+    "english": "<sos> they will like pen <eos>",
+    "isl": "<sos> they pen like will <eos>"
+  },
+  {
+    "english": "<sos> we need to like work <eos>",
+    "isl": "<sos> we work like need <eos>"
+  },
+  {
+    "english": "<sos> you want to teach name <eos>",
+    "isl": "<sos> you name teach want <eos>"
+  },
+  {
+    "english": "<sos> he cannot see food <eos>",
+    "isl": "<sos> he food see not can <eos>"
+  },
+  {
+    "english": "<sos> you come new idea <eos>",
+    "isl": "<sos> you new idea come <eos>"
+  },
+  {
+    "english": "<sos> will he need computer <eos>",
+    "isl": "<sos> he computer need will <eos>"
+  },
+  {
+    "english": "<sos> i do not like computer <eos>",
+    "isl": "<sos> i computer like not <eos>"
+  },
+  {
+    "english": "<sos> you may write computer <eos>",
+    "isl": "<sos> you computer write may <eos>"
+  },
+  {
+    "english": "<sos> they can read water <eos>",
+    "isl": "<sos> they water read can <eos>"
+  },
+  {
+    "english": "<sos> i will work today <eos>",
+    "isl": "<sos> today i work <eos>"
+  },
+  {
+    "english": "<sos> we need to know time <eos>",
+    "isl": "<sos> we time know need <eos>"
+  },
+  {
+    "english": "<sos> he runs in work <eos>",
+    "isl": "<sos> work he run <eos>"
+  },
+  {
+    "english": "<sos> i need to teach answer <eos>",
+    "isl": "<sos> i answer teach need <eos>"
+  },
+  {
+    "english": "<sos> they are practiceing phone <eos>",
+    "isl": "<sos> they phone practice <eos>"
+  },
+  {
+    "english": "<sos> i go book <eos>",
+    "isl": "<sos> i book go <eos>"
+  },
+  {
+    "english": "<sos> i do not think <eos>",
+    "isl": "<sos> i think not <eos>"
+  },
+  {
+    "english": "<sos> they need easy question <eos>",
+    "isl": "<sos> they easy question need <eos>"
+  },
+  {
+    "english": "<sos> i finish at class <eos>",
+    "isl": "<sos> class i finish <eos>"
+  },
+  {
+    "english": "<sos> i am eating phone <eos>",
+    "isl": "<sos> i phone eat <eos>"
+  },
+  {
+    "english": "<sos> we do not write food <eos>",
+    "isl": "<sos> we food write not <eos>"
+  },
+  {
+    "english": "<sos> i need to read question <eos>",
+    "isl": "<sos> i question read need <eos>"
+  },
+  {
+    "english": "<sos> you do not understand table <eos>",
+    "isl": "<sos> you table understand not <eos>"
+  },
+  {
+    "english": "<sos> can we learn food <eos>",
+    "isl": "<sos> we food learn can <eos>"
+  },
+  {
+    "english": "<sos> you like computer <eos>",
+    "isl": "<sos> you computer like <eos>"
+  },
+  {
+    "english": "<sos> he want old name <eos>",
+    "isl": "<sos> he old name want <eos>"
+  },
+  {
+    "english": "<sos> we continue at class <eos>",
+    "isl": "<sos> class we continue <eos>"
+  },
+  {
+    "english": "<sos> they can need water <eos>",
+    "isl": "<sos> they water need can <eos>"
+  },
+  {
+    "english": "<sos> i cannot like water <eos>",
+    "isl": "<sos> i water like not can <eos>"
+  },
+  {
+    "english": "<sos> they learn water <eos>",
+    "isl": "<sos> they water learn <eos>"
+  },
+  {
+    "english": "<sos> he do not need food <eos>",
+    "isl": "<sos> he food need not <eos>"
+  },
+  {
+    "english": "<sos> i like important day <eos>",
+    "isl": "<sos> i important day like <eos>"
+  },
+  {
+    "english": "<sos> i do not sign table <eos>",
+    "isl": "<sos> i table sign not <eos>"
+  },
+  {
+    "english": "<sos> they may teach chair <eos>",
+    "isl": "<sos> they chair teach may <eos>"
+  },
+  {
+    "english": "<sos> he need difficult day <eos>",
+    "isl": "<sos> he difficult day need <eos>"
+  },
+  {
+    "english": "<sos> can we teach pen <eos>",
+    "isl": "<sos> we pen teach can <eos>"
+  },
+  {
+    "english": "<sos> can he want phone <eos>",
+    "isl": "<sos> he phone want can <eos>"
+  },
+  {
+    "english": "<sos> he want to need answer <eos>",
+    "isl": "<sos> he answer need want <eos>"
+  },
+  {
+    "english": "<sos> he is writing notes <eos>",
+    "isl": "<sos> he note write <eos>"
+  },
+  {
+    "english": "<sos> will i like water <eos>",
+    "isl": "<sos> i water like will <eos>"
+  },
+  {
+    "english": "<sos> can you go phone <eos>",
+    "isl": "<sos> you phone go can <eos>"
+  },
+  {
+    "english": "<sos> will we learn phone <eos>",
+    "isl": "<sos> we phone learn will <eos>"
+  },
+  {
+    "english": "<sos> may you work water <eos>",
+    "isl": "<sos> you water work may <eos>"
+  },
+  {
+    "english": "<sos> he is continueing food <eos>",
+    "isl": "<sos> he food continue <eos>"
+  },
+  {
+    "english": "<sos> you sign food <eos>",
+    "isl": "<sos> you food sign <eos>"
+  },
+  {
+    "english": "<sos> i will learn tomorrow <eos>",
+    "isl": "<sos> tomorrow i learn <eos>"
+  },
+  {
+    "english": "<sos> will we go money <eos>",
+    "isl": "<sos> we money go will <eos>"
+  },
+  {
+    "english": "<sos> he does not go <eos>",
+    "isl": "<sos> he go not <eos>"
+  },
+  {
+    "english": "<sos> may they need food <eos>",
+    "isl": "<sos> they food need may <eos>"
+  },
+  {
+    "english": "<sos> will i write food <eos>",
+    "isl": "<sos> i food write will <eos>"
+  },
+  {
+    "english": "<sos> he needs tomorrow <eos>",
+    "isl": "<sos> tomorrow he need <eos>"
+  },
+  {
+    "english": "<sos> he go important name <eos>",
+    "isl": "<sos> he important name go <eos>"
+  },
+  {
+    "english": "<sos> i teaches science <eos>",
+    "isl": "<sos> i science teach <eos>"
+  },
+  {
+    "english": "<sos> you go important answer <eos>",
+    "isl": "<sos> you important answer go <eos>"
+  },
+  {
+    "english": "<sos> we cannot know book <eos>",
+    "isl": "<sos> we book know not can <eos>"
+  },
+  {
+    "english": "<sos> can he learn water <eos>",
+    "isl": "<sos> he water learn can <eos>"
+  },
+  {
+    "english": "<sos> may they read pen <eos>",
+    "isl": "<sos> they pen read may <eos>"
+  },
+  {
+    "english": "<sos> we go chair <eos>",
+    "isl": "<sos> we chair go <eos>"
+  },
+  {
+    "english": "<sos> we need to want day <eos>",
+    "isl": "<sos> we day want need <eos>"
+  },
+  {
+    "english": "<sos> you continues in class <eos>",
+    "isl": "<sos> class you continue <eos>"
+  },
+  {
+    "english": "<sos> they learn computer <eos>",
+    "isl": "<sos> they computer learn <eos>"
+  },
+  {
+    "english": "<sos> will i like food <eos>",
+    "isl": "<sos> i food like will <eos>"
+  },
+  {
+    "english": "<sos> will he work computer <eos>",
+    "isl": "<sos> he computer work will <eos>"
+  },
+  {
+    "english": "<sos> we go old day <eos>",
+    "isl": "<sos> we old day go <eos>"
+  },
+  {
+    "english": "<sos> may you work chair <eos>",
+    "isl": "<sos> you chair work may <eos>"
+  },
+  {
+    "english": "<sos> they will teach phone <eos>",
+    "isl": "<sos> they phone teach will <eos>"
+  },
+  {
+    "english": "<sos> we understand computer <eos>",
+    "isl": "<sos> we computer understand <eos>"
+  },
+  {
+    "english": "<sos> may i work chair <eos>",
+    "isl": "<sos> i chair work may <eos>"
+  },
+  {
+    "english": "<sos> he need difficult problem <eos>",
+    "isl": "<sos> he difficult problem need <eos>"
+  },
+  {
+    "english": "<sos> we will write today <eos>",
+    "isl": "<sos> today we write <eos>"
+  },
+  {
+    "english": "<sos> i need to go name <eos>",
+    "isl": "<sos> i name go need <eos>"
+  },
+  {
+    "english": "<sos> he do not sign water <eos>",
+    "isl": "<sos> he water sign not <eos>"
+  },
+  {
+    "english": "<sos> you think food <eos>",
+    "isl": "<sos> you food think <eos>"
+  },
+  {
+    "english": "<sos> you can want computer <eos>",
+    "isl": "<sos> you computer want can <eos>"
+  },
+  {
+    "english": "<sos> i may want phone <eos>",
+    "isl": "<sos> i phone want may <eos>"
+  },
+  {
+    "english": "<sos> i reads today <eos>",
+    "isl": "<sos> today i read <eos>"
+  },
+  {
+    "english": "<sos> you cannot want table <eos>",
+    "isl": "<sos> you table want not can <eos>"
+  },
+  {
+    "english": "<sos> they like nice day <eos>",
+    "isl": "<sos> they nice day like <eos>"
+  },
+  {
+    "english": "<sos> he takes in office <eos>",
+    "isl": "<sos> office he take <eos>"
+  },
+  {
+    "english": "<sos> you need good day <eos>",
+    "isl": "<sos> you good day need <eos>"
+  },
+  {
+    "english": "<sos> we will go tomorrow <eos>",
+    "isl": "<sos> tomorrow we go <eos>"
+  },
+  {
+    "english": "<sos> he go big name <eos>",
+    "isl": "<sos> he big name go <eos>"
+  },
+  {
+    "english": "<sos> we write chair <eos>",
+    "isl": "<sos> we chair write <eos>"
+  },
+  {
+    "english": "<sos> we want sad problem <eos>",
+    "isl": "<sos> we sad problem want <eos>"
+  },
+  {
+    "english": "<sos> we come bad answer <eos>",
+    "isl": "<sos> we bad answer come <eos>"
+  },
+  {
+    "english": "<sos> how new is it <eos>",
+    "isl": "<sos> it new how <eos>"
+  },
+  {
+    "english": "<sos> he practices in home <eos>",
+    "isl": "<sos> home he practice <eos>"
+  },
+  {
+    "english": "<sos> they go important answer <eos>",
+    "isl": "<sos> they important answer go <eos>"
+  },
+  {
+    "english": "<sos> i gos thursday <eos>",
+    "isl": "<sos> thursday i go <eos>"
+  },
+  {
+    "english": "<sos> i may come money <eos>",
+    "isl": "<sos> i money come may <eos>"
+  },
+  {
+    "english": "<sos> we will want afternoon <eos>",
+    "isl": "<sos> afternoon we want <eos>"
+  },
+  {
+    "english": "<sos> can he write pen <eos>",
+    "isl": "<sos> he pen write can <eos>"
+  },
+  {
+    "english": "<sos> they come big answer <eos>",
+    "isl": "<sos> they big answer come <eos>"
+  },
+  {
+    "english": "<sos> i teachs today <eos>",
+    "isl": "<sos> today i teach <eos>"
+  },
+  {
+    "english": "<sos> he see table <eos>",
+    "isl": "<sos> he table see <eos>"
+  },
+  {
+    "english": "<sos> can they work table <eos>",
+    "isl": "<sos> they table work can <eos>"
+  },
+  {
+    "english": "<sos> we like sad answer <eos>",
+    "isl": "<sos> we sad answer like <eos>"
+  },
+  {
+    "english": "<sos> you see computer <eos>",
+    "isl": "<sos> you computer see <eos>"
+  },
+  {
+    "english": "<sos> may we read water <eos>",
+    "isl": "<sos> we water read may <eos>"
+  },
+  {
+    "english": "<sos> we want to write work <eos>",
+    "isl": "<sos> we work write want <eos>"
+  },
+  {
+    "english": "<sos> we works morning <eos>",
+    "isl": "<sos> morning we work <eos>"
+  },
+  {
+    "english": "<sos> he read chair <eos>",
+    "isl": "<sos> he chair read <eos>"
+  },
+  {
+    "english": "<sos> he can learn chair <eos>",
+    "isl": "<sos> he chair learn can <eos>"
+  },
+  {
+    "english": "<sos> they will want computer <eos>",
+    "isl": "<sos> they computer want will <eos>"
+  },
+  {
+    "english": "<sos> we learns monday <eos>",
+    "isl": "<sos> monday we learn <eos>"
+  },
+  {
+    "english": "<sos> you go sad idea <eos>",
+    "isl": "<sos> you sad idea go <eos>"
+  },
+  {
+    "english": "<sos> we do not see pen <eos>",
+    "isl": "<sos> we pen see not <eos>"
+  },
+  {
+    "english": "<sos> i finish at home <eos>",
+    "isl": "<sos> home i finish <eos>"
+  },
+  {
+    "english": "<sos> i want bad name <eos>",
+    "isl": "<sos> i bad name want <eos>"
+  },
+  {
+    "english": "<sos> he need to see time <eos>",
+    "isl": "<sos> he time see need <eos>"
+  },
+  {
+    "english": "<sos> we know chair <eos>",
+    "isl": "<sos> we chair know <eos>"
+  },
+  {
+    "english": "<sos> i cannot like phone <eos>",
+    "isl": "<sos> i phone like not can <eos>"
+  },
+  {
+    "english": "<sos> we need to see question <eos>",
+    "isl": "<sos> we question see need <eos>"
+  },
+  {
+    "english": "<sos> we like sad day <eos>",
+    "isl": "<sos> we sad day like <eos>"
+  },
+  {
+    "english": "<sos> they want easy question <eos>",
+    "isl": "<sos> they easy question want <eos>"
+  },
+  {
+    "english": "<sos> can he work food <eos>",
+    "isl": "<sos> he food work can <eos>"
+  },
+  {
+    "english": "<sos> i cannot think food <eos>",
+    "isl": "<sos> i food think not can <eos>"
+  },
+  {
+    "english": "<sos> we like important sign <eos>",
+    "isl": "<sos> we important sign like <eos>"
+  },
+  {
+    "english": "<sos> he will read yesterday <eos>",
+    "isl": "<sos> yesterday he read <eos>"
+  },
+  {
+    "english": "<sos> we like old question <eos>",
+    "isl": "<sos> we old question like <eos>"
+  },
+  {
+    "english": "<sos> can he want book <eos>",
+    "isl": "<sos> he book want can <eos>"
+  },
+  {
+    "english": "<sos> he teach phone <eos>",
+    "isl": "<sos> he phone teach <eos>"
+  },
+  {
+    "english": "<sos> he need to sign problem <eos>",
+    "isl": "<sos> he problem sign need <eos>"
+  },
+  {
+    "english": "<sos> we go bad name <eos>",
+    "isl": "<sos> we bad name go <eos>"
+  },
+  {
+    "english": "<sos> you may work book <eos>",
+    "isl": "<sos> you book work may <eos>"
+  },
+  {
+    "english": "<sos> they want water <eos>",
+    "isl": "<sos> they water want <eos>"
+  },
+  {
+    "english": "<sos> they want to see sign <eos>",
+    "isl": "<sos> they sign see want <eos>"
+  },
+  {
+    "english": "<sos> i takes in class <eos>",
+    "isl": "<sos> class i take <eos>"
+  },
+  {
+    "english": "<sos> you come difficult day <eos>",
+    "isl": "<sos> you difficult day come <eos>"
+  },
+  {
+    "english": "<sos> i reads now <eos>",
+    "isl": "<sos> now i read <eos>"
+  },
+  {
+    "english": "<sos> we cannot learn chair <eos>",
+    "isl": "<sos> we chair learn not can <eos>"
+  },
+  {
+    "english": "<sos> we do not work food <eos>",
+    "isl": "<sos> we food work not <eos>"
+  },
+  {
+    "english": "<sos> they may write money <eos>",
+    "isl": "<sos> they money write may <eos>"
+  },
+  {
+    "english": "<sos> may they learn food <eos>",
+    "isl": "<sos> they food learn may <eos>"
+  },
+  {
+    "english": "<sos> he come easy question <eos>",
+    "isl": "<sos> he easy question come <eos>"
+  },
+  {
+    "english": "<sos> we works sunday <eos>",
+    "isl": "<sos> sunday we work <eos>"
+  },
+  {
+    "english": "<sos> i do not know chair <eos>",
+    "isl": "<sos> i chair know not <eos>"
+  },
+  {
+    "english": "<sos> they go important sign <eos>",
+    "isl": "<sos> they important sign go <eos>"
+  },
+  {
+    "english": "<sos> can he teach pen <eos>",
+    "isl": "<sos> he pen teach can <eos>"
+  },
+  {
+    "english": "<sos> we need to think problem <eos>",
+    "isl": "<sos> we problem think need <eos>"
+  },
+  {
+    "english": "<sos> we cannot understand book <eos>",
+    "isl": "<sos> we book understand not can <eos>"
+  },
+  {
+    "english": "<sos> we go nice name <eos>",
+    "isl": "<sos> we nice name go <eos>"
+  },
+  {
+    "english": "<sos> they can work pen <eos>",
+    "isl": "<sos> they pen work can <eos>"
+  },
+  {
+    "english": "<sos> we cannot need chair <eos>",
+    "isl": "<sos> we chair need not can <eos>"
+  },
+  {
+    "english": "<sos> i will need water <eos>",
+    "isl": "<sos> i water need will <eos>"
+  },
+  {
+    "english": "<sos> they need important day <eos>",
+    "isl": "<sos> they important day need <eos>"
+  },
+  {
+    "english": "<sos> we can need phone <eos>",
+    "isl": "<sos> we phone need can <eos>"
+  },
+  {
+    "english": "<sos> they want to want question <eos>",
+    "isl": "<sos> they question want want <eos>"
+  },
+  {
+    "english": "<sos> i sign food <eos>",
+    "isl": "<sos> i food sign <eos>"
+  },
+  {
+    "english": "<sos> he like easy work <eos>",
+    "isl": "<sos> he easy work like <eos>"
+  },
+  {
+    "english": "<sos> may i want pen <eos>",
+    "isl": "<sos> i pen want may <eos>"
+  },
+  {
+    "english": "<sos> he will read monday <eos>",
+    "isl": "<sos> monday he read <eos>"
+  },
+  {
+    "english": "<sos> we will work pen <eos>",
+    "isl": "<sos> we pen work will <eos>"
+  },
+  {
+    "english": "<sos> they want pen <eos>",
+    "isl": "<sos> they pen want <eos>"
+  },
+  {
+    "english": "<sos> we can read book <eos>",
+    "isl": "<sos> we book read can <eos>"
+  },
+  {
+    "english": "<sos> they practice at class <eos>",
+    "isl": "<sos> class they practice <eos>"
+  },
+  {
+    "english": "<sos> they like new time <eos>",
+    "isl": "<sos> they new time like <eos>"
+  },
+  {
+    "english": "<sos> you will work evening <eos>",
+    "isl": "<sos> evening you work <eos>"
+  },
+  {
+    "english": "<sos> you need easy work <eos>",
+    "isl": "<sos> you easy work need <eos>"
+  },
+  {
+    "english": "<sos> will he read computer <eos>",
+    "isl": "<sos> he computer read will <eos>"
+  },
+  {
+    "english": "<sos> we cannot work computer <eos>",
+    "isl": "<sos> we computer work not can <eos>"
+  },
+  {
+    "english": "<sos> he come old name <eos>",
+    "isl": "<sos> he old name come <eos>"
+  },
+  {
+    "english": "<sos> he cannot come computer <eos>",
+    "isl": "<sos> he computer come not can <eos>"
+  },
+  {
+    "english": "<sos> may we teach table <eos>",
+    "isl": "<sos> we table teach may <eos>"
+  },
+  {
+    "english": "<sos> we teach water <eos>",
+    "isl": "<sos> we water teach <eos>"
+  },
+  {
+    "english": "<sos> we gos yesterday <eos>",
+    "isl": "<sos> yesterday we go <eos>"
+  },
+  {
+    "english": "<sos> will they write food <eos>",
+    "isl": "<sos> they food write will <eos>"
+  },
+  {
+    "english": "<sos> i will come sunday <eos>",
+    "isl": "<sos> sunday i come <eos>"
+  },
+  {
+    "english": "<sos> where do we try <eos>",
+    "isl": "<sos> we try where <eos>"
+  },
+  {
+    "english": "<sos> they reads evening <eos>",
+    "isl": "<sos> evening they read <eos>"
+  },
+  {
+    "english": "<sos> we go nice question <eos>",
+    "isl": "<sos> we nice question go <eos>"
+  },
+  {
+    "english": "<sos> we are continueing computer <eos>",
+    "isl": "<sos> we computer continue <eos>"
+  },
+  {
+    "english": "<sos> you need to want name <eos>",
+    "isl": "<sos> you name want need <eos>"
+  },
+  {
+    "english": "<sos> he want important name <eos>",
+    "isl": "<sos> he important name want <eos>"
+  },
+  {
+    "english": "<sos> they does not know <eos>",
+    "isl": "<sos> they know not <eos>"
+  },
+  {
+    "english": "<sos> you like difficult time <eos>",
+    "isl": "<sos> you difficult time like <eos>"
+  },
+  {
+    "english": "<sos> i cannot come pen <eos>",
+    "isl": "<sos> i pen come not can <eos>"
+  },
+  {
+    "english": "<sos> we go difficult day <eos>",
+    "isl": "<sos> we difficult day go <eos>"
+  },
+  {
+    "english": "<sos> they may like food <eos>",
+    "isl": "<sos> they food like may <eos>"
+  },
+  {
+    "english": "<sos> you work table <eos>",
+    "isl": "<sos> you table work <eos>"
+  },
+  {
+    "english": "<sos> they like sad problem <eos>",
+    "isl": "<sos> they sad problem like <eos>"
+  },
+  {
+    "english": "<sos> they needs monday <eos>",
+    "isl": "<sos> monday they need <eos>"
+  },
+  {
+    "english": "<sos> they come good problem <eos>",
+    "isl": "<sos> they good problem come <eos>"
+  },
+  {
+    "english": "<sos> i want to like idea <eos>",
+    "isl": "<sos> i idea like want <eos>"
+  },
+  {
+    "english": "<sos> they come new problem <eos>",
+    "isl": "<sos> they new problem come <eos>"
+  },
+  {
+    "english": "<sos> he come nice sign <eos>",
+    "isl": "<sos> he nice sign come <eos>"
+  },
+  {
+    "english": "<sos> we like important idea <eos>",
+    "isl": "<sos> we important idea like <eos>"
+  },
+  {
+    "english": "<sos> you will want table <eos>",
+    "isl": "<sos> you table want will <eos>"
+  },
+  {
+    "english": "<sos> you do not go computer <eos>",
+    "isl": "<sos> you computer go not <eos>"
+  },
+  {
+    "english": "<sos> we think food <eos>",
+    "isl": "<sos> we food think <eos>"
+  },
+  {
+    "english": "<sos> we understand book <eos>",
+    "isl": "<sos> we book understand <eos>"
+  },
+  {
+    "english": "<sos> i cannot see food <eos>",
+    "isl": "<sos> i food see not can <eos>"
+  },
+  {
+    "english": "<sos> you cannot go chair <eos>",
+    "isl": "<sos> you chair go not can <eos>"
+  },
+  {
+    "english": "<sos> i come bad name <eos>",
+    "isl": "<sos> i bad name come <eos>"
+  },
+  {
+    "english": "<sos> you will come money <eos>",
+    "isl": "<sos> you money come will <eos>"
+  },
+  {
+    "english": "<sos> i cannot need water <eos>",
+    "isl": "<sos> i water need not can <eos>"
+  },
+  {
+    "english": "<sos> he needs night <eos>",
+    "isl": "<sos> night he need <eos>"
+  },
+  {
+    "english": "<sos> can we like water <eos>",
+    "isl": "<sos> we water like can <eos>"
+  },
+  {
+    "english": "<sos> we want to write question <eos>",
+    "isl": "<sos> we question write want <eos>"
+  },
+  {
+    "english": "<sos> may they want table <eos>",
+    "isl": "<sos> they table want may <eos>"
+  },
+  {
+    "english": "<sos> i am trying money <eos>",
+    "isl": "<sos> i money try <eos>"
+  },
+  {
+    "english": "<sos> he writes sunday <eos>",
+    "isl": "<sos> sunday he write <eos>"
+  },
+  {
+    "english": "<sos> he will want thursday <eos>",
+    "isl": "<sos> thursday he want <eos>"
+  },
+  {
+    "english": "<sos> they want big day <eos>",
+    "isl": "<sos> they big day want <eos>"
+  },
+  {
+    "english": "<sos> i come sad idea <eos>",
+    "isl": "<sos> i sad idea come <eos>"
+  },
+  {
+    "english": "<sos> we go new question <eos>",
+    "isl": "<sos> we new question go <eos>"
+  },
+  {
+    "english": "<sos> we need good idea <eos>",
+    "isl": "<sos> we good idea need <eos>"
+  },
+  {
+    "english": "<sos> will he read chair <eos>",
+    "isl": "<sos> he chair read will <eos>"
+  },
+  {
+    "english": "<sos> they like nice idea <eos>",
+    "isl": "<sos> they nice idea like <eos>"
+  },
+  {
+    "english": "<sos> they cannot work phone <eos>",
+    "isl": "<sos> they phone work not can <eos>"
+  },
+  {
+    "english": "<sos> he will go pen <eos>",
+    "isl": "<sos> he pen go will <eos>"
+  },
+  {
+    "english": "<sos> he will learn tomorrow <eos>",
+    "isl": "<sos> tomorrow he learn <eos>"
+  },
+  {
+    "english": "<sos> when will we come <eos>",
+    "isl": "<sos> we come when <eos>"
+  },
+  {
+    "english": "<sos> they do not sign pen <eos>",
+    "isl": "<sos> they pen sign not <eos>"
+  },
+  {
+    "english": "<sos> he needs sunday <eos>",
+    "isl": "<sos> sunday he need <eos>"
+  },
+  {
+    "english": "<sos> he is runing food <eos>",
+    "isl": "<sos> he food run <eos>"
+  },
+  {
+    "english": "<sos> you practice at home <eos>",
+    "isl": "<sos> home you practice <eos>"
+  },
+  {
+    "english": "<sos> we do not understand chair <eos>",
+    "isl": "<sos> we chair understand not <eos>"
+  },
+  {
+    "english": "<sos> you do not know pen <eos>",
+    "isl": "<sos> you pen know not <eos>"
+  },
+  {
+    "english": "<sos> we want big idea <eos>",
+    "isl": "<sos> we big idea want <eos>"
+  },
+  {
+    "english": "<sos> i can teach book <eos>",
+    "isl": "<sos> i book teach can <eos>"
+  },
+  {
+    "english": "<sos> we go pen <eos>",
+    "isl": "<sos> we pen go <eos>"
+  },
+  {
+    "english": "<sos> he will need evening <eos>",
+    "isl": "<sos> evening he need <eos>"
+  },
+  {
+    "english": "<sos> may he come phone <eos>",
+    "isl": "<sos> he phone come may <eos>"
+  },
+  {
+    "english": "<sos> you cannot want pen <eos>",
+    "isl": "<sos> you pen want not can <eos>"
+  },
+  {
+    "english": "<sos> we want to learn work <eos>",
+    "isl": "<sos> we work learn want <eos>"
+  },
+  {
+    "english": "<sos> they may write chair <eos>",
+    "isl": "<sos> they chair write may <eos>"
+  },
+  {
+    "english": "<sos> may you read money <eos>",
+    "isl": "<sos> you money read may <eos>"
+  },
+  {
+    "english": "<sos> we come big problem <eos>",
+    "isl": "<sos> we big problem come <eos>"
+  },
+  {
+    "english": "<sos> you see table <eos>",
+    "isl": "<sos> you table see <eos>"
+  },
+  {
+    "english": "<sos> i can come pen <eos>",
+    "isl": "<sos> i pen come can <eos>"
+  },
+  {
+    "english": "<sos> i like important sign <eos>",
+    "isl": "<sos> i important sign like <eos>"
+  },
+  {
+    "english": "<sos> you want difficult question <eos>",
+    "isl": "<sos> you difficult question want <eos>"
+  },
+  {
+    "english": "<sos> you will learn tomorrow <eos>",
+    "isl": "<sos> tomorrow you learn <eos>"
+  },
+  {
+    "english": "<sos> he finish at work <eos>",
+    "isl": "<sos> work he finish <eos>"
+  },
+  {
+    "english": "<sos> they may come phone <eos>",
+    "isl": "<sos> they phone come may <eos>"
+  },
+  {
+    "english": "<sos> we may come table <eos>",
+    "isl": "<sos> we table come may <eos>"
+  },
+  {
+    "english": "<sos> we will come tomorrow <eos>",
+    "isl": "<sos> tomorrow we come <eos>"
+  },
+  {
+    "english": "<sos> you are welcome <eos>",
+    "isl": "<sos> welcome <eos>"
+  },
+  {
+    "english": "<sos> he cannot know water <eos>",
+    "isl": "<sos> he water know not can <eos>"
+  },
+  {
+    "english": "<sos> may you work computer <eos>",
+    "isl": "<sos> you computer work may <eos>"
+  },
+  {
+    "english": "<sos> they writes yesterday <eos>",
+    "isl": "<sos> yesterday they write <eos>"
+  },
+  {
+    "english": "<sos> he will come book <eos>",
+    "isl": "<sos> he book come will <eos>"
+  },
+  {
+    "english": "<sos> you understand phone <eos>",
+    "isl": "<sos> you phone understand <eos>"
+  },
+  {
+    "english": "<sos> they do not teach computer <eos>",
+    "isl": "<sos> they computer teach not <eos>"
+  },
+  {
+    "english": "<sos> i need bad name <eos>",
+    "isl": "<sos> i bad name need <eos>"
+  },
+  {
+    "english": "<sos> they need to come name <eos>",
+    "isl": "<sos> they name come need <eos>"
+  },
+  {
+    "english": "<sos> we come easy answer <eos>",
+    "isl": "<sos> we easy answer come <eos>"
+  },
+  {
+    "english": "<sos> will you read water <eos>",
+    "isl": "<sos> you water read will <eos>"
+  },
+  {
+    "english": "<sos> i come book <eos>",
+    "isl": "<sos> i book come <eos>"
+  },
+  {
+    "english": "<sos> we will go pen <eos>",
+    "isl": "<sos> we pen go will <eos>"
+  },
+  {
+    "english": "<sos> i cannot read pen <eos>",
+    "isl": "<sos> i pen read not can <eos>"
+  },
+  {
+    "english": "<sos> they teach water <eos>",
+    "isl": "<sos> they water teach <eos>"
+  },
+  {
+    "english": "<sos> he want to come name <eos>",
+    "isl": "<sos> he name come want <eos>"
+  },
+  {
+    "english": "<sos> they cannot work water <eos>",
+    "isl": "<sos> they water work not can <eos>"
+  },
+  {
+    "english": "<sos> we like difficult problem <eos>",
+    "isl": "<sos> we difficult problem like <eos>"
+  },
+  {
+    "english": "<sos> you will want friday <eos>",
+    "isl": "<sos> friday you want <eos>"
+  },
+  {
+    "english": "<sos> we like money <eos>",
+    "isl": "<sos> we money like <eos>"
+  },
+  {
+    "english": "<sos> i want new time <eos>",
+    "isl": "<sos> i new time want <eos>"
+  },
+  {
+    "english": "<sos> they do not need <eos>",
+    "isl": "<sos> they need not <eos>"
+  },
+  {
+    "english": "<sos> i do not think phone <eos>",
+    "isl": "<sos> i phone think not <eos>"
+  },
+  {
+    "english": "<sos> we come nice question <eos>",
+    "isl": "<sos> we nice question come <eos>"
+  },
+  {
+    "english": "<sos> they need new name <eos>",
+    "isl": "<sos> they new name need <eos>"
+  },
+  {
+    "english": "<sos> he go nice day <eos>",
+    "isl": "<sos> he nice day go <eos>"
+  },
+  {
+    "english": "<sos> where is the classroom <eos>",
+    "isl": "<sos> classroom where <eos>"
+  },
+  {
+    "english": "<sos> they will like night <eos>",
+    "isl": "<sos> night they like <eos>"
+  },
+  {
+    "english": "<sos> they cannot think book <eos>",
+    "isl": "<sos> they book think not can <eos>"
+  },
+  {
+    "english": "<sos> you do not want food <eos>",
+    "isl": "<sos> you food want not <eos>"
+  },
+  {
+    "english": "<sos> we do not work phone <eos>",
+    "isl": "<sos> we phone work not <eos>"
+  },
+  {
+    "english": "<sos> they may read money <eos>",
+    "isl": "<sos> they money read may <eos>"
+  },
+  {
+    "english": "<sos> he want easy work <eos>",
+    "isl": "<sos> he easy work want <eos>"
+  },
+  {
+    "english": "<sos> we are finishing money <eos>",
+    "isl": "<sos> we money finish <eos>"
+  },
+  {
+    "english": "<sos> he want to understand sign <eos>",
+    "isl": "<sos> he sign understand want <eos>"
+  },
+  {
+    "english": "<sos> may he need phone <eos>",
+    "isl": "<sos> he phone need may <eos>"
+  },
+  {
+    "english": "<sos> they cannot think pen <eos>",
+    "isl": "<sos> they pen think not can <eos>"
+  },
+  {
+    "english": "<sos> may he teach water <eos>",
+    "isl": "<sos> he water teach may <eos>"
+  },
+  {
+    "english": "<sos> we can go food <eos>",
+    "isl": "<sos> we food go can <eos>"
+  },
+  {
+    "english": "<sos> we will like monday <eos>",
+    "isl": "<sos> monday we like <eos>"
+  },
+  {
+    "english": "<sos> he cannot work phone <eos>",
+    "isl": "<sos> he phone work not can <eos>"
+  },
+  {
+    "english": "<sos> they may write pen <eos>",
+    "isl": "<sos> they pen write may <eos>"
+  },
+  {
+    "english": "<sos> can we come money <eos>",
+    "isl": "<sos> we money come can <eos>"
+  },
+  {
+    "english": "<sos> language <eos>",
+    "isl": "<sos> language <eos>"
+  },
+  {
+    "english": "<sos> we want bad idea <eos>",
+    "isl": "<sos> we bad idea want <eos>"
+  },
+  {
+    "english": "<sos> i go difficult answer <eos>",
+    "isl": "<sos> i difficult answer go <eos>"
+  },
+  {
+    "english": "<sos> i go big work <eos>",
+    "isl": "<sos> i big work go <eos>"
+  },
+  {
+    "english": "<sos> you will write thursday <eos>",
+    "isl": "<sos> thursday you write <eos>"
+  },
+  {
+    "english": "<sos> may i come pen <eos>",
+    "isl": "<sos> i pen come may <eos>"
+  },
+  {
+    "english": "<sos> you may need phone <eos>",
+    "isl": "<sos> you phone need may <eos>"
+  },
+  {
+    "english": "<sos> who knows the answer <eos>",
+    "isl": "<sos> answer know who <eos>"
+  },
+  {
+    "english": "<sos> they are eating phone <eos>",
+    "isl": "<sos> they phone eat <eos>"
+  },
+  {
+    "english": "<sos> you will want tomorrow <eos>",
+    "isl": "<sos> tomorrow you want <eos>"
+  },
+  {
+    "english": "<sos> he go old question <eos>",
+    "isl": "<sos> he old question go <eos>"
+  },
+  {
+    "english": "<sos> he cannot see table <eos>",
+    "isl": "<sos> he table see not can <eos>"
+  },
+  {
+    "english": "<sos> can he go water <eos>",
+    "isl": "<sos> he water go can <eos>"
+  },
+  {
+    "english": "<sos> they comes afternoon <eos>",
+    "isl": "<sos> afternoon they come <eos>"
+  },
+  {
+    "english": "<sos> you want to see name <eos>",
+    "isl": "<sos> you name see want <eos>"
+  },
+  {
+    "english": "<sos> he want to teach question <eos>",
+    "isl": "<sos> he question teach want <eos>"
+  },
+  {
+    "english": "<sos> may he come computer <eos>",
+    "isl": "<sos> he computer come may <eos>"
+  },
+  {
+    "english": "<sos> he can learn food <eos>",
+    "isl": "<sos> he food learn can <eos>"
+  },
+  {
+    "english": "<sos> you needs tuesday <eos>",
+    "isl": "<sos> tuesday you need <eos>"
+  },
+  {
+    "english": "<sos> i need good idea <eos>",
+    "isl": "<sos> i good idea need <eos>"
+  },
+  {
+    "english": "<sos> you go old problem <eos>",
+    "isl": "<sos> you old problem go <eos>"
+  },
+  {
+    "english": "<sos> he do not see water <eos>",
+    "isl": "<sos> he water see not <eos>"
+  },
+  {
+    "english": "<sos> they can work phone <eos>",
+    "isl": "<sos> they phone work can <eos>"
+  },
+  {
+    "english": "<sos> i cannot work chair <eos>",
+    "isl": "<sos> i chair work not can <eos>"
+  },
+  {
+    "english": "<sos> he want to sign day <eos>",
+    "isl": "<sos> he day sign want <eos>"
+  },
+  {
+    "english": "<sos> you are practiceing money <eos>",
+    "isl": "<sos> you money practice <eos>"
+  },
+  {
+    "english": "<sos> he want to think question <eos>",
+    "isl": "<sos> he question think want <eos>"
+  },
+  {
+    "english": "<sos> we teach table <eos>",
+    "isl": "<sos> we table teach <eos>"
+  },
+  {
+    "english": "<sos> i likes today <eos>",
+    "isl": "<sos> today i like <eos>"
+  },
+  {
+    "english": "<sos> we will read morning <eos>",
+    "isl": "<sos> morning we read <eos>"
+  },
+  {
+    "english": "<sos> you like easy day <eos>",
+    "isl": "<sos> you easy day like <eos>"
+  },
+  {
+    "english": "<sos> you want big idea <eos>",
+    "isl": "<sos> you big idea want <eos>"
+  },
+  {
+    "english": "<sos> you take at class <eos>",
+    "isl": "<sos> class you take <eos>"
+  },
+  {
+    "english": "<sos> you want to want question <eos>",
+    "isl": "<sos> you question want want <eos>"
+  },
+  {
+    "english": "<sos> they come nice idea <eos>",
+    "isl": "<sos> they nice idea come <eos>"
+  },
+  {
+    "english": "<sos> you works friday <eos>",
+    "isl": "<sos> friday you work <eos>"
+  },
+  {
+    "english": "<sos> they are runing pen <eos>",
+    "isl": "<sos> they pen run <eos>"
+  },
+  {
+    "english": "<sos> i cannot sign book <eos>",
+    "isl": "<sos> i book sign not can <eos>"
+  },
+  {
+    "english": "<sos> yesterday <eos>",
+    "isl": "<sos> yesterday <eos>"
+  },
+  {
+    "english": "<sos> we want difficult answer <eos>",
+    "isl": "<sos> we difficult answer want <eos>"
+  },
+  {
+    "english": "<sos> we want to want day <eos>",
+    "isl": "<sos> we day want want <eos>"
+  },
+  {
+    "english": "<sos> we will teach table <eos>",
+    "isl": "<sos> we table teach will <eos>"
+  },
+  {
+    "english": "<sos> i do not like phone <eos>",
+    "isl": "<sos> i phone like not <eos>"
+  },
+  {
+    "english": "<sos> they reads today <eos>",
+    "isl": "<sos> today they read <eos>"
+  },
+  {
+    "english": "<sos> you need to learn sign <eos>",
+    "isl": "<sos> you sign learn need <eos>"
+  },
+  {
+    "english": "<sos> i go good name <eos>",
+    "isl": "<sos> i good name go <eos>"
+  },
+  {
+    "english": "<sos> he like good idea <eos>",
+    "isl": "<sos> he good idea like <eos>"
+  },
+  {
+    "english": "<sos> i am not ready <eos>",
+    "isl": "<sos> i ready not <eos>"
+  }
+]

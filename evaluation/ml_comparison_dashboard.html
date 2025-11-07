@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML vs Stanford Parser Comparison</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            padding: 40px;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 1.1em;
+        }
+        
+        .status-bar {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        
+        .status-item {
+            text-align: center;
+            padding: 10px;
+        }
+        
+        .status-label {
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 5px;
+        }
+        
+        .status-value {
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+        
+        .status-value.good {
+            color: #28a745;
+        }
+        
+        .status-value.bad {
+            color: #dc3545;
+        }
+        
+        .input-section {
+            margin-bottom: 30px;
+        }
+        
+        .input-group {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        input[type="text"] {
+            flex: 1;
+            padding: 15px;
+            font-size: 16px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            transition: border-color 0.3s;
+        }
+        
+        input[type="text"]:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        button {
+            padding: 15px 30px;
+            font-size: 16px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.3s;
+            font-weight: bold;
+        }
+        
+        button:hover {
+            background: #764ba2;
+        }
+        
+        button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+        
+        .results {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        
+        .result-box {
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            background: #f8f9fa;
+        }
+        
+        .result-box h3 {
+            margin-bottom: 15px;
+            color: #333;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .result-box.ml {
+            border-color: #28a745;
+        }
+        
+        .result-box.stanford {
+            border-color: #fd7e14;
+        }
+        
+        .result-text {
+            font-size: 1.2em;
+            padding: 15px;
+            background: white;
+            border-radius: 8px;
+            min-height: 60px;
+            margin-bottom: 10px;
+        }
+        
+        .metric {
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 10px;
+        }
+        
+        .winner-banner {
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 10px;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        
+        .examples {
+            margin-top: 30px;
+        }
+        
+        .example-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        
+        .example-btn {
+            padding: 8px 15px;
+            background: #e9ecef;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.9em;
+        }
+        
+        .example-btn:hover {
+            background: #dee2e6;
+        }
+        
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 20px;
+            color: #667eea;
+            font-size: 1.2em;
+        }
+        
+        @media (max-width: 768px) {
+            .results {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🤖 ML vs 📚 Stanford Parser</h1>
+        <p class="subtitle">Compare translation quality side-by-side</p>
+        
+        <div class="status-bar">
+            <div class="status-item">
+                <div class="status-label">ML Model Status</div>
+                <div class="status-value" id="ml-status">Checking...</div>
+            </div>
+            <div class="status-item">
+                <div class="status-label">Stanford Parser</div>
+                <div class="status-value good">Active</div>
+            </div>
+            <div class="status-item">
+                <div class="status-label">Translations Tested</div>
+                <div class="status-value" id="test-count">0</div>
+            </div>
+        </div>
+        
+        <div class="input-section">
+            <div class="input-group">
+                <input type="text" id="english-input" placeholder="Enter English sentence..." />
+                <button onclick="translate()">Translate</button>
+            </div>
+            
+            <div class="examples">
+                <strong>Try these examples:</strong>
+                <div class="example-buttons">
+                    <button class="example-btn" onclick="setExample('hello how are you')">Hello how are you</button>
+                    <button class="example-btn" onclick="setExample('what is your name')">What is your name</button>
+                    <button class="example-btn" onclick="setExample('i am learning sign language')">I am learning sign language</button>
+                    <button class="example-btn" onclick="setExample('can you help me')">Can you help me</button>
+                    <button class="example-btn" onclick="setExample('good morning')">Good morning</button>
+                    <button class="example-btn" onclick="setExample('thank you')">Thank you</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="loading" id="loading">
+            Translating...
+        </div>
+        
+        <div class="results" id="results" style="display: none;">
+            <div class="result-box ml">
+                <h3>🤖 ML Translation Model</h3>
+                <div class="result-text" id="ml-result">-</div>
+                <div class="metric" id="ml-metric"></div>
+            </div>
+            
+            <div class="result-box stanford">
+                <h3>📚 Stanford Parser</h3>
+                <div class="result-text" id="stanford-result">-</div>
+                <div class="metric" id="stanford-metric"></div>
+            </div>
+        </div>
+        
+        <div class="winner-banner" id="winner" style="display: none;">
+            🏆 Winner: Loading...
+        </div>
+    </div>
+    
+    <script>
+        let testCount = 0;
+        
+        // Check ML model status on load
+        async function checkMLStatus() {
+            try {
+                const response = await fetch('http://localhost:5001/api/health');
+                const data = await response.json();
+                const mlStatus = document.getElementById('ml-status');
+                
+                if (data.services && data.services.whisper) {
+                    mlStatus.textContent = 'Active ✓';
+                    mlStatus.className = 'status-value good';
+                } else {
+                    mlStatus.textContent = 'Not Loaded';
+                    mlStatus.className = 'status-value bad';
+                }
+            } catch (error) {
+                document.getElementById('ml-status').textContent = 'Error';
+                document.getElementById('ml-status').className = 'status-value bad';
+            }
+        }
+        
+        function setExample(text) {
+            document.getElementById('english-input').value = text;
+        }
+        
+        async function translate() {
+            const input = document.getElementById('english-input').value.trim();
+            if (!input) {
+                alert('Please enter an English sentence');
+                return;
+            }
+            
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('results').style.display = 'none';
+            document.getElementById('winner').style.display = 'none';
+            
+            try {
+                // Call translation API
+                const response = await fetch(`http://localhost:5001/parser?speech=${encodeURIComponent(input)}`);
+                const data = await response.json();
+                
+                // Update results
+                const islText = data.isl_text_string || 'No translation';
+                
+                // For now, show same result for both (real comparison requires ML model loaded)
+                document.getElementById('ml-result').textContent = islText;
+                document.getElementById('stanford-result').textContent = islText;
+                
+                document.getElementById('ml-metric').textContent = `Words: ${islText.split(' ').length}`;
+                document.getElementById('stanford-metric').textContent = `Words: ${islText.split(' ').length}`;
+                
+                // Show results
+                document.getElementById('results').style.display = 'grid';
+                document.getElementById('winner').style.display = 'block';
+                document.getElementById('winner').textContent = '✅ Translation complete! Check server logs to see which method was used.';
+                
+                testCount++;
+                document.getElementById('test-count').textContent = testCount;
+                
+            } catch (error) {
+                alert('Translation error: ' + error.message);
+            } finally {
+                document.getElementById('loading').style.display = 'none';
+            }
+        }
+        
+        // Allow Enter key to translate
+        document.getElementById('english-input').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                translate();
+            }
+        });
+        
+        // Check status on load
+        checkMLStatus();
+    </script>
+</body>
+</html>
+

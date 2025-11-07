@@ -1,0 +1,1210 @@
+[
+  {
+    "english": "<sos> she eat at down <eos>",
+    "isl": "<sos> down she eat <eos>"
+  },
+  {
+    "english": "<sos> i can finish class <eos>",
+    "isl": "<sos> i class finish can <eos>"
+  },
+  {
+    "english": "<sos> i did not arrive <eos>",
+    "isl": "<sos> i arrive not <eos>"
+  },
+  {
+    "english": "<sos> you feel book <eos>",
+    "isl": "<sos> you book feel <eos>"
+  },
+  {
+    "english": "<sos> i learn answer <eos>",
+    "isl": "<sos> i answer learn <eos>"
+  },
+  {
+    "english": "<sos> should i go <eos>",
+    "isl": "<sos> i go should <eos>"
+  },
+  {
+    "english": "<sos> olympics <eos>",
+    "isl": "<sos> olympics <eos>"
+  },
+  {
+    "english": "<sos> clap <eos>",
+    "isl": "<sos> clap <eos>"
+  },
+  {
+    "english": "<sos> you eat book <eos>",
+    "isl": "<sos> you book eat <eos>"
+  },
+  {
+    "english": "<sos> w <eos>",
+    "isl": "<sos> w <eos>"
+  },
+  {
+    "english": "<sos> you do not arrive <eos>",
+    "isl": "<sos> you arrive not <eos>"
+  },
+  {
+    "english": "<sos> i feel chair <eos>",
+    "isl": "<sos> i chair feel <eos>"
+  },
+  {
+    "english": "<sos> chemistry <eos>",
+    "isl": "<sos> chemistry <eos>"
+  },
+  {
+    "english": "<sos> interesting <eos>",
+    "isl": "<sos> interesting <eos>"
+  },
+  {
+    "english": "<sos> power <eos>",
+    "isl": "<sos> power <eos>"
+  },
+  {
+    "english": "<sos> i will come april <eos>",
+    "isl": "<sos> april i come <eos>"
+  },
+  {
+    "english": "<sos> sorry <eos>",
+    "isl": "<sos> sorry <eos>"
+  },
+  {
+    "english": "<sos> do i eat <eos>",
+    "isl": "<sos> i eat do <eos>"
+  },
+  {
+    "english": "<sos> she want to learn work <eos>",
+    "isl": "<sos> she work learn want <eos>"
+  },
+  {
+    "english": "<sos> i know class <eos>",
+    "isl": "<sos> i class know <eos>"
+  },
+  {
+    "english": "<sos> i will know april <eos>",
+    "isl": "<sos> april i know <eos>"
+  },
+  {
+    "english": "<sos> he eats in down <eos>",
+    "isl": "<sos> down he eat <eos>"
+  },
+  {
+    "english": "<sos> yours <eos>",
+    "isl": "<sos> yours <eos>"
+  },
+  {
+    "english": "<sos> in <eos>",
+    "isl": "<sos> in <eos>"
+  },
+  {
+    "english": "<sos> transport <eos>",
+    "isl": "<sos> transport <eos>"
+  },
+  {
+    "english": "<sos> you want to learn book <eos>",
+    "isl": "<sos> you book learn want <eos>"
+  },
+  {
+    "english": "<sos> la <eos>",
+    "isl": "<sos> la <eos>"
+  },
+  {
+    "english": "<sos> who is boy <eos>",
+    "isl": "<sos> boy who <eos>"
+  },
+  {
+    "english": "<sos> i continue food <eos>",
+    "isl": "<sos> i food continue <eos>"
+  },
+  {
+    "english": "<sos> alone <eos>",
+    "isl": "<sos> alone <eos>"
+  },
+  {
+    "english": "<sos> cricket <eos>",
+    "isl": "<sos> cricket <eos>"
+  },
+  {
+    "english": "<sos> my boy is beautiful <eos>",
+    "isl": "<sos> my boy beautiful <eos>"
+  },
+  {
+    "english": "<sos> tighten <eos>",
+    "isl": "<sos> tighten <eos>"
+  },
+  {
+    "english": "<sos> communicate <eos>",
+    "isl": "<sos> communicate <eos>"
+  },
+  {
+    "english": "<sos> without <eos>",
+    "isl": "<sos> without <eos>"
+  },
+  {
+    "english": "<sos> 2 <eos>",
+    "isl": "<sos> 2 <eos>"
+  },
+  {
+    "english": "<sos> i want to learn sign language <eos>",
+    "isl": "<sos> i sign language learn want <eos>"
+  },
+  {
+    "english": "<sos> should i learn <eos>",
+    "isl": "<sos> i learn should <eos>"
+  },
+  {
+    "english": "<sos> who is chair <eos>",
+    "isl": "<sos> chair who <eos>"
+  },
+  {
+    "english": "<sos> i did not finish <eos>",
+    "isl": "<sos> i finish not <eos>"
+  },
+  {
+    "english": "<sos> my car is correct <eos>",
+    "isl": "<sos> my car correct <eos>"
+  },
+  {
+    "english": "<sos> where can i arrive <eos>",
+    "isl": "<sos> i arrive where can <eos>"
+  },
+  {
+    "english": "<sos> will i know <eos>",
+    "isl": "<sos> i know will <eos>"
+  },
+  {
+    "english": "<sos> you go book <eos>",
+    "isl": "<sos> you book go <eos>"
+  },
+  {
+    "english": "<sos> i finish child <eos>",
+    "isl": "<sos> i child finish <eos>"
+  },
+  {
+    "english": "<sos> what is the girl <eos>",
+    "isl": "<sos> girl what <eos>"
+  },
+  {
+    "english": "<sos> i arrive home <eos>",
+    "isl": "<sos> i home arrive <eos>"
+  },
+  {
+    "english": "<sos> he want to teach work <eos>",
+    "isl": "<sos> he work teach want <eos>"
+  },
+  {
+    "english": "<sos> fruit <eos>",
+    "isl": "<sos> fruit <eos>"
+  },
+  {
+    "english": "<sos> i could come boy <eos>",
+    "isl": "<sos> i boy come could <eos>"
+  },
+  {
+    "english": "<sos> you did not feel <eos>",
+    "isl": "<sos> you feel not <eos>"
+  },
+  {
+    "english": "<sos> she continues afternoon <eos>",
+    "isl": "<sos> afternoon she continue <eos>"
+  },
+  {
+    "english": "<sos> he gos afternoon <eos>",
+    "isl": "<sos> afternoon he go <eos>"
+  },
+  {
+    "english": "<sos> you do not continue <eos>",
+    "isl": "<sos> you continue not <eos>"
+  },
+  {
+    "english": "<sos> go <eos>",
+    "isl": "<sos> go <eos>"
+  },
+  {
+    "english": "<sos> save <eos>",
+    "isl": "<sos> save <eos>"
+  },
+  {
+    "english": "<sos> tap <eos>",
+    "isl": "<sos> tap <eos>"
+  },
+  {
+    "english": "<sos> you finish boy <eos>",
+    "isl": "<sos> you boy finish <eos>"
+  },
+  {
+    "english": "<sos> university <eos>",
+    "isl": "<sos> university <eos>"
+  },
+  {
+    "english": "<sos> i continue computer <eos>",
+    "isl": "<sos> i computer continue <eos>"
+  },
+  {
+    "english": "<sos> ugly <eos>",
+    "isl": "<sos> ugly <eos>"
+  },
+  {
+    "english": "<sos> borrow <eos>",
+    "isl": "<sos> borrow <eos>"
+  },
+  {
+    "english": "<sos> merry christmas <eos>",
+    "isl": "<sos> christmas happy <eos>"
+  },
+  {
+    "english": "<sos> pink <eos>",
+    "isl": "<sos> pink <eos>"
+  },
+  {
+    "english": "<sos> i go car <eos>",
+    "isl": "<sos> i car go <eos>"
+  },
+  {
+    "english": "<sos> i did not go <eos>",
+    "isl": "<sos> i go not <eos>"
+  },
+  {
+    "english": "<sos> how about you <eos>",
+    "isl": "<sos> you how <eos>"
+  },
+  {
+    "english": "<sos> what is class <eos>",
+    "isl": "<sos> class what <eos>"
+  },
+  {
+    "english": "<sos> i arrive class <eos>",
+    "isl": "<sos> i class arrive <eos>"
+  },
+  {
+    "english": "<sos> she want to study language <eos>",
+    "isl": "<sos> she language study want <eos>"
+  },
+  {
+    "english": "<sos> you finishs afternoon <eos>",
+    "isl": "<sos> afternoon you finish <eos>"
+  },
+  {
+    "english": "<sos> he arrives in down <eos>",
+    "isl": "<sos> down he arrive <eos>"
+  },
+  {
+    "english": "<sos> tomato <eos>",
+    "isl": "<sos> tomato <eos>"
+  },
+  {
+    "english": "<sos> i come phone <eos>",
+    "isl": "<sos> i phone come <eos>"
+  },
+  {
+    "english": "<sos> you continue book <eos>",
+    "isl": "<sos> you book continue <eos>"
+  },
+  {
+    "english": "<sos> i know idea <eos>",
+    "isl": "<sos> i idea know <eos>"
+  },
+  {
+    "english": "<sos> openhand <eos>",
+    "isl": "<sos> openhand <eos>"
+  },
+  {
+    "english": "<sos> i could feel boy <eos>",
+    "isl": "<sos> i boy feel could <eos>"
+  },
+  {
+    "english": "<sos> i could feel computer <eos>",
+    "isl": "<sos> i computer feel could <eos>"
+  },
+  {
+    "english": "<sos> i arrive at far <eos>",
+    "isl": "<sos> far i arrive <eos>"
+  },
+  {
+    "english": "<sos> you try to study work <eos>",
+    "isl": "<sos> you work study try <eos>"
+  },
+  {
+    "english": "<sos> improve <eos>",
+    "isl": "<sos> improve <eos>"
+  },
+  {
+    "english": "<sos> trophy <eos>",
+    "isl": "<sos> trophy <eos>"
+  },
+  {
+    "english": "<sos> i cannot come <eos>",
+    "isl": "<sos> i come not can <eos>"
+  },
+  {
+    "english": "<sos> climb <eos>",
+    "isl": "<sos> climb <eos>"
+  },
+  {
+    "english": "<sos> toward <eos>",
+    "isl": "<sos> toward <eos>"
+  },
+  {
+    "english": "<sos> i finish at down <eos>",
+    "isl": "<sos> down i finish <eos>"
+  },
+  {
+    "english": "<sos> i can come car <eos>",
+    "isl": "<sos> i car come can <eos>"
+  },
+  {
+    "english": "<sos> 3 <eos>",
+    "isl": "<sos> 3 <eos>"
+  },
+  {
+    "english": "<sos> you does not feel <eos>",
+    "isl": "<sos> you feel not <eos>"
+  },
+  {
+    "english": "<sos> should you leave <eos>",
+    "isl": "<sos> you leave should <eos>"
+  },
+  {
+    "english": "<sos> you need to help book <eos>",
+    "isl": "<sos> you book help need <eos>"
+  },
+  {
+    "english": "<sos> my car is beautiful <eos>",
+    "isl": "<sos> my car beautiful <eos>"
+  },
+  {
+    "english": "<sos> answer <eos>",
+    "isl": "<sos> answer <eos>"
+  },
+  {
+    "english": "<sos> semi-roundhand <eos>",
+    "isl": "<sos> semi-roundhand <eos>"
+  },
+  {
+    "english": "<sos> i cannot eat <eos>",
+    "isl": "<sos> i eat not can <eos>"
+  },
+  {
+    "english": "<sos> i can arrive chair <eos>",
+    "isl": "<sos> i chair arrive can <eos>"
+  },
+  {
+    "english": "<sos> i know name <eos>",
+    "isl": "<sos> i name know <eos>"
+  },
+  {
+    "english": "<sos> difficult <eos>",
+    "isl": "<sos> difficult <eos>"
+  },
+  {
+    "english": "<sos> or <eos>",
+    "isl": "<sos> or <eos>"
+  },
+  {
+    "english": "<sos> lorry <eos>",
+    "isl": "<sos> lorry <eos>"
+  },
+  {
+    "english": "<sos> what is your answer <eos>",
+    "isl": "<sos> your answer what <eos>"
+  },
+  {
+    "english": "<sos> i know answer <eos>",
+    "isl": "<sos> i answer know <eos>"
+  },
+  {
+    "english": "<sos> thursday <eos>",
+    "isl": "<sos> thursday <eos>"
+  },
+  {
+    "english": "<sos> line <eos>",
+    "isl": "<sos> line <eos>"
+  },
+  {
+    "english": "<sos> bridge <eos>",
+    "isl": "<sos> bridge <eos>"
+  },
+  {
+    "english": "<sos> one <eos>",
+    "isl": "<sos> one <eos>"
+  },
+  {
+    "english": "<sos> i can know book <eos>",
+    "isl": "<sos> i book know can <eos>"
+  },
+  {
+    "english": "<sos> bring <eos>",
+    "isl": "<sos> bring <eos>"
+  },
+  {
+    "english": "<sos> how easy is it <eos>",
+    "isl": "<sos> it easy how <eos>"
+  },
+  {
+    "english": "<sos> forever <eos>",
+    "isl": "<sos> forever <eos>"
+  },
+  {
+    "english": "<sos> drinking <eos>",
+    "isl": "<sos> drinking <eos>"
+  },
+  {
+    "english": "<sos> my boy is easy <eos>",
+    "isl": "<sos> my boy easy <eos>"
+  },
+  {
+    "english": "<sos> ignore <eos>",
+    "isl": "<sos> ignore <eos>"
+  },
+  {
+    "english": "<sos> i leave name <eos>",
+    "isl": "<sos> i name leave <eos>"
+  },
+  {
+    "english": "<sos> talk <eos>",
+    "isl": "<sos> talk <eos>"
+  },
+  {
+    "english": "<sos> you learn chair <eos>",
+    "isl": "<sos> you chair learn <eos>"
+  },
+  {
+    "english": "<sos> you do not feel <eos>",
+    "isl": "<sos> you feel not <eos>"
+  },
+  {
+    "english": "<sos> koli <eos>",
+    "isl": "<sos> koli <eos>"
+  },
+  {
+    "english": "<sos> do you leave <eos>",
+    "isl": "<sos> you leave do <eos>"
+  },
+  {
+    "english": "<sos> iv <eos>",
+    "isl": "<sos> iv <eos>"
+  },
+  {
+    "english": "<sos> how correct is it <eos>",
+    "isl": "<sos> it correct how <eos>"
+  },
+  {
+    "english": "<sos> where do you arrive <eos>",
+    "isl": "<sos> you arrive where <eos>"
+  },
+  {
+    "english": "<sos> i arrives afternoon <eos>",
+    "isl": "<sos> afternoon i arrive <eos>"
+  },
+  {
+    "english": "<sos> i go food <eos>",
+    "isl": "<sos> i food go <eos>"
+  },
+  {
+    "english": "<sos> arrest <eos>",
+    "isl": "<sos> arrest <eos>"
+  },
+  {
+    "english": "<sos> repeat <eos>",
+    "isl": "<sos> repeat <eos>"
+  },
+  {
+    "english": "<sos> past <eos>",
+    "isl": "<sos> past <eos>"
+  },
+  {
+    "english": "<sos> note-money <eos>",
+    "isl": "<sos> note-money <eos>"
+  },
+  {
+    "english": "<sos> circus <eos>",
+    "isl": "<sos> circus <eos>"
+  },
+  {
+    "english": "<sos> i know computer <eos>",
+    "isl": "<sos> i computer know <eos>"
+  },
+  {
+    "english": "<sos> ticketchecker <eos>",
+    "isl": "<sos> ticketchecker <eos>"
+  },
+  {
+    "english": "<sos> i could arrive answer <eos>",
+    "isl": "<sos> i answer arrive could <eos>"
+  },
+  {
+    "english": "<sos> many <eos>",
+    "isl": "<sos> many <eos>"
+  },
+  {
+    "english": "<sos> you comes afternoon <eos>",
+    "isl": "<sos> afternoon you come <eos>"
+  },
+  {
+    "english": "<sos> black <eos>",
+    "isl": "<sos> black <eos>"
+  },
+  {
+    "english": "<sos> circle <eos>",
+    "isl": "<sos> circle <eos>"
+  },
+  {
+    "english": "<sos> britain <eos>",
+    "isl": "<sos> britain <eos>"
+  },
+  {
+    "english": "<sos> you need to teach language <eos>",
+    "isl": "<sos> you language teach need <eos>"
+  },
+  {
+    "english": "<sos> when do you arrive <eos>",
+    "isl": "<sos> you arrive when <eos>"
+  },
+  {
+    "english": "<sos> anothertime <eos>",
+    "isl": "<sos> anothertime <eos>"
+  },
+  {
+    "english": "<sos> i learn girl <eos>",
+    "isl": "<sos> i girl learn <eos>"
+  },
+  {
+    "english": "<sos> n-n(norfolk) <eos>",
+    "isl": "<sos> n-n(norfolk) <eos>"
+  },
+  {
+    "english": "<sos> teacher is teaching sign language today <eos>",
+    "isl": "<sos> today teacher sign language teach <eos>"
+  },
+  {
+    "english": "<sos> possible <eos>",
+    "isl": "<sos> possible <eos>"
+  },
+  {
+    "english": "<sos> should i know <eos>",
+    "isl": "<sos> i know should <eos>"
+  },
+  {
+    "english": "<sos> i could know boy <eos>",
+    "isl": "<sos> i boy know could <eos>"
+  },
+  {
+    "english": "<sos> book <eos>",
+    "isl": "<sos> book <eos>"
+  },
+  {
+    "english": "<sos> no thank you <eos>",
+    "isl": "<sos> no thank you <eos>"
+  },
+  {
+    "english": "<sos> stay <eos>",
+    "isl": "<sos> stay <eos>"
+  },
+  {
+    "english": "<sos> i could know answer <eos>",
+    "isl": "<sos> i answer know could <eos>"
+  },
+  {
+    "english": "<sos> you arrives afternoon <eos>",
+    "isl": "<sos> afternoon you arrive <eos>"
+  },
+  {
+    "english": "<sos> b <eos>",
+    "isl": "<sos> b <eos>"
+  },
+  {
+    "english": "<sos> sad <eos>",
+    "isl": "<sos> sad <eos>"
+  },
+  {
+    "english": "<sos> he finishs in down <eos>",
+    "isl": "<sos> down he finish <eos>"
+  },
+  {
+    "english": "<sos> i continue day <eos>",
+    "isl": "<sos> i day continue <eos>"
+  },
+  {
+    "english": "<sos> library <eos>",
+    "isl": "<sos> library <eos>"
+  },
+  {
+    "english": "<sos> loss1 <eos>",
+    "isl": "<sos> loss1 <eos>"
+  },
+  {
+    "english": "<sos> i know home <eos>",
+    "isl": "<sos> i home know <eos>"
+  },
+  {
+    "english": "<sos> catch <eos>",
+    "isl": "<sos> catch <eos>"
+  },
+  {
+    "english": "<sos> nice <eos>",
+    "isl": "<sos> nice <eos>"
+  },
+  {
+    "english": "<sos> where do you continue <eos>",
+    "isl": "<sos> you continue where <eos>"
+  },
+  {
+    "english": "<sos> i continue car <eos>",
+    "isl": "<sos> i car continue <eos>"
+  },
+  {
+    "english": "<sos> i cannot leave <eos>",
+    "isl": "<sos> i leave not can <eos>"
+  },
+  {
+    "english": "<sos> keyboard <eos>",
+    "isl": "<sos> keyboard <eos>"
+  },
+  {
+    "english": "<sos> what is the answer <eos>",
+    "isl": "<sos> answer what <eos>"
+  },
+  {
+    "english": "<sos> i could learn chair <eos>",
+    "isl": "<sos> i chair learn could <eos>"
+  },
+  {
+    "english": "<sos> i could finish child <eos>",
+    "isl": "<sos> i child finish could <eos>"
+  },
+  {
+    "english": "<sos> you go answer <eos>",
+    "isl": "<sos> you answer go <eos>"
+  },
+  {
+    "english": "<sos> worry <eos>",
+    "isl": "<sos> worry <eos>"
+  },
+  {
+    "english": "<sos> thermus <eos>",
+    "isl": "<sos> thermus <eos>"
+  },
+  {
+    "english": "<sos> man <eos>",
+    "isl": "<sos> man <eos>"
+  },
+  {
+    "english": "<sos> bible <eos>",
+    "isl": "<sos> bible <eos>"
+  },
+  {
+    "english": "<sos> should you learn <eos>",
+    "isl": "<sos> you learn should <eos>"
+  },
+  {
+    "english": "<sos> i could continue child <eos>",
+    "isl": "<sos> i child continue could <eos>"
+  },
+  {
+    "english": "<sos> i go day <eos>",
+    "isl": "<sos> i day go <eos>"
+  },
+  {
+    "english": "<sos> i can continue boy <eos>",
+    "isl": "<sos> i boy continue can <eos>"
+  },
+  {
+    "english": "<sos> i need to teach book <eos>",
+    "isl": "<sos> i book teach need <eos>"
+  },
+  {
+    "english": "<sos> clown <eos>",
+    "isl": "<sos> clown <eos>"
+  },
+  {
+    "english": "<sos> h <eos>",
+    "isl": "<sos> h <eos>"
+  },
+  {
+    "english": "<sos> she leaves afternoon <eos>",
+    "isl": "<sos> afternoon she leave <eos>"
+  },
+  {
+    "english": "<sos> my car is bad <eos>",
+    "isl": "<sos> my car bad <eos>"
+  },
+  {
+    "english": "<sos> i knows in far <eos>",
+    "isl": "<sos> far i know <eos>"
+  },
+  {
+    "english": "<sos> she eats in down <eos>",
+    "isl": "<sos> down she eat <eos>"
+  },
+  {
+    "english": "<sos> q <eos>",
+    "isl": "<sos> q <eos>"
+  },
+  {
+    "english": "<sos> you feels in down <eos>",
+    "isl": "<sos> down you feel <eos>"
+  },
+  {
+    "english": "<sos> nineoclock <eos>",
+    "isl": "<sos> nineoclock <eos>"
+  },
+  {
+    "english": "<sos> i feel computer <eos>",
+    "isl": "<sos> i computer feel <eos>"
+  },
+  {
+    "english": "<sos> i can go car <eos>",
+    "isl": "<sos> i car go can <eos>"
+  },
+  {
+    "english": "<sos> you leave boy <eos>",
+    "isl": "<sos> you boy leave <eos>"
+  },
+  {
+    "english": "<sos> i cannot love <eos>",
+    "isl": "<sos> i love not can <eos>"
+  },
+  {
+    "english": "<sos> you need to help language <eos>",
+    "isl": "<sos> you language help need <eos>"
+  },
+  {
+    "english": "<sos> i can finish child <eos>",
+    "isl": "<sos> i child finish can <eos>"
+  },
+  {
+    "english": "<sos> i could learn car <eos>",
+    "isl": "<sos> i car learn could <eos>"
+  },
+  {
+    "english": "<sos> date <eos>",
+    "isl": "<sos> date <eos>"
+  },
+  {
+    "english": "<sos> we arrives in down <eos>",
+    "isl": "<sos> down we arrive <eos>"
+  },
+  {
+    "english": "<sos> we gos afternoon <eos>",
+    "isl": "<sos> afternoon we go <eos>"
+  },
+  {
+    "english": "<sos> married <eos>",
+    "isl": "<sos> married <eos>"
+  },
+  {
+    "english": "<sos> i can know child <eos>",
+    "isl": "<sos> i child know can <eos>"
+  },
+  {
+    "english": "<sos> she want to study book <eos>",
+    "isl": "<sos> she book study want <eos>"
+  },
+  {
+    "english": "<sos> cry <eos>",
+    "isl": "<sos> cry <eos>"
+  },
+  {
+    "english": "<sos> science <eos>",
+    "isl": "<sos> science <eos>"
+  },
+  {
+    "english": "<sos> walkacross <eos>",
+    "isl": "<sos> walkacross <eos>"
+  },
+  {
+    "english": "<sos> i could continue class <eos>",
+    "isl": "<sos> i class continue could <eos>"
+  },
+  {
+    "english": "<sos> can you go <eos>",
+    "isl": "<sos> you go can <eos>"
+  },
+  {
+    "english": "<sos> n <eos>",
+    "isl": "<sos> n <eos>"
+  },
+  {
+    "english": "<sos> hardofhearing <eos>",
+    "isl": "<sos> hardofhearing <eos>"
+  },
+  {
+    "english": "<sos> weapon <eos>",
+    "isl": "<sos> weapon <eos>"
+  },
+  {
+    "english": "<sos> plan <eos>",
+    "isl": "<sos> plan <eos>"
+  },
+  {
+    "english": "<sos> i leave phone <eos>",
+    "isl": "<sos> i phone leave <eos>"
+  },
+  {
+    "english": "<sos> she gos afternoon <eos>",
+    "isl": "<sos> afternoon she go <eos>"
+  },
+  {
+    "english": "<sos> later <eos>",
+    "isl": "<sos> later <eos>"
+  },
+  {
+    "english": "<sos> i can finish book <eos>",
+    "isl": "<sos> i book finish can <eos>"
+  },
+  {
+    "english": "<sos> weaver <eos>",
+    "isl": "<sos> weaver <eos>"
+  },
+  {
+    "english": "<sos> examination <eos>",
+    "isl": "<sos> examination <eos>"
+  },
+  {
+    "english": "<sos> knowledge <eos>",
+    "isl": "<sos> knowledge <eos>"
+  },
+  {
+    "english": "<sos> tennis <eos>",
+    "isl": "<sos> tennis <eos>"
+  },
+  {
+    "english": "<sos> complaint <eos>",
+    "isl": "<sos> complaint <eos>"
+  },
+  {
+    "english": "<sos> you will not eat <eos>",
+    "isl": "<sos> you eat not <eos>"
+  },
+  {
+    "english": "<sos> i could know computer <eos>",
+    "isl": "<sos> i computer know could <eos>"
+  },
+  {
+    "english": "<sos> fail-loser <eos>",
+    "isl": "<sos> fail-loser <eos>"
+  },
+  {
+    "english": "<sos> i eat name <eos>",
+    "isl": "<sos> i name eat <eos>"
+  },
+  {
+    "english": "<sos> west <eos>",
+    "isl": "<sos> west <eos>"
+  },
+  {
+    "english": "<sos> practice <eos>",
+    "isl": "<sos> practice <eos>"
+  },
+  {
+    "english": "<sos> axe <eos>",
+    "isl": "<sos> axe <eos>"
+  },
+  {
+    "english": "<sos> she arrives in down <eos>",
+    "isl": "<sos> down she arrive <eos>"
+  },
+  {
+    "english": "<sos> i go problem <eos>",
+    "isl": "<sos> i problem go <eos>"
+  },
+  {
+    "english": "<sos> accept <eos>",
+    "isl": "<sos> accept <eos>"
+  },
+  {
+    "english": "<sos> letter <eos>",
+    "isl": "<sos> letter <eos>"
+  },
+  {
+    "english": "<sos> increase <eos>",
+    "isl": "<sos> increase <eos>"
+  },
+  {
+    "english": "<sos> where do you meet <eos>",
+    "isl": "<sos> you meet where <eos>"
+  },
+  {
+    "english": "<sos> i eat class <eos>",
+    "isl": "<sos> i class eat <eos>"
+  },
+  {
+    "english": "<sos> will i come <eos>",
+    "isl": "<sos> i come will <eos>"
+  },
+  {
+    "english": "<sos> take <eos>",
+    "isl": "<sos> take <eos>"
+  },
+  {
+    "english": "<sos> i continue problem <eos>",
+    "isl": "<sos> i problem continue <eos>"
+  },
+  {
+    "english": "<sos> do he learn <eos>",
+    "isl": "<sos> he learn do <eos>"
+  },
+  {
+    "english": "<sos> what is your class <eos>",
+    "isl": "<sos> your class what <eos>"
+  },
+  {
+    "english": "<sos> i will finish afternoon <eos>",
+    "isl": "<sos> afternoon i finish <eos>"
+  },
+  {
+    "english": "<sos> i eat day <eos>",
+    "isl": "<sos> i day eat <eos>"
+  },
+  {
+    "english": "<sos> climbup <eos>",
+    "isl": "<sos> climbup <eos>"
+  },
+  {
+    "english": "<sos> we gos in down <eos>",
+    "isl": "<sos> down we go <eos>"
+  },
+  {
+    "english": "<sos> kerala <eos>",
+    "isl": "<sos> kerala <eos>"
+  },
+  {
+    "english": "<sos> attend <eos>",
+    "isl": "<sos> attend <eos>"
+  },
+  {
+    "english": "<sos> i cannot learn <eos>",
+    "isl": "<sos> i learn not can <eos>"
+  },
+  {
+    "english": "<sos> draw <eos>",
+    "isl": "<sos> draw <eos>"
+  },
+  {
+    "english": "<sos> vegetable <eos>",
+    "isl": "<sos> vegetable <eos>"
+  },
+  {
+    "english": "<sos> i leaves april <eos>",
+    "isl": "<sos> april i leave <eos>"
+  },
+  {
+    "english": "<sos> should i leave <eos>",
+    "isl": "<sos> i leave should <eos>"
+  },
+  {
+    "english": "<sos> i do not eat <eos>",
+    "isl": "<sos> i eat not <eos>"
+  },
+  {
+    "english": "<sos> open <eos>",
+    "isl": "<sos> open <eos>"
+  },
+  {
+    "english": "<sos> aeroplane <eos>",
+    "isl": "<sos> aeroplane <eos>"
+  },
+  {
+    "english": "<sos> where do you come <eos>",
+    "isl": "<sos> you come where <eos>"
+  },
+  {
+    "english": "<sos> complain <eos>",
+    "isl": "<sos> complain <eos>"
+  },
+  {
+    "english": "<sos> my book is correct <eos>",
+    "isl": "<sos> my book correct <eos>"
+  },
+  {
+    "english": "<sos> why do you continue <eos>",
+    "isl": "<sos> you continue why <eos>"
+  },
+  {
+    "english": "<sos> i eat home <eos>",
+    "isl": "<sos> i home eat <eos>"
+  },
+  {
+    "english": "<sos> i want to teach work <eos>",
+    "isl": "<sos> i work teach want <eos>"
+  },
+  {
+    "english": "<sos> finish <eos>",
+    "isl": "<sos> finish <eos>"
+  },
+  {
+    "english": "<sos> she need to learn work <eos>",
+    "isl": "<sos> she work learn need <eos>"
+  },
+  {
+    "english": "<sos> our <eos>",
+    "isl": "<sos> our <eos>"
+  },
+  {
+    "english": "<sos> my <eos>",
+    "isl": "<sos> my <eos>"
+  },
+  {
+    "english": "<sos> them <eos>",
+    "isl": "<sos> them <eos>"
+  },
+  {
+    "english": "<sos> she feels afternoon <eos>",
+    "isl": "<sos> afternoon she feel <eos>"
+  },
+  {
+    "english": "<sos> i arrive food <eos>",
+    "isl": "<sos> i food arrive <eos>"
+  },
+  {
+    "english": "<sos> quick <eos>",
+    "isl": "<sos> quick <eos>"
+  },
+  {
+    "english": "<sos> i can know answer <eos>",
+    "isl": "<sos> i answer know can <eos>"
+  },
+  {
+    "english": "<sos> we finish at down <eos>",
+    "isl": "<sos> down we finish <eos>"
+  },
+  {
+    "english": "<sos> i come food <eos>",
+    "isl": "<sos> i food come <eos>"
+  },
+  {
+    "english": "<sos> do i feel <eos>",
+    "isl": "<sos> i feel do <eos>"
+  },
+  {
+    "english": "<sos> well <eos>",
+    "isl": "<sos> well <eos>"
+  },
+  {
+    "english": "<sos> i eat person <eos>",
+    "isl": "<sos> i person eat <eos>"
+  },
+  {
+    "english": "<sos> i feel money <eos>",
+    "isl": "<sos> i money feel <eos>"
+  },
+  {
+    "english": "<sos> she learns afternoon <eos>",
+    "isl": "<sos> afternoon she learn <eos>"
+  },
+  {
+    "english": "<sos> i continue pen <eos>",
+    "isl": "<sos> i pen continue <eos>"
+  },
+  {
+    "english": "<sos> water1 <eos>",
+    "isl": "<sos> water1 <eos>"
+  },
+  {
+    "english": "<sos> i could arrive book <eos>",
+    "isl": "<sos> i book arrive could <eos>"
+  },
+  {
+    "english": "<sos> she want to study work <eos>",
+    "isl": "<sos> she work study want <eos>"
+  },
+  {
+    "english": "<sos> i could know chair <eos>",
+    "isl": "<sos> i chair know could <eos>"
+  },
+  {
+    "english": "<sos> equal <eos>",
+    "isl": "<sos> equal <eos>"
+  },
+  {
+    "english": "<sos> she knows in down <eos>",
+    "isl": "<sos> down she know <eos>"
+  },
+  {
+    "english": "<sos> you want to help book <eos>",
+    "isl": "<sos> you book help want <eos>"
+  },
+  {
+    "english": "<sos> whistle <eos>",
+    "isl": "<sos> whistle <eos>"
+  },
+  {
+    "english": "<sos> i eat idea <eos>",
+    "isl": "<sos> i idea eat <eos>"
+  },
+  {
+    "english": "<sos> do he know <eos>",
+    "isl": "<sos> he know do <eos>"
+  },
+  {
+    "english": "<sos> under <eos>",
+    "isl": "<sos> under <eos>"
+  },
+  {
+    "english": "<sos> what is the day <eos>",
+    "isl": "<sos> day what <eos>"
+  },
+  {
+    "english": "<sos> you leave car <eos>",
+    "isl": "<sos> you car leave <eos>"
+  },
+  {
+    "english": "<sos> you want to teach language <eos>",
+    "isl": "<sos> you language teach want <eos>"
+  },
+  {
+    "english": "<sos> i could continue boy <eos>",
+    "isl": "<sos> i boy continue could <eos>"
+  },
+  {
+    "english": "<sos> i comes afternoon <eos>",
+    "isl": "<sos> afternoon i come <eos>"
+  },
+  {
+    "english": "<sos> we continue at down <eos>",
+    "isl": "<sos> down we continue <eos>"
+  },
+  {
+    "english": "<sos> 7 <eos>",
+    "isl": "<sos> 7 <eos>"
+  },
+  {
+    "english": "<sos> should you finish <eos>",
+    "isl": "<sos> you finish should <eos>"
+  },
+  {
+    "english": "<sos> will i go <eos>",
+    "isl": "<sos> i go will <eos>"
+  },
+  {
+    "english": "<sos> old <eos>",
+    "isl": "<sos> old <eos>"
+  },
+  {
+    "english": "<sos> lend <eos>",
+    "isl": "<sos> lend <eos>"
+  },
+  {
+    "english": "<sos> i cannot go <eos>",
+    "isl": "<sos> i go not can <eos>"
+  },
+  {
+    "english": "<sos> you need to learn language <eos>",
+    "isl": "<sos> you language learn need <eos>"
+  },
+  {
+    "english": "<sos> i go computer <eos>",
+    "isl": "<sos> i computer go <eos>"
+  },
+  {
+    "english": "<sos> fall <eos>",
+    "isl": "<sos> fall <eos>"
+  },
+  {
+    "english": "<sos> nurse <eos>",
+    "isl": "<sos> nurse <eos>"
+  },
+  {
+    "english": "<sos> when do you learn <eos>",
+    "isl": "<sos> you learn when <eos>"
+  }
+]

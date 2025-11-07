@@ -758,6 +758,11 @@ def parseit():
 def index():
     return app.send_static_file('index.html')
 
+@app.route('/ml-comparison')
+def ml_comparison():
+    """ML comparison dashboard"""
+    return send_file('evaluation/ml_comparison_dashboard.html')
+
 @app.route('/hamnosysData/<path:filename>', methods=['GET', 'POST'])
 def serve_hamnosys(filename):
     """Serve cached AnimGen JSON frames (local fallback for animgen server)."""

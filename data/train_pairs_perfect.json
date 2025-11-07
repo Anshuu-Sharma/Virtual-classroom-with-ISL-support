@@ -1,0 +1,1250 @@
+[
+  {
+    "english": "<sos> we learn together and support each other <eos>",
+    "isl": "<sos> we together learn each other support <eos>"
+  },
+  {
+    "english": "<sos> four <eos>",
+    "isl": "<sos> four <eos>"
+  },
+  {
+    "english": "<sos> they practice in morning <eos>",
+    "isl": "<sos> morning they practice <eos>"
+  },
+  {
+    "english": "<sos> not now <eos>",
+    "isl": "<sos> now not <eos>"
+  },
+  {
+    "english": "<sos> i read the book <eos>",
+    "isl": "<sos> i book read <eos>"
+  },
+  {
+    "english": "<sos> we do not have time <eos>",
+    "isl": "<sos> we time have not <eos>"
+  },
+  {
+    "english": "<sos> would you explain this <eos>",
+    "isl": "<sos> you this explain would <eos>"
+  },
+  {
+    "english": "<sos> when will you come <eos>",
+    "isl": "<sos> you come when <eos>"
+  },
+  {
+    "english": "<sos> i can speak sign language <eos>",
+    "isl": "<sos> i sign language speak can <eos>"
+  },
+  {
+    "english": "<sos> excuse me <eos>",
+    "isl": "<sos> excuse <eos>"
+  },
+  {
+    "english": "<sos> do you understand <eos>",
+    "isl": "<sos> you understand <eos>"
+  },
+  {
+    "english": "<sos> yes i can <eos>",
+    "isl": "<sos> yes i can <eos>"
+  },
+  {
+    "english": "<sos> he study english <eos>",
+    "isl": "<sos> he english study <eos>"
+  },
+  {
+    "english": "<sos> why is this important <eos>",
+    "isl": "<sos> this important why <eos>"
+  },
+  {
+    "english": "<sos> ten <eos>",
+    "isl": "<sos> ten <eos>"
+  },
+  {
+    "english": "<sos> take care <eos>",
+    "isl": "<sos> care take <eos>"
+  },
+  {
+    "english": "<sos> where should i go <eos>",
+    "isl": "<sos> i go where should <eos>"
+  },
+  {
+    "english": "<sos> they need to practice more <eos>",
+    "isl": "<sos> they more practice need <eos>"
+  },
+  {
+    "english": "<sos> i do not know <eos>",
+    "isl": "<sos> i know not <eos>"
+  },
+  {
+    "english": "<sos> we meet in class <eos>",
+    "isl": "<sos> class we meet <eos>"
+  },
+  {
+    "english": "<sos> i study english <eos>",
+    "isl": "<sos> i english study <eos>"
+  },
+  {
+    "english": "<sos> i practice sign language <eos>",
+    "isl": "<sos> i sign language practice <eos>"
+  },
+  {
+    "english": "<sos> keep practicing <eos>",
+    "isl": "<sos> practice continue <eos>"
+  },
+  {
+    "english": "<sos> teacher is explaining the lesson <eos>",
+    "isl": "<sos> teacher lesson explain <eos>"
+  },
+  {
+    "english": "<sos> this is not right <eos>",
+    "isl": "<sos> this right not <eos>"
+  },
+  {
+    "english": "<sos> hello students <eos>",
+    "isl": "<sos> hello student <eos>"
+  },
+  {
+    "english": "<sos> you did great job <eos>",
+    "isl": "<sos> you great job do <eos>"
+  },
+  {
+    "english": "<sos> this is easy <eos>",
+    "isl": "<sos> this easy <eos>"
+  },
+  {
+    "english": "<sos> no i cannot <eos>",
+    "isl": "<sos> no i can not <eos>"
+  },
+  {
+    "english": "<sos> what is that <eos>",
+    "isl": "<sos> that what <eos>"
+  },
+  {
+    "english": "<sos> i do not understand <eos>",
+    "isl": "<sos> i understand not <eos>"
+  },
+  {
+    "english": "<sos> they are watching the video <eos>",
+    "isl": "<sos> they video watch <eos>"
+  },
+  {
+    "english": "<sos> night <eos>",
+    "isl": "<sos> night <eos>"
+  },
+  {
+    "english": "<sos> please do your homework <eos>",
+    "isl": "<sos> please your homework do <eos>"
+  },
+  {
+    "english": "<sos> please look <eos>",
+    "isl": "<sos> please look <eos>"
+  },
+  {
+    "english": "<sos> we studied yesterday <eos>",
+    "isl": "<sos> yesterday we study <eos>"
+  },
+  {
+    "english": "<sos> you am reading the book <eos>",
+    "isl": "<sos> you book read <eos>"
+  },
+  {
+    "english": "<sos> i learn history <eos>",
+    "isl": "<sos> i history learn <eos>"
+  },
+  {
+    "english": "<sos> he like math <eos>",
+    "isl": "<sos> he math like <eos>"
+  },
+  {
+    "english": "<sos> nice to meet you <eos>",
+    "isl": "<sos> you meet nice <eos>"
+  },
+  {
+    "english": "<sos> i is writing notes <eos>",
+    "isl": "<sos> i note write <eos>"
+  },
+  {
+    "english": "<sos> we should practice daily <eos>",
+    "isl": "<sos> we daily practice should <eos>"
+  },
+  {
+    "english": "<sos> today <eos>",
+    "isl": "<sos> today <eos>"
+  },
+  {
+    "english": "<sos> you cannot go <eos>",
+    "isl": "<sos> you go not can <eos>"
+  },
+  {
+    "english": "<sos> they live in city <eos>",
+    "isl": "<sos> city they live <eos>"
+  },
+  {
+    "english": "<sos> i like math <eos>",
+    "isl": "<sos> i math like <eos>"
+  },
+  {
+    "english": "<sos> he understands the grammar rules <eos>",
+    "isl": "<sos> he grammar rule understand <eos>"
+  },
+  {
+    "english": "<sos> students are studying in class <eos>",
+    "isl": "<sos> student class study <eos>"
+  },
+  {
+    "english": "<sos> understand <eos>",
+    "isl": "<sos> understand <eos>"
+  },
+  {
+    "english": "<sos> i remember the answer <eos>",
+    "isl": "<sos> i answer remember <eos>"
+  },
+  {
+    "english": "<sos> we need to improve our skills <eos>",
+    "isl": "<sos> we skill improve need <eos>"
+  },
+  {
+    "english": "<sos> excellent work <eos>",
+    "isl": "<sos> work excellent <eos>"
+  },
+  {
+    "english": "<sos> school <eos>",
+    "isl": "<sos> school <eos>"
+  },
+  {
+    "english": "<sos> where did you put it <eos>",
+    "isl": "<sos> you it put where <eos>"
+  },
+  {
+    "english": "<sos> five <eos>",
+    "isl": "<sos> five <eos>"
+  },
+  {
+    "english": "<sos> we are studying <eos>",
+    "isl": "<sos> we study <eos>"
+  },
+  {
+    "english": "<sos> raise your hand <eos>",
+    "isl": "<sos> your hand raise <eos>"
+  },
+  {
+    "english": "<sos> try again <eos>",
+    "isl": "<sos> again try <eos>"
+  },
+  {
+    "english": "<sos> i am a student <eos>",
+    "isl": "<sos> i student <eos>"
+  },
+  {
+    "english": "<sos> you can come next month <eos>",
+    "isl": "<sos> next month you come can <eos>"
+  },
+  {
+    "english": "<sos> you sit in front <eos>",
+    "isl": "<sos> front you sit <eos>"
+  },
+  {
+    "english": "<sos> what do you want <eos>",
+    "isl": "<sos> you want what <eos>"
+  },
+  {
+    "english": "<sos> he will not come <eos>",
+    "isl": "<sos> he come not <eos>"
+  },
+  {
+    "english": "<sos> later <eos>",
+    "isl": "<sos> later <eos>"
+  },
+  {
+    "english": "<sos> when does class end <eos>",
+    "isl": "<sos> class finish when <eos>"
+  },
+  {
+    "english": "<sos> they are doing homework <eos>",
+    "isl": "<sos> they homework do <eos>"
+  },
+  {
+    "english": "<sos> he do not understand <eos>",
+    "isl": "<sos> he understand not <eos>"
+  },
+  {
+    "english": "<sos> see you next week <eos>",
+    "isl": "<sos> next week you see <eos>"
+  },
+  {
+    "english": "<sos> we need to practice more <eos>",
+    "isl": "<sos> we more practice need <eos>"
+  },
+  {
+    "english": "<sos> pay attention <eos>",
+    "isl": "<sos> attention pay <eos>"
+  },
+  {
+    "english": "<sos> please go <eos>",
+    "isl": "<sos> please go <eos>"
+  },
+  {
+    "english": "<sos> class <eos>",
+    "isl": "<sos> class <eos>"
+  },
+  {
+    "english": "<sos> can you see the board <eos>",
+    "isl": "<sos> you board see can <eos>"
+  },
+  {
+    "english": "<sos> teacher <eos>",
+    "isl": "<sos> teacher <eos>"
+  },
+  {
+    "english": "<sos> who is your friend <eos>",
+    "isl": "<sos> your friend who <eos>"
+  },
+  {
+    "english": "<sos> student <eos>",
+    "isl": "<sos> student <eos>"
+  },
+  {
+    "english": "<sos> i are learning sign language <eos>",
+    "isl": "<sos> i sign language learn <eos>"
+  },
+  {
+    "english": "<sos> afternoon <eos>",
+    "isl": "<sos> afternoon <eos>"
+  },
+  {
+    "english": "<sos> read <eos>",
+    "isl": "<sos> read <eos>"
+  },
+  {
+    "english": "<sos> you want to practice <eos>",
+    "isl": "<sos> you practice want <eos>"
+  },
+  {
+    "english": "<sos> what is the answer <eos>",
+    "isl": "<sos> answer what <eos>"
+  },
+  {
+    "english": "<sos> what day is today <eos>",
+    "isl": "<sos> today day what <eos>"
+  },
+  {
+    "english": "<sos> we study together <eos>",
+    "isl": "<sos> we together study <eos>"
+  },
+  {
+    "english": "<sos> please practice this <eos>",
+    "isl": "<sos> please this practice <eos>"
+  },
+  {
+    "english": "<sos> teacher is at office <eos>",
+    "isl": "<sos> office teacher <eos>"
+  },
+  {
+    "english": "<sos> she does not like this <eos>",
+    "isl": "<sos> she this like not <eos>"
+  },
+  {
+    "english": "<sos> now <eos>",
+    "isl": "<sos> now <eos>"
+  },
+  {
+    "english": "<sos> you are welcome <eos>",
+    "isl": "<sos> welcome <eos>"
+  },
+  {
+    "english": "<sos> practice <eos>",
+    "isl": "<sos> practice <eos>"
+  },
+  {
+    "english": "<sos> you remember the answer <eos>",
+    "isl": "<sos> you answer remember <eos>"
+  },
+  {
+    "english": "<sos> what time is it <eos>",
+    "isl": "<sos> time what <eos>"
+  },
+  {
+    "english": "<sos> i will see you tomorrow <eos>",
+    "isl": "<sos> tomorrow i you see <eos>"
+  },
+  {
+    "english": "<sos> we learn history <eos>",
+    "isl": "<sos> we history learn <eos>"
+  },
+  {
+    "english": "<sos> have a good day <eos>",
+    "isl": "<sos> day good have <eos>"
+  },
+  {
+    "english": "<sos> please wait <eos>",
+    "isl": "<sos> please wait <eos>"
+  },
+  {
+    "english": "<sos> you do not need to worry <eos>",
+    "isl": "<sos> you worry need not <eos>"
+  },
+  {
+    "english": "<sos> you can try but must practice <eos>",
+    "isl": "<sos> you try can but practice must <eos>"
+  },
+  {
+    "english": "<sos> teacher is teaching grammar <eos>",
+    "isl": "<sos> teacher grammar teach <eos>"
+  },
+  {
+    "english": "<sos> homework <eos>",
+    "isl": "<sos> homework <eos>"
+  },
+  {
+    "english": "<sos> students are in classroom <eos>",
+    "isl": "<sos> classroom student <eos>"
+  },
+  {
+    "english": "<sos> they are learning sign language <eos>",
+    "isl": "<sos> they sign language learn <eos>"
+  },
+  {
+    "english": "<sos> i am not ready <eos>",
+    "isl": "<sos> i ready not <eos>"
+  },
+  {
+    "english": "<sos> speak <eos>",
+    "isl": "<sos> speak <eos>"
+  },
+  {
+    "english": "<sos> we can study together <eos>",
+    "isl": "<sos> we together study can <eos>"
+  },
+  {
+    "english": "<sos> what is your favorite subject <eos>",
+    "isl": "<sos> your subject favorite what <eos>"
+  },
+  {
+    "english": "<sos> who knows the answer <eos>",
+    "isl": "<sos> answer know who <eos>"
+  },
+  {
+    "english": "<sos> word <eos>",
+    "isl": "<sos> word <eos>"
+  },
+  {
+    "english": "<sos> we need to work together <eos>",
+    "isl": "<sos> we together work need <eos>"
+  },
+  {
+    "english": "<sos> we meet in class tomorrow <eos>",
+    "isl": "<sos> tomorrow class we meet <eos>"
+  },
+  {
+    "english": "<sos> science is interesting <eos>",
+    "isl": "<sos> science interesting <eos>"
+  },
+  {
+    "english": "<sos> students come early <eos>",
+    "isl": "<sos> early student come <eos>"
+  },
+  {
+    "english": "<sos> please give <eos>",
+    "isl": "<sos> please give <eos>"
+  },
+  {
+    "english": "<sos> no worries <eos>",
+    "isl": "<sos> worry no <eos>"
+  },
+  {
+    "english": "<sos> where are you <eos>",
+    "isl": "<sos> you where <eos>"
+  },
+  {
+    "english": "<sos> he reads books and writes notes <eos>",
+    "isl": "<sos> he book read note write <eos>"
+  },
+  {
+    "english": "<sos> work hard <eos>",
+    "isl": "<sos> hard work <eos>"
+  },
+  {
+    "english": "<sos> students study hard but need guidance <eos>",
+    "isl": "<sos> student hard study but guidance need <eos>"
+  },
+  {
+    "english": "<sos> he are improving <eos>",
+    "isl": "<sos> he improve <eos>"
+  },
+  {
+    "english": "<sos> he remember the answer <eos>",
+    "isl": "<sos> he answer remember <eos>"
+  },
+  {
+    "english": "<sos> come to the front <eos>",
+    "isl": "<sos> front come <eos>"
+  },
+  {
+    "english": "<sos> what can i do <eos>",
+    "isl": "<sos> i do what can <eos>"
+  },
+  {
+    "english": "<sos> what did you say <eos>",
+    "isl": "<sos> you say what <eos>"
+  },
+  {
+    "english": "<sos> what time is class <eos>",
+    "isl": "<sos> class time what <eos>"
+  },
+  {
+    "english": "<sos> pleased to meet you <eos>",
+    "isl": "<sos> you meet pleased <eos>"
+  },
+  {
+    "english": "<sos> why not <eos>",
+    "isl": "<sos> why not <eos>"
+  },
+  {
+    "english": "<sos> please write your name <eos>",
+    "isl": "<sos> please your name write <eos>"
+  },
+  {
+    "english": "<sos> you must finish homework <eos>",
+    "isl": "<sos> you homework finish must <eos>"
+  },
+  {
+    "english": "<sos> i want to learn but need help <eos>",
+    "isl": "<sos> i learn want but help need <eos>"
+  },
+  {
+    "english": "<sos> please show <eos>",
+    "isl": "<sos> please show <eos>"
+  },
+  {
+    "english": "<sos> i study at school <eos>",
+    "isl": "<sos> school i study <eos>"
+  },
+  {
+    "english": "<sos> what should i study <eos>",
+    "isl": "<sos> i study what should <eos>"
+  },
+  {
+    "english": "<sos> you forgot my book <eos>",
+    "isl": "<sos> you book forget <eos>"
+  },
+  {
+    "english": "<sos> tomorrow <eos>",
+    "isl": "<sos> tomorrow <eos>"
+  },
+  {
+    "english": "<sos> please take <eos>",
+    "isl": "<sos> please take <eos>"
+  },
+  {
+    "english": "<sos> where is the bathroom <eos>",
+    "isl": "<sos> bathroom where <eos>"
+  },
+  {
+    "english": "<sos> we are doing homework <eos>",
+    "isl": "<sos> we homework do <eos>"
+  },
+  {
+    "english": "<sos> he teaches science <eos>",
+    "isl": "<sos> he science teach <eos>"
+  },
+  {
+    "english": "<sos> maybe later <eos>",
+    "isl": "<sos> maybe later <eos>"
+  },
+  {
+    "english": "<sos> book <eos>",
+    "isl": "<sos> book <eos>"
+  },
+  {
+    "english": "<sos> can you repeat that <eos>",
+    "isl": "<sos> you that repeat can <eos>"
+  },
+  {
+    "english": "<sos> yes of course <eos>",
+    "isl": "<sos> yes of course <eos>"
+  },
+  {
+    "english": "<sos> you need more time <eos>",
+    "isl": "<sos> you more time need <eos>"
+  },
+  {
+    "english": "<sos> he does not come today <eos>",
+    "isl": "<sos> he today come not <eos>"
+  },
+  {
+    "english": "<sos> she did not finish <eos>",
+    "isl": "<sos> she finish not <eos>"
+  },
+  {
+    "english": "<sos> she will finish today <eos>",
+    "isl": "<sos> today she finish <eos>"
+  },
+  {
+    "english": "<sos> i need your help <eos>",
+    "isl": "<sos> i your help need <eos>"
+  },
+  {
+    "english": "<sos> i appreciate your help <eos>",
+    "isl": "<sos> i your help appreciate <eos>"
+  },
+  {
+    "english": "<sos> share with class <eos>",
+    "isl": "<sos> class share <eos>"
+  },
+  {
+    "english": "<sos> i study hard and practice daily <eos>",
+    "isl": "<sos> i hard study daily practice <eos>"
+  },
+  {
+    "english": "<sos> we must practice daily <eos>",
+    "isl": "<sos> we daily practice must <eos>"
+  },
+  {
+    "english": "<sos> you will understand soon <eos>",
+    "isl": "<sos> you soon understand <eos>"
+  },
+  {
+    "english": "<sos> when can i see you <eos>",
+    "isl": "<sos> i you see when can <eos>"
+  },
+  {
+    "english": "<sos> where is the book <eos>",
+    "isl": "<sos> book where <eos>"
+  },
+  {
+    "english": "<sos> who are you <eos>",
+    "isl": "<sos> you who <eos>"
+  },
+  {
+    "english": "<sos> study <eos>",
+    "isl": "<sos> study <eos>"
+  },
+  {
+    "english": "<sos> how many students <eos>",
+    "isl": "<sos> student how many <eos>"
+  },
+  {
+    "english": "<sos> why did you do that <eos>",
+    "isl": "<sos> you that do why <eos>"
+  },
+  {
+    "english": "<sos> how old are you <eos>",
+    "isl": "<sos> you old how <eos>"
+  },
+  {
+    "english": "<sos> where is the classroom <eos>",
+    "isl": "<sos> classroom where <eos>"
+  },
+  {
+    "english": "<sos> i can help you <eos>",
+    "isl": "<sos> i you help can <eos>"
+  },
+  {
+    "english": "<sos> when did you arrive <eos>",
+    "isl": "<sos> you arrive when <eos>"
+  },
+  {
+    "english": "<sos> you will take the test tomorrow <eos>",
+    "isl": "<sos> tomorrow you test take <eos>"
+  },
+  {
+    "english": "<sos> where is the teacher <eos>",
+    "isl": "<sos> teacher where <eos>"
+  },
+  {
+    "english": "<sos> learn <eos>",
+    "isl": "<sos> learn <eos>"
+  },
+  {
+    "english": "<sos> class is over <eos>",
+    "isl": "<sos> class finish <eos>"
+  },
+  {
+    "english": "<sos> good morning class <eos>",
+    "isl": "<sos> morning good class <eos>"
+  },
+  {
+    "english": "<sos> i need to practice more <eos>",
+    "isl": "<sos> i more practice need <eos>"
+  },
+  {
+    "english": "<sos> you do not understand <eos>",
+    "isl": "<sos> you understand not <eos>"
+  },
+  {
+    "english": "<sos> he needs more practice <eos>",
+    "isl": "<sos> he more practice need <eos>"
+  },
+  {
+    "english": "<sos> we should help each other <eos>",
+    "isl": "<sos> we each other help should <eos>"
+  },
+  {
+    "english": "<sos> who can help me <eos>",
+    "isl": "<sos> me help who can <eos>"
+  },
+  {
+    "english": "<sos> i am sorry <eos>",
+    "isl": "<sos> i sorry <eos>"
+  },
+  {
+    "english": "<sos> what do you need <eos>",
+    "isl": "<sos> you need what <eos>"
+  },
+  {
+    "english": "<sos> did you finish <eos>",
+    "isl": "<sos> you finish <eos>"
+  },
+  {
+    "english": "<sos> we are learning sign language <eos>",
+    "isl": "<sos> we sign language learn <eos>"
+  },
+  {
+    "english": "<sos> how have you been <eos>",
+    "isl": "<sos> you been how <eos>"
+  },
+  {
+    "english": "<sos> i teaches science <eos>",
+    "isl": "<sos> i science teach <eos>"
+  },
+  {
+    "english": "<sos> teacher arrives on time <eos>",
+    "isl": "<sos> on time teacher arrive <eos>"
+  },
+  {
+    "english": "<sos> how should i do this <eos>",
+    "isl": "<sos> i this do how should <eos>"
+  },
+  {
+    "english": "<sos> please answer the question <eos>",
+    "isl": "<sos> please question answer <eos>"
+  },
+  {
+    "english": "<sos> we want to improve <eos>",
+    "isl": "<sos> we improve want <eos>"
+  },
+  {
+    "english": "<sos> sorry i am busy <eos>",
+    "isl": "<sos> sorry i busy <eos>"
+  },
+  {
+    "english": "<sos> when is homework due <eos>",
+    "isl": "<sos> homework due when <eos>"
+  },
+  {
+    "english": "<sos> how are you today <eos>",
+    "isl": "<sos> today you fine how <eos>"
+  },
+  {
+    "english": "<sos> hello everyone <eos>",
+    "isl": "<sos> hello everyone <eos>"
+  },
+  {
+    "english": "<sos> she wants to learn <eos>",
+    "isl": "<sos> she learn want <eos>"
+  },
+  {
+    "english": "<sos> students are practicing signs <eos>",
+    "isl": "<sos> student sign practice <eos>"
+  },
+  {
+    "english": "<sos> please pay attention <eos>",
+    "isl": "<sos> please attention pay <eos>"
+  },
+  {
+    "english": "<sos> she wants to help <eos>",
+    "isl": "<sos> she help want <eos>"
+  },
+  {
+    "english": "<sos> she can teach us <eos>",
+    "isl": "<sos> she us teach can <eos>"
+  },
+  {
+    "english": "<sos> what does this mean <eos>",
+    "isl": "<sos> this mean what <eos>"
+  },
+  {
+    "english": "<sos> who did this <eos>",
+    "isl": "<sos> this do who <eos>"
+  },
+  {
+    "english": "<sos> you are not correct <eos>",
+    "isl": "<sos> you correct not <eos>"
+  },
+  {
+    "english": "<sos> what is the question <eos>",
+    "isl": "<sos> question what <eos>"
+  },
+  {
+    "english": "<sos> he is writing notes <eos>",
+    "isl": "<sos> he note write <eos>"
+  },
+  {
+    "english": "<sos> i have been well <eos>",
+    "isl": "<sos> i well <eos>"
+  },
+  {
+    "english": "<sos> they work at night <eos>",
+    "isl": "<sos> night they work <eos>"
+  },
+  {
+    "english": "<sos> present your work <eos>",
+    "isl": "<sos> your work present <eos>"
+  },
+  {
+    "english": "<sos> how long will it take <eos>",
+    "isl": "<sos> it take how long <eos>"
+  },
+  {
+    "english": "<sos> i finished my homework yesterday <eos>",
+    "isl": "<sos> yesterday i homework finish <eos>"
+  },
+  {
+    "english": "<sos> good morning teacher <eos>",
+    "isl": "<sos> morning good teacher <eos>"
+  },
+  {
+    "english": "<sos> yesterday <eos>",
+    "isl": "<sos> yesterday <eos>"
+  },
+  {
+    "english": "<sos> we practice sign language <eos>",
+    "isl": "<sos> we sign language practice <eos>"
+  },
+  {
+    "english": "<sos> i cannot see <eos>",
+    "isl": "<sos> i see not can <eos>"
+  },
+  {
+    "english": "<sos> i are doing homework <eos>",
+    "isl": "<sos> i homework do <eos>"
+  },
+  {
+    "english": "<sos> he need more time <eos>",
+    "isl": "<sos> he more time need <eos>"
+  },
+  {
+    "english": "<sos> he need help <eos>",
+    "isl": "<sos> he help need <eos>"
+  },
+  {
+    "english": "<sos> please sit <eos>",
+    "isl": "<sos> please sit <eos>"
+  },
+  {
+    "english": "<sos> class starts in morning <eos>",
+    "isl": "<sos> morning class start <eos>"
+  },
+  {
+    "english": "<sos> you need to study more <eos>",
+    "isl": "<sos> you more study need <eos>"
+  },
+  {
+    "english": "<sos> please study for the test <eos>",
+    "isl": "<sos> please test study <eos>"
+  },
+  {
+    "english": "<sos> they do not understand <eos>",
+    "isl": "<sos> they understand not <eos>"
+  },
+  {
+    "english": "<sos> she is learning <eos>",
+    "isl": "<sos> she learn <eos>"
+  },
+  {
+    "english": "<sos> she teaches well and helps students <eos>",
+    "isl": "<sos> she good teach student help <eos>"
+  },
+  {
+    "english": "<sos> i could not finish <eos>",
+    "isl": "<sos> i finish not could <eos>"
+  },
+  {
+    "english": "<sos> i want to ask question <eos>",
+    "isl": "<sos> i question ask want <eos>"
+  },
+  {
+    "english": "<sos> when is the test <eos>",
+    "isl": "<sos> test when <eos>"
+  },
+  {
+    "english": "<sos> you need to study <eos>",
+    "isl": "<sos> you study need <eos>"
+  },
+  {
+    "english": "<sos> can i go to bathroom <eos>",
+    "isl": "<sos> i bathroom go can <eos>"
+  },
+  {
+    "english": "<sos> you write the answer <eos>",
+    "isl": "<sos> you answer write <eos>"
+  },
+  {
+    "english": "<sos> do you need help <eos>",
+    "isl": "<sos> you help need <eos>"
+  },
+  {
+    "english": "<sos> i practice in evening <eos>",
+    "isl": "<sos> evening i practice <eos>"
+  },
+  {
+    "english": "<sos> that is wrong <eos>",
+    "isl": "<sos> that wrong <eos>"
+  },
+  {
+    "english": "<sos> i should practice more <eos>",
+    "isl": "<sos> i more practice should <eos>"
+  },
+  {
+    "english": "<sos> who is the teacher <eos>",
+    "isl": "<sos> teacher who <eos>"
+  },
+  {
+    "english": "<sos> i do not have book <eos>",
+    "isl": "<sos> i book have not <eos>"
+  },
+  {
+    "english": "<sos> grammar <eos>",
+    "isl": "<sos> grammar <eos>"
+  },
+  {
+    "english": "<sos> they can understand <eos>",
+    "isl": "<sos> they understand can <eos>"
+  },
+  {
+    "english": "<sos> please open your book <eos>",
+    "isl": "<sos> please your book open <eos>"
+  },
+  {
+    "english": "<sos> we should not wait <eos>",
+    "isl": "<sos> we wait not should <eos>"
+  },
+  {
+    "english": "<sos> i are improving <eos>",
+    "isl": "<sos> i improve <eos>"
+  },
+  {
+    "english": "<sos> class is studying together <eos>",
+    "isl": "<sos> class together study <eos>"
+  },
+  {
+    "english": "<sos> can we practice now <eos>",
+    "isl": "<sos> we now practice can <eos>"
+  },
+  {
+    "english": "<sos> she is writing notes <eos>",
+    "isl": "<sos> she note write <eos>"
+  },
+  {
+    "english": "<sos> he likes to read books <eos>",
+    "isl": "<sos> he book read like <eos>"
+  },
+  {
+    "english": "<sos> when does class start <eos>",
+    "isl": "<sos> class start when <eos>"
+  },
+  {
+    "english": "<sos> you should study hard <eos>",
+    "isl": "<sos> you hard study should <eos>"
+  },
+  {
+    "english": "<sos> we meet on monday <eos>",
+    "isl": "<sos> monday we meet <eos>"
+  },
+  {
+    "english": "<sos> they are working <eos>",
+    "isl": "<sos> they work <eos>"
+  },
+  {
+    "english": "<sos> teach <eos>",
+    "isl": "<sos> teach <eos>"
+  },
+  {
+    "english": "<sos> you are correct <eos>",
+    "isl": "<sos> you correct <eos>"
+  },
+  {
+    "english": "<sos> you are improving <eos>",
+    "isl": "<sos> you improve <eos>"
+  },
+  {
+    "english": "<sos> what is your name <eos>",
+    "isl": "<sos> your name what <eos>"
+  },
+  {
+    "english": "<sos> how are you <eos>",
+    "isl": "<sos> you fine how <eos>"
+  },
+  {
+    "english": "<sos> he is my friend <eos>",
+    "isl": "<sos> he my friend <eos>"
+  },
+  {
+    "english": "<sos> i want to help you <eos>",
+    "isl": "<sos> i you help want <eos>"
+  },
+  {
+    "english": "<sos> what do you like <eos>",
+    "isl": "<sos> you like what <eos>"
+  },
+  {
+    "english": "<sos> morning <eos>",
+    "isl": "<sos> morning <eos>"
+  },
+  {
+    "english": "<sos> i am happy <eos>",
+    "isl": "<sos> i happy <eos>"
+  },
+  {
+    "english": "<sos> can you help me <eos>",
+    "isl": "<sos> you me help can <eos>"
+  },
+  {
+    "english": "<sos> test <eos>",
+    "isl": "<sos> test <eos>"
+  },
+  {
+    "english": "<sos> study hard <eos>",
+    "isl": "<sos> hard study <eos>"
+  },
+  {
+    "english": "<sos> i want to learn <eos>",
+    "isl": "<sos> i learn want <eos>"
+  },
+  {
+    "english": "<sos> please read the text <eos>",
+    "isl": "<sos> please text read <eos>"
+  },
+  {
+    "english": "<sos> answer <eos>",
+    "isl": "<sos> answer <eos>"
+  },
+  {
+    "english": "<sos> can i have your notes <eos>",
+    "isl": "<sos> i your note have can <eos>"
+  },
+  {
+    "english": "<sos> i wait outside <eos>",
+    "isl": "<sos> outside i wait <eos>"
+  },
+  {
+    "english": "<sos> know <eos>",
+    "isl": "<sos> know <eos>"
+  },
+  {
+    "english": "<sos> she teaches the class <eos>",
+    "isl": "<sos> she class teach <eos>"
+  },
+  {
+    "english": "<sos> that is correct <eos>",
+    "isl": "<sos> that correct <eos>"
+  },
+  {
+    "english": "<sos> two <eos>",
+    "isl": "<sos> two <eos>"
+  },
+  {
+    "english": "<sos> did you do homework <eos>",
+    "isl": "<sos> you homework do <eos>"
+  },
+  {
+    "english": "<sos> please close your book <eos>",
+    "isl": "<sos> please your book close <eos>"
+  },
+  {
+    "english": "<sos> please bring <eos>",
+    "isl": "<sos> please bring <eos>"
+  },
+  {
+    "english": "<sos> work with partner <eos>",
+    "isl": "<sos> partner work <eos>"
+  },
+  {
+    "english": "<sos> he stands at back <eos>",
+    "isl": "<sos> back he stand <eos>"
+  },
+  {
+    "english": "<sos> i study at school every day <eos>",
+    "isl": "<sos> every day school i study <eos>"
+  },
+  {
+    "english": "<sos> they must finish homework <eos>",
+    "isl": "<sos> they homework finish must <eos>"
+  },
+  {
+    "english": "<sos> how do you sign this <eos>",
+    "isl": "<sos> you this sign how <eos>"
+  },
+  {
+    "english": "<sos> that is okay <eos>",
+    "isl": "<sos> that okay <eos>"
+  },
+  {
+    "english": "<sos> one <eos>",
+    "isl": "<sos> one <eos>"
+  },
+  {
+    "english": "<sos> you need help <eos>",
+    "isl": "<sos> you help need <eos>"
+  },
+  {
+    "english": "<sos> could you show me <eos>",
+    "isl": "<sos> you me show could <eos>"
+  },
+  {
+    "english": "<sos> i need help <eos>",
+    "isl": "<sos> i help need <eos>"
+  },
+  {
+    "english": "<sos> go back to your seat <eos>",
+    "isl": "<sos> your seat go <eos>"
+  },
+  {
+    "english": "<sos> what are you doing <eos>",
+    "isl": "<sos> you do what <eos>"
+  },
+  {
+    "english": "<sos> are you ready <eos>",
+    "isl": "<sos> you ready <eos>"
+  },
+  {
+    "english": "<sos> she needs to understand <eos>",
+    "isl": "<sos> she understand need <eos>"
+  },
+  {
+    "english": "<sos> long time no see <eos>",
+    "isl": "<sos> long time no see <eos>"
+  },
+  {
+    "english": "<sos> can you explain this <eos>",
+    "isl": "<sos> you this explain can <eos>"
+  },
+  {
+    "english": "<sos> question <eos>",
+    "isl": "<sos> question <eos>"
+  },
+  {
+    "english": "<sos> i understand the concept but need practice <eos>",
+    "isl": "<sos> i concept understand but practice need <eos>"
+  },
+  {
+    "english": "<sos> he forgot my book <eos>",
+    "isl": "<sos> he book forget <eos>"
+  },
+  {
+    "english": "<sos> forget <eos>",
+    "isl": "<sos> forget <eos>"
+  },
+  {
+    "english": "<sos> i forgot my book <eos>",
+    "isl": "<sos> i book forget <eos>"
+  },
+  {
+    "english": "<sos> sure no problem <eos>",
+    "isl": "<sos> sure problem no <eos>"
+  },
+  {
+    "english": "<sos> that is not my book <eos>",
+    "isl": "<sos> that my book not <eos>"
+  },
+  {
+    "english": "<sos> who will teach us <eos>",
+    "isl": "<sos> us teach who <eos>"
+  },
+  {
+    "english": "<sos> where can i find help <eos>",
+    "isl": "<sos> i help find where can <eos>"
+  },
+  {
+    "english": "<sos> write <eos>",
+    "isl": "<sos> write <eos>"
+  },
+  {
+    "english": "<sos> listen <eos>",
+    "isl": "<sos> listen <eos>"
+  },
+  {
+    "english": "<sos> class starts now <eos>",
+    "isl": "<sos> now class start <eos>"
+  },
+  {
+    "english": "<sos> they practice sign language <eos>",
+    "isl": "<sos> they sign language practice <eos>"
+  },
+  {
+    "english": "<sos> please watch <eos>",
+    "isl": "<sos> please watch <eos>"
+  },
+  {
+    "english": "<sos> they practice signs <eos>",
+    "isl": "<sos> they sign practice <eos>"
+  },
+  {
+    "english": "<sos> you cannot go now <eos>",
+    "isl": "<sos> you now go not can <eos>"
+  },
+  {
+    "english": "<sos> she works at home today <eos>",
+    "isl": "<sos> today home she work <eos>"
+  },
+  {
+    "english": "<sos> how much is this <eos>",
+    "isl": "<sos> this cost how <eos>"
+  },
+  {
+    "english": "<sos> you finished my homework <eos>",
+    "isl": "<sos> you homework finish <eos>"
+  },
+  {
+    "english": "<sos> you study english <eos>",
+    "isl": "<sos> you english study <eos>"
+  },
+  {
+    "english": "<sos> very good <eos>",
+    "isl": "<sos> good very <eos>"
+  },
+  {
+    "english": "<sos> language <eos>",
+    "isl": "<sos> language <eos>"
+  },
+  {
+    "english": "<sos> what is this <eos>",
+    "isl": "<sos> this what <eos>"
+  },
+  {
+    "english": "<sos> please stand up <eos>",
+    "isl": "<sos> please stand <eos>"
+  },
+  {
+    "english": "<sos> please sit down <eos>",
+    "isl": "<sos> please sit <eos>"
+  },
+  {
+    "english": "<sos> please be quiet <eos>",
+    "isl": "<sos> please quiet <eos>"
+  },
+  {
+    "english": "<sos> why do you study <eos>",
+    "isl": "<sos> you study why <eos>"
+  },
+  {
+    "english": "<sos> book is on table <eos>",
+    "isl": "<sos> table book <eos>"
+  },
+  {
+    "english": "<sos> work in groups <eos>",
+    "isl": "<sos> group work <eos>"
+  },
+  {
+    "english": "<sos> i finished my homework <eos>",
+    "isl": "<sos> i homework finish <eos>"
+  },
+  {
+    "english": "<sos> he wants to understand <eos>",
+    "isl": "<sos> he understand want <eos>"
+  },
+  {
+    "english": "<sos> students come to school early <eos>",
+    "isl": "<sos> early school student come <eos>"
+  }
+]
