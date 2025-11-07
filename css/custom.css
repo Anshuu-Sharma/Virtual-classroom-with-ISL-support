@@ -8,3 +8,66 @@ nav a{font-weight:bold;}
 .active a{background-color:#337ab7!important;color:white!important;}
 .icon-bar {background-color:white!important;}
 /* nav css ends here*/
+
+.listening-controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.listening-controls .btn-floating {
+    margin: 0;
+}
+
+.listening-controls #stop_listening {
+    background-color: #d32f2f;
+}
+
+.listening-status {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.transcript-column {
+    width: 22%;
+    right: 2%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.transcript-panel {
+    border-top: 3px solid #000;
+    padding-top: 10px;
+}
+
+.transcript-panel h5 {
+    font-size: 18px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.transcript-log {
+    max-height: 180px;
+    overflow-y: auto;
+    text-align: left;
+    padding: 8px 4px;
+    font-size: 14px;
+    line-height: 1.4;
+    background: rgba(235, 248, 164, 0.3);
+    border-radius: 4px;
+}
+
+.transcript-log p {
+    margin: 0 0 6px;
+}
+
+.interim-transcript {
+    font-style: italic;
+    color: #666;
+}

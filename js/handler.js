@@ -37,277 +37,459 @@
         $("#"+tabbodyid).show();
     }
 
-    function getParsedText(speech) {
-        // console.log("$$ 1");
+    var isContinuousListening = false;
+    var recognitionInstance = null;
+    var usingWhisperFallback = false;
+    var mediaRecorderInstance = null;
+    var mediaStreamRef = null;
+    var liveTranscriptContainer = document.getElementById('live_transcript');
+    var islTranscriptContainer = document.getElementById('isl_transcript');
+    var queueContainer = document.getElementById('isl_queue');
+    var interimTranscriptElement = null;
+    var lastRecognizedUtterance = "";
+    var playbackQueue = [];
+    var pendingProcessingCount = 0;
+    var currentPlaybackItem = null;
 
-        var HttpClient = function() {
-            this.get = function(aUrl, aCallback) {
-                var anHttpRequest = new XMLHttpRequest();
-                anHttpRequest.onreadystatechange = function() {
-                    if (anHttpRequest.readyState == 4 && anHttpRequest.status == 200)
-                        aCallback(anHttpRequest.responseText);
-                }
-
-                anHttpRequest.open( "GET", aUrl, false );
-                anHttpRequest.send( null );
-            }
-        };
-        var final_response = "";
-        var client = new HttpClient();
-        var error_occurred = false;
-        
-        // Note: This is a SYNCHRONOUS request (false parameter), so callback executes before return
-        try {
-            client.get('http://localhost:5001/parser' + '?speech=' + encodeURIComponent(speech), function(response) {
-                if (!response || response.trim() === '') {
-                    console.error('Empty response from server');
-                    error_occurred = true;
-                    return;
-                }
-                
-                try {
-                    console.log(response);
-                    final_response = JSON.parse(response);
-                    
-                    // Check if there's an error
-                    if (final_response.error) {
-                        console.error('Server error:', final_response.error);
-                        error_occurred = true;
-                        return;
-                    }
-                    
-                    // Log final ISL text to console (AFTER response is received)
-                    console.log("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
-                    console.log("🎯 TRANSLATION RESULT:");
-                    console.log("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
-                    console.log("📝 Original English:", speech);
-                    console.log("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
-                    console.log("✅ FINAL ISL TEXT (used for avatar):", final_response['isl_text_string'] || '');
-                    console.log("🔧 Pre-processed String:", final_response['pre_process_string'] || '');
-                    console.log("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
-                    
-                    // Also log in a more visible way with styled output
-                    if (final_response['isl_text_string']) {
-                        console.log("%c🎯 FINAL ISL TEXT FOR AVATAR: " + final_response['isl_text_string'], "color: #00ff00; font-size: 16px; font-weight: bold; background: #000; padding: 5px;");
-                    }
-                    
-                    if (document.getElementById('isl')) {
-                        document.getElementById('isl').innerHTML = final_response['isl_text_string'] || '';
-                    }
-                    if (document.getElementById('speech_')) {
-                        document.getElementById('speech_').innerHTML = speech; 
-                    }
-                } catch (parseError) {
-                    console.error('Error parsing JSON response:', parseError);
-                    console.error('Response was:', response);
-                    error_occurred = true;
-                }
-            });
-        } catch (requestError) {
-            console.error('Error making request:', requestError);
-            error_occurred = true;
+    function scrollToBottom(element) {
+        if (!element) {
+            return;
         }
-        
-        // Since request is synchronous, final_response is set by now
-        if (error_occurred || !final_response || !final_response['pre_process_string']) {
-            return "";
-        }
-        return final_response['pre_process_string'] || "";
+        element.scrollTop = element.scrollHeight;
     }
-    activateTab("menu1-h", "menu1"); // activate first menu by default
-    // Whisper ASR support (with fallback to Web Speech API)
-    function startDictationWithWhisper() {
-        $('#speech_recognizer').hide();
-        $("#speech_loader").show();
-        $('#loader').hide();
-        console.log('Speech recognition started with Whisper...');
 
-        // Check if MediaRecorder is available
-        if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
-            console.warn('MediaRecorder not available, falling back to Web Speech API');
-            startDictation();
+    function clearInterimTranscript() {
+        if (interimTranscriptElement && interimTranscriptElement.parentNode) {
+            interimTranscriptElement.parentNode.removeChild(interimTranscriptElement);
+        }
+        interimTranscriptElement = null;
+    }
+
+    function setInterimTranscript(text) {
+        if (!liveTranscriptContainer) {
+            return;
+        }
+        if (text && text.trim()) {
+            if (!interimTranscriptElement) {
+                interimTranscriptElement = document.createElement('p');
+                interimTranscriptElement.className = 'interim-transcript';
+                liveTranscriptContainer.appendChild(interimTranscriptElement);
+            }
+            interimTranscriptElement.textContent = text.trim();
+            scrollToBottom(liveTranscriptContainer);
+        } else {
+            clearInterimTranscript();
+        }
+    }
+
+    function appendLiveTranscriptEntry(text) {
+        if (!liveTranscriptContainer || !text) {
+                    return;
+        }
+        var paragraph = document.createElement('p');
+        paragraph.textContent = text;
+        liveTranscriptContainer.appendChild(paragraph);
+        scrollToBottom(liveTranscriptContainer);
+    }
+
+    function appendISLTranscriptEntry(text) {
+        if (!islTranscriptContainer || !text) {
+            return;
+        }
+        var paragraph = document.createElement('p');
+        paragraph.textContent = text;
+        islTranscriptContainer.appendChild(paragraph);
+        scrollToBottom(islTranscriptContainer);
+    }
+
+    function renderQueue() {
+        if (!queueContainer) {
+                        return;
+        }
+        queueContainer.innerHTML = '';
+        playbackQueue.slice(-50).forEach(function(item) {
+            var paragraph = document.createElement('p');
+            var displayText = item.original;
+            if (item.islText || item.preProcessed) {
+                displayText += ' → ' + (item.islText || item.preProcessed);
+            }
+            displayText += ' [' + (item.status || 'pending') + ']';
+            paragraph.textContent = displayText;
+            queueContainer.appendChild(paragraph);
+        });
+        scrollToBottom(queueContainer);
+    }
+
+    function showProcessingSpinner(active) {
+        if (active) {
+            pendingProcessingCount += 1;
+            $('#loader').show();
+        } else {
+            pendingProcessingCount = Math.max(0, pendingProcessingCount - 1);
+            if (pendingProcessingCount === 0) {
+                $('#loader').hide();
+            }
+        }
+    }
+
+    function updateListeningStatus(message) {
+        $('#listening_status').text(message || 'Idle');
+    }
+
+    function updateListeningControls(active) {
+        if (active) {
+            $('#start_listening').hide();
+            $('#stop_listening').show();
+            $('#speech_loader').show();
+        } else {
+            $('#start_listening').show();
+            $('#stop_listening').hide();
+            $('#speech_loader').hide();
+        }
+    }
+
+    function requestParsedSentence(speech) {
+        return fetch('http://localhost:5001/parser?speech=' + encodeURIComponent(speech), {
+            method: 'GET'
+        })
+        .then(function(response) {
+            if (!response.ok) {
+                throw new Error('Parser request failed with status ' + response.status);
+            }
+            return response.text();
+        })
+        .then(function(body) {
+            if (!body || body.trim() === '') {
+                throw new Error('Empty response from parser');
+            }
+            var parsed;
+            try {
+                parsed = JSON.parse(body);
+            } catch (error) {
+                console.error('Error parsing JSON response:', error);
+                throw error;
+            }
+            if (parsed.error) {
+                throw new Error(parsed.error);
+            }
+            return parsed;
+        });
+    }
+
+    function triggerAvatarPlayback(item) {
+        if (!item || !item.preProcessed) {
+            return;
+        }
+        processPlaybackQueue();
+    }
+
+    function processPlaybackQueue() {
+        if (currentPlaybackItem && currentPlaybackItem.status === 'playing') {
             return;
         }
 
-        // Get audio stream
-        navigator.mediaDevices.getUserMedia({ audio: true })
-            .then(function(stream) {
-                const mediaRecorder = new MediaRecorder(stream);
-                const audioChunks = [];
+        var nextItem = null;
+        for (var idx = 0; idx < playbackQueue.length; idx++) {
+            if (playbackQueue[idx].status === 'ready') {
+                nextItem = playbackQueue[idx];
+                break;
+            }
+        }
 
-                mediaRecorder.ondataavailable = function(event) {
-                    audioChunks.push(event.data);
-                };
+        if (!nextItem) {
+            return;
+        }
 
-                mediaRecorder.onstop = function() {
-                    const audioBlob = new Blob(audioChunks, { type: 'audio/wav' });
-                    
-                    // Send to Whisper API
-                    const formData = new FormData();
-                    formData.append('audio', audioBlob, 'recording.wav');
+        currentPlaybackItem = nextItem;
+        nextItem.status = 'playing';
+        renderQueue();
 
-                    fetch('http://localhost:5001/api/transcribe', {
-                        method: 'POST',
-                        body: formData
-                    })
-                    .then(response => response.json())
-                    .then(data => {
-                        $('#speech_recognizer').show();
-                        $("#speech_loader").hide();
-                        $('#loader').show();
+        clickme(nextItem.preProcessed, function() {
+            nextItem.status = 'played';
+            renderQueue();
+            currentPlaybackItem = null;
+            processPlaybackQueue();
+        });
+    }
 
-                        if (data.success && data.text) {
-                            console.log('Whisper transcription: ' + data.text);
-                            let speech = data.text;
-                            let parsedSpeech = getParsedText(speech);
-                            // Only call clickme if we got valid parsed speech
-                            if (parsedSpeech && parsedSpeech.trim()) {
-                                clickme(parsedSpeech);
-                            } else {
-                                console.error('Failed to get parsed text from server');
-                                // Fallback to Web Speech API
-                                startDictation();
-                            }
-                        } else {
-                            console.error('Whisper error:', data.error);
-                            // Fallback to Web Speech API
-                            startDictation();
-                        }
-                        $('#loader').hide();
+    function queueSentenceForProcessing(sentence) {
+        if (!sentence || !sentence.trim()) {
+            return;
+        }
+        var item = {
+            id: Date.now() + Math.random(),
+            original: sentence,
+            preProcessed: '',
+            islText: '',
+            status: 'processing'
+        };
+        playbackQueue.push(item);
+        renderQueue();
 
-                        // Stop all tracks
-                        stream.getTracks().forEach(track => track.stop());
-                    })
-                    .catch(error => {
-                        console.error('Whisper API error:', error);
-                        $("#speech_loader").hide();
-                        $('#speech_recognizer').show();
-                        // Fallback to Web Speech API
-                        startDictation();
-                        stream.getTracks().forEach(track => track.stop());
-                    });
-                };
+        showProcessingSpinner(true);
+        requestParsedSentence(sentence)
+            .then(function(parsed) {
+                item.preProcessed = (parsed['pre_process_string'] || '').trim();
+                item.islText = (parsed['isl_text_string'] || '').trim();
 
-                // Start recording
-                mediaRecorder.start();
-                console.log('Recording started...');
+                console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+                console.log('🎯 TRANSLATION RESULT:');
+                console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+                console.log('📝 Original English:', sentence);
+                console.log('✅ FINAL ISL TEXT (used for avatar):', item.islText);
+                console.log('🔧 Pre-processed String:', item.preProcessed);
+                console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
 
-                // Stop recording after 5 seconds (or user can stop manually)
-                setTimeout(function() {
-                    if (mediaRecorder.state === 'recording') {
-                        mediaRecorder.stop();
-                        console.log('Recording stopped...');
-                    }
-                }, 5000);
+                if (item.islText) {
+                    console.log('%c🎯 FINAL ISL TEXT FOR AVATAR: ' + item.islText, 'color: #00ff00; font-size: 16px; font-weight: bold; background: #000; padding: 5px;');
+                }
 
-                // Add stop button functionality
-                window.stopRecording = function() {
-                    if (mediaRecorder.state === 'recording') {
-                        mediaRecorder.stop();
-                        stream.getTracks().forEach(track => track.stop());
-                    }
-                };
+                if (item.islText || item.preProcessed) {
+                    appendISLTranscriptEntry(item.islText || item.preProcessed);
+                }
 
+                if (item.preProcessed) {
+                    item.status = 'ready';
+                    renderQueue();
+                    triggerAvatarPlayback(item);
+                } else {
+                    item.status = 'no-match';
+                    renderQueue();
+                }
             })
             .catch(function(error) {
-                console.error('Error accessing microphone:', error);
-                $("#speech_loader").hide();
-                $('#speech_recognizer').show();
-                // Fallback to Web Speech API
-                startDictation();
+                console.error('Failed to process sentence:', error);
+                item.status = 'error';
+                renderQueue();
+            })
+            .finally(function() {
+                showProcessingSpinner(false);
             });
     }
 
-    function startDictation() {
-        $('#speech_recognizer').hide();
-        $("#speech_loader").show();
-        console.log('Speech recognition started with Web Speech API...');
+    function handleRecognizedSentence(sentence) {
+        var cleaned = (sentence || '').trim();
+        if (!cleaned) {
+            return;
+        }
+        if (cleaned === lastRecognizedUtterance) {
+            return;
+        }
+        lastRecognizedUtterance = cleaned;
+        clearInterimTranscript();
+        appendLiveTranscriptEntry(cleaned);
+        queueSentenceForProcessing(cleaned);
+    }
+
+    function ensureRecognitionInstance() {
+        if (recognitionInstance || !window.hasOwnProperty('webkitSpeechRecognition')) {
+            return;
+        }
+        recognitionInstance = new webkitSpeechRecognition();
+        recognitionInstance.continuous = true;
+        recognitionInstance.interimResults = true;
+        recognitionInstance.lang = 'en-US';
+
+        recognitionInstance.onstart = function() {
+            updateListeningStatus('Listening...');
+            $('#speech_loader').show();
+        };
+
+        recognitionInstance.onerror = function(event) {
+            console.error('Speech recognition error:', event);
+            if (event.error === 'no-speech') {
+                updateListeningStatus('No speech detected');
+            }
+        };
+
+        recognitionInstance.onend = function() {
+            if (isContinuousListening) {
+                try {
+                    recognitionInstance.start();
+                } catch (restartError) {
+                    console.warn('Unable to restart recognition, switching to Whisper fallback.', restartError);
+                    startWhisperFallback();
+                }
+            } else {
+                updateListeningStatus('Idle');
+                updateListeningControls(false);
+            }
+        };
+
+        recognitionInstance.onresult = function(event) {
+            var interim = '';
+            for (var i = event.resultIndex; i < event.results.length; i++) {
+                var result = event.results[i];
+                if (!result[0]) {
+                    continue;
+                }
+                var transcript = result[0].transcript || '';
+                if (result.isFinal) {
+                    handleRecognizedSentence(transcript);
+                } else {
+                    interim += transcript + ' ';
+                }
+            }
+            setInterimTranscript(interim.trim());
+        };
+    }
+
+    function transcribeWithWhisper(blob) {
+        if (!blob) {
+            return Promise.resolve('');
+        }
+        var formData = new FormData();
+        formData.append('audio', blob, 'recording.wav');
+        return fetch('http://localhost:5001/api/transcribe', {
+            method: 'POST',
+            body: formData
+        })
+        .then(function(response) {
+            return response.json();
+        })
+        .then(function(data) {
+            if (data && data.success && data.text) {
+                return data.text;
+            }
+            var message = (data && data.error) ? data.error : 'Unknown Whisper error';
+            throw new Error(message);
+        });
+    }
+
+    function handleWhisperChunk(blob) {
+        showProcessingSpinner(true);
+        transcribeWithWhisper(blob)
+            .then(function(text) {
+                if (text) {
+                    handleRecognizedSentence(text);
+                }
+            })
+            .catch(function(error) {
+                console.error('Whisper transcription error:', error);
+            })
+            .finally(function() {
+                showProcessingSpinner(false);
+            });
+    }
+
+    function startWhisperFallback() {
+        if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+            console.warn('Media devices API not available.');
+            updateListeningStatus('Microphone unavailable');
+            updateListeningControls(false);
+            isContinuousListening = false;
+            return;
+        }
+
+        usingWhisperFallback = true;
+        updateListeningStatus('Listening (Whisper)...');
+
+        navigator.mediaDevices.getUserMedia({ audio: true })
+            .then(function(stream) {
+                mediaStreamRef = stream;
+                mediaRecorderInstance = new MediaRecorder(stream);
+
+                mediaRecorderInstance.onstart = function() {
+                    $('#speech_loader').show();
+                };
+
+                mediaRecorderInstance.ondataavailable = function(event) {
+                    if (!isContinuousListening) {
+                        return;
+                    }
+                    if (event.data && event.data.size > 0) {
+                        handleWhisperChunk(event.data);
+                    }
+                };
+
+                mediaRecorderInstance.onerror = function(error) {
+                    console.error('MediaRecorder error:', error);
+                };
+
+                mediaRecorderInstance.start(5000);
+            })
+            .catch(function(error) {
+                console.error('Error accessing microphone for Whisper:', error);
+                updateListeningStatus('Microphone error');
+                updateListeningControls(false);
+                isContinuousListening = false;
+            });
+    }
+
+    function stopWhisperFallback() {
+        if (mediaRecorderInstance) {
+            try {
+                mediaRecorderInstance.stop();
+            } catch (error) {
+                console.warn('Error stopping MediaRecorder:', error);
+            }
+            mediaRecorderInstance = null;
+        }
+        if (mediaStreamRef) {
+            mediaStreamRef.getTracks().forEach(function(track) {
+                track.stop();
+            });
+            mediaStreamRef = null;
+        }
+        $('#speech_loader').hide();
+    }
+
+    function startContinuousListening() {
+        if (isContinuousListening) {
+            return;
+        }
+        isContinuousListening = true;
+        lastRecognizedUtterance = '';
+        updateListeningControls(true);
+        updateListeningStatus('Preparing microphone...');
 
         if (window.hasOwnProperty('webkitSpeechRecognition')) {
-
-            let recognition = new webkitSpeechRecognition();
-
-            recognition.continuous = false;
-            recognition.interimResults = false;
-
-            recognition.lang = "en-US";
-            recognition.start();
-
-            recognition.onresult = function(e) {
-                // document.getElementById('transcript').value = e.results[0][0].transcript;
-                $('#speech_recognizer').show();
-                $("#speech_loader").hide();
-                $('#loader').show();
-
-                console.log('Speech: ' + e.results[0][0].transcript);
-
-                let speech = e.results[0][0].transcript;
-
-                let parsedSpeech = getParsedText(speech);
-
-                clickme(parsedSpeech);
-
-                $('#loader').hide();
-
-                recognition.stop();
-                
-                console.log('Speech recognition stopped...');
-
-            };
-
-            recognition.onerror = function(e) {
-                console.error('Speech recognition error:', e);
-                recognition.stop();
-                $("#speech_loader").hide();
-                $('#speech_recognizer').show();
+            usingWhisperFallback = false;
+            ensureRecognitionInstance();
+            try {
+                recognitionInstance.start();
+            } catch (error) {
+                console.warn('Failed to start Web Speech API, falling back to Whisper.', error);
+                startWhisperFallback();
             }
-
         } else {
-            console.warn('Web Speech API not available');
-            $("#speech_loader").hide();
-            $('#speech_recognizer').show();
+            startWhisperFallback();
         }
     }
 
-    // Default: Try Whisper first, fallback to Web Speech API
-    function startDictationDefault() {
-        // Try Whisper first (more accurate)
-        startDictationWithWhisper();
-    }
+    function stopContinuousListening() {
+        if (!isContinuousListening) {
+            return;
+        }
+        isContinuousListening = false;
+        updateListeningControls(false);
+        updateListeningStatus('Idle');
+        clearInterimTranscript();
 
-    var recognition = new webkitSpeechRecognition();
-    recognition.continuous     = true;
-    recognition.interimResults = true;
-
-    recognition.onstart = function() {
-        console.log("Recognition started");
-    };
-    recognition.onresult = function(event){
-        var text = event.results[0][0].transcript;
-        console.log(text);
-
-        if (text === "stop avatar") {
-            recognition.stop();
+        if (recognitionInstance) {
+            try {
+                recognitionInstance.stop();
+            } catch (error) {
+                console.warn('Error stopping recognition:', error);
+            }
         }
 
-        document.getElementById('dom-target').value = text;
-        // clickme();
-
-    };
-    recognition.onerror = function(e) {
-        console.log("Error");
-    };
-
-    // recognition.onend = function() {
-    //     console.log("Speech recognition ended");
-    // };
-
-    function startDictation2() {
-        recognition.lang = 'en-IN'; // 'en-US' works too, as do many others
-        recognition.start();
+        stopWhisperFallback();
     }
 
-    function clickme(speech) {
+    window.startContinuousListening = startContinuousListening;
+    window.stopContinuousListening = stopContinuousListening;
+
+    activateTab("menu1-h", "menu1"); // activate first menu by default
+
+    function clickme(speech, onComplete) {
+
+        if (!speech || !speech.trim()) {
+            if (typeof onComplete === 'function') {
+                onComplete();
+            }
+            return;
+        }
 
         inputText = speech;
         // read the language that has been set
@@ -433,12 +615,22 @@
         totalWords = wordArray.length;
         i = 0;
 
+        if (totalWords === 0) {
+            if (typeof onComplete === 'function') {
+                onComplete();
+            }
+            return;
+        }
+
         var int = setInterval(function () {
             if(i == totalWords) {
                 if(playerAvailableToPlay) {
                     clearInterval(int);
                     finalHint = $("#inputText").val();
                     $("#textHint").html(finalHint);
+                    if (typeof onComplete === 'function') {
+                        onComplete();
+                    }
                 }
             } else {
                 if(playerAvailableToPlay) {

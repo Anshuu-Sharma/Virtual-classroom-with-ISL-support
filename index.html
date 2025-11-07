@@ -92,9 +92,14 @@
             </form>
 
             <div class="row center" >
-                <div id="speech_recognizer">
-                    <a id="speech_recognizer" onclick="startDictationDefault()" style="height: 45%;" class="btn-floating btn-large waves-effect red"><i class="large material-icons">mic</i></a>
-                    <p class="text-center" style="margin-top: 15px; font-size: 20px;">Click to Speak</p>
+                <div id="listening_controls" class="listening-controls">
+                    <a id="start_listening" onclick="startContinuousListening()" class="btn-floating btn-large waves-effect green">
+                        <i class="large material-icons">play_arrow</i>
+                    </a>
+                    <a id="stop_listening" onclick="stopContinuousListening()" class="btn-floating btn-large waves-effect red" style="display:none;">
+                        <i class="large material-icons">stop</i>
+                    </a>
+                    <p id="listening_status" class="text-center listening-status">Idle</p>
                     <p class="text-center" style="margin-top: 5px; font-size: 12px; color: #666;">Whisper ASR (with fallback)</p>
                 </div>
                 <div id="speech_loader">
@@ -148,23 +153,22 @@
                 </tr>
             </table>
         </div>
-        <div style="width: 20%;right: 3%;position: absolute;top: 50%;-webkit-transform: translateY(-50%);-ms-transform: translateY(-50%);transform: translateY(-50%);">
-            <div id="speech" style="margin-top:10px; border-top:3px solid black;">
-                <br><strong><span id="speech_text" style="font-size: 18px;">Speech</span></strong></br>
-                <div><span id="speech_"></span></div>
+        <div class="transcript-column">
+            <div class="transcript-panel">
+                <h5>Live Transcript</h5>
+                <div id="live_transcript" class="transcript-log"></div>
             </div>
-            <div class="row">
+            <div class="transcript-panel">
+                <h5>ISL Output</h5>
+                <div id="isl_transcript" class="transcript-log"></div>
             </div>
-            <br/>
-
-            <div style="margin-top:10px; border-top:3px solid black;">
-                <br><strong><span id="isl_text" style="font-size: 18px;">Indian Sign Language</span></strong></br>
-                <div id="isl"></div>
+            <div class="transcript-panel">
+                <h5>Playback Queue</h5>
+                <div id="isl_queue" class="transcript-log"></div>
             </div>
-            <br/>
-            <div id="debuggercontainer" style="margin-top:10px; border-top:3px solid black;" hidden>
-                <br><strong><span id="debugger_text">Debugger</span></strong></br>
-                <div id="debugger"></div>
+            <div id="debuggercontainer" class="transcript-panel" hidden>
+                <h5>Debugger</h5>
+                <div id="debugger" class="transcript-log"></div>
             </div>
         </div>
         <!-- left side division ends here -->
