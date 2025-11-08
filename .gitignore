@@ -76,3 +76,4 @@ Thumbs.db
 # Docker
 .dockerignore
 /stanford-parser-full-2018-10-17
+.DS_Store

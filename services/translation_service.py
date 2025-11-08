@@ -4,6 +4,7 @@ Handles English-to-ISL translation using ML model or fallback to rule-based
 """
 
 import os
+import re
 import torch
 import logging
 from typing import List, Optional
@@ -129,7 +130,10 @@ class TranslationService:
         
         try:
             # Encode input
-            src_indices = self.src_vocab.encode(english_text.lower())
+            normalized_text = re.sub(r'\s+', ' ', english_text).strip()
+            if not normalized_text:
+                return []
+            src_indices = self.src_vocab.encode(normalized_text, add_special_tokens=True)
             src_tensor = torch.tensor([src_indices], dtype=torch.long).to(self.device)
             
             # Translate

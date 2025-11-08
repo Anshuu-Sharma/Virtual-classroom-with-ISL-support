@@ -1,9 +1,6 @@
 /*
         Load json file for sigml available for easy searching
     */
-    $("#speech_loader").hide();
-    $('#loader').hide();
-
     // $.getJSON("js/sigmlFiles.json", function(json){
     //     sigmlList = json;
     // });
@@ -45,11 +42,69 @@
     var liveTranscriptContainer = document.getElementById('live_transcript');
     var islTranscriptContainer = document.getElementById('isl_transcript');
     var queueContainer = document.getElementById('isl_queue');
+    var wordsTranscriptContainer = document.getElementById('words_transcript');
     var interimTranscriptElement = null;
     var lastRecognizedUtterance = "";
     var playbackQueue = [];
     var pendingProcessingCount = 0;
     var currentPlaybackItem = null;
+    var statusLoaderElement = $('#status_loader');
+    var statusLoaderText = $('#status_loader_text');
+    var statusLoaderImage = $('#status_loader_image');
+    var currentLoaderMode = null;
+    var listeningLoaderActive = false;
+
+    var loaderVisualStates = {
+        listening: {
+            text: 'Listening...',
+            image: 'images/speechloader.gif',
+            alt: 'Listening animation'
+        },
+        processing: {
+            text: 'Processing...',
+            image: 'images/loader.gif',
+            alt: 'Processing animation'
+        }
+    };
+
+    function setStatusLoaderMode(mode) {
+        if (!statusLoaderElement.length) {
+            return;
+        }
+        if (!mode) {
+            statusLoaderElement.hide();
+            currentLoaderMode = null;
+            return;
+        }
+
+        var config = loaderVisualStates[mode] || loaderVisualStates.processing;
+
+        if (statusLoaderImage.length) {
+            if (statusLoaderImage.attr('src') !== config.image) {
+                statusLoaderImage.attr('src', config.image);
+            }
+            statusLoaderImage.attr('alt', config.alt);
+        }
+
+        if (statusLoaderText.length) {
+            statusLoaderText.text(config.text);
+        }
+
+        statusLoaderElement.show();
+        currentLoaderMode = mode;
+    }
+
+    function refreshStatusLoader() {
+        if (pendingProcessingCount > 0) {
+            setStatusLoaderMode('processing');
+        } else if (listeningLoaderActive) {
+            setStatusLoaderMode('listening');
+        } else {
+            setStatusLoaderMode(null);
+        }
+    }
+
+    refreshStatusLoader();
 
     function scrollToBottom(element) {
         if (!element) {
@@ -102,6 +157,58 @@
         scrollToBottom(islTranscriptContainer);
     }
 
+    function clearWordsTimeline() {
+        if (!wordsTranscriptContainer) {
+            return;
+        }
+        wordsTranscriptContainer.innerHTML = '';
+        wordsTranscriptContainer.classList.add('is-empty');
+        var placeholder = document.createElement('p');
+        placeholder.className = 'words-placeholder';
+        placeholder.textContent = 'Words will appear here as the avatar signs.';
+        wordsTranscriptContainer.appendChild(placeholder);
+    }
+
+    function renderWordsTimeline(words) {
+        if (!wordsTranscriptContainer) {
+            return;
+        }
+
+        wordsTranscriptContainer.innerHTML = '';
+
+        if (!words || !words.length) {
+            clearWordsTimeline();
+            return;
+        }
+
+        wordsTranscriptContainer.classList.remove('is-empty');
+        var fragment = document.createDocumentFragment();
+
+        words.forEach(function(word, index) {
+            var chip = document.createElement('span');
+            chip.className = 'word-chip';
+            chip.textContent = word;
+            chip.setAttribute('data-index', index);
+            fragment.appendChild(chip);
+        });
+
+        wordsTranscriptContainer.appendChild(fragment);
+    }
+
+    function highlightActiveWord(index) {
+        if (!wordsTranscriptContainer) {
+            return;
+        }
+        var chips = wordsTranscriptContainer.querySelectorAll('.word-chip');
+        chips.forEach(function(chip, chipIndex) {
+            var isActive = chipIndex === index;
+            chip.classList.toggle('active', isActive);
+            chip.setAttribute('aria-current', isActive ? 'true' : 'false');
+        });
+    }
+
+    clearWordsTimeline();
+
     function renderQueue() {
         if (!queueContainer) {
                         return;
@@ -115,6 +222,14 @@
             }
             displayText += ' [' + (item.status || 'pending') + ']';
             paragraph.textContent = displayText;
+            paragraph.classList.add('queue-item');
+
+            var statusClass = (item.status || 'pending').toLowerCase();
+            paragraph.classList.add(statusClass);
+
+            if (item.status === 'playing') {
+                paragraph.setAttribute('aria-live', 'polite');
+            }
             queueContainer.appendChild(paragraph);
         });
         scrollToBottom(queueContainer);
@@ -123,29 +238,71 @@
     function showProcessingSpinner(active) {
         if (active) {
             pendingProcessingCount += 1;
-            $('#loader').show();
         } else {
             pendingProcessingCount = Math.max(0, pendingProcessingCount - 1);
-            if (pendingProcessingCount === 0) {
-                $('#loader').hide();
-            }
+        }
+
+        refreshStatusLoader();
+
+        if (pendingProcessingCount > 0) {
+            setTranscriptStatus('Processing...', 'active');
+        } else if (!isContinuousListening) {
+            setTranscriptStatus('Idle', 'idle');
         }
     }
 
+    function setTranscriptStatus(label, state) {
+        var pill = $('#transcript_status');
+        if (!pill.length) {
+            return;
+        }
+
+        pill.text(label || 'Idle');
+        pill.removeClass('status-idle status-active status-error');
+
+        switch (state) {
+            case 'active':
+                pill.addClass('status-active');
+                break;
+            case 'error':
+                pill.addClass('status-error');
+                break;
+            default:
+                pill.addClass('status-idle');
+        }
+    }
+
+    function deriveTranscriptState(message) {
+        if (!message) {
+            return 'idle';
+        }
+
+        var lowered = message.toLowerCase();
+        if (lowered.indexOf('error') !== -1 || lowered.indexOf('unavailable') !== -1) {
+            return 'error';
+        }
+        if (lowered.indexOf('listen') !== -1 || lowered.indexOf('processing') !== -1 || lowered.indexOf('prepar') !== -1) {
+            return 'active';
+        }
+        return 'idle';
+    }
+
     function updateListeningStatus(message) {
-        $('#listening_status').text(message || 'Idle');
+        var displayMessage = message || 'Idle';
+        $('#listening_status').text(displayMessage);
+        setTranscriptStatus(displayMessage, deriveTranscriptState(displayMessage));
     }
 
     function updateListeningControls(active) {
         if (active) {
             $('#start_listening').hide();
             $('#stop_listening').show();
-            $('#speech_loader').show();
         } else {
             $('#start_listening').show();
             $('#stop_listening').hide();
-            $('#speech_loader').hide();
         }
+        listeningLoaderActive = active;
+        refreshStatusLoader();
     }
 
     function requestParsedSentence(speech) {
@@ -292,7 +449,7 @@
 
         recognitionInstance.onstart = function() {
             updateListeningStatus('Listening...');
-            $('#speech_loader').show();
+            refreshStatusLoader();
         };
 
         recognitionInstance.onerror = function(event) {
@@ -390,7 +547,7 @@
                 mediaRecorderInstance = new MediaRecorder(stream);
 
                 mediaRecorderInstance.onstart = function() {
-                    $('#speech_loader').show();
+                    refreshStatusLoader();
                 };
 
                 mediaRecorderInstance.ondataavailable = function(event) {
@@ -431,7 +588,7 @@
             });
             mediaStreamRef = null;
         }
-        $('#speech_loader').hide();
+        refreshStatusLoader();
     }
 
     function startContinuousListening() {
@@ -610,6 +767,17 @@
 
         $("#debugger").html(JSON.stringify(wordArray));
 
+        var playbackWords = wordArray
+            .map(function(entry) {
+                return entry && entry.word ? entry.word : '';
+            })
+            .filter(function(word) {
+                return word && word.trim();
+            });
+
+        renderWordsTimeline(playbackWords);
+        highlightActiveWord(-1);
+
         // wordArray object contains the word and corresponding files to be played
         // call the startPlayer on it in syn manner
         totalWords = wordArray.length;
@@ -635,6 +803,7 @@
             } else {
                 if(playerAvailableToPlay) {
                     playerAvailableToPlay = false;
+                    highlightActiveWord(i);
                     startPlayer("SignFiles/" + wordArray[i].fileName);
                     $("#textHint").html(wordArray[i].word);
                     i++;

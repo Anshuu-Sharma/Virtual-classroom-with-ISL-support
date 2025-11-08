@@ -224,6 +224,41 @@ def lemmatize_tokens(token_list):
     return lemmatized_words
 
 
+def _is_ml_translation_confident(tokens, original_text):
+    """Heuristic confidence check for ML translation output"""
+    if not tokens:
+        return False
+
+    cleaned_tokens = [t.strip().lower() for t in tokens if t and t.strip()]
+    if not cleaned_tokens:
+        return False
+
+    # Penalize outputs dominated by a single repeated token
+    if len(cleaned_tokens) > 1:
+        unique_ratio = len(set(cleaned_tokens)) / len(cleaned_tokens)
+        if unique_ratio < 0.5:
+            return False
+
+    # Reject if unknown placeholders leak through
+    if any(tok in {'<unk>', 'unk', '<pad>'} for tok in cleaned_tokens):
+        return False
+
+    # Compare overlap with original words (ignoring punctuation)
+    orig_words = [
+        re.sub(r'[^\w]', '', w.lower())
+        for w in original_text.split()
+        if w and w.lower() not in {'<sos>', '<eos>'}
+    ]
+    orig_words = [w for w in orig_words if w]
+
+    if orig_words:
+        overlap = len(set(orig_words) & set(cleaned_tokens))
+        if overlap / len(set(orig_words)) < 0.4:
+            return False
+
+    return True
+
+
 def label_parse_subtrees(parent_tree):
     tree_traversal_flag = {}
 
@@ -304,7 +339,9 @@ def convert_eng_to_isl(input_string):
             if translation_service._model_loaded and translation_service.use_ml_model:
                 logger.info("Using ML translation model")
                 isl_tokens = translation_service.translate_ml(input_string)
-                return isl_tokens
+                if _is_ml_translation_confident(isl_tokens, input_string):
+                    return isl_tokens
+                logger.info("ML translation deemed low confidence, using Stanford Parser fallback")
         except Exception as e:
             logger.warning(f"ML translation failed: {e}, falling back to Stanford Parser")
     
@@ -938,7 +975,7 @@ def serve_shader(filename):
         shader_src = None
         
         if filename.endswith('qskin.frag'):
-            # Enhanced fragment shader with texture and lighting support
+            # Enhanced fragment shader aligned with CWASA uniform names
             shader_src = """#ifdef GL_ES
 precision mediump float;
 #endif
@@ -946,21 +983,16 @@ precision mediump float;
 varying vec3 Normal;
 varying vec2 TexCoord0;
 
-uniform sampler2D MainTexture;
-uniform bool UseTexture;
+uniform sampler2D Texture;
 
 void main() {
     vec3 lightDir = normalize(vec3(0.5, 0.7, 1.0));
     vec3 normal = normalize(Normal);
     float NdotL = max(dot(normal, lightDir), 0.2);
-    
-    vec4 texColor = vec4(0.9, 0.8, 0.7, 1.0); // Default skin tone
-    
-    if (UseTexture) {
-        texColor = texture2D(MainTexture, TexCoord0);
-    }
-    
+
+    vec4 texColor = texture2D(Texture, TexCoord0);
     vec3 finalColor = texColor.rgb * NdotL;
+
     gl_FragColor = vec4(finalColor, texColor.a);
 }"""
             

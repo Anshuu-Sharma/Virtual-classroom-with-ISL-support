@@ -55,18 +55,25 @@ class Vocabulary:
         
         logger.info(f"Built vocabulary with {len(self.word2idx)} words")
     
-    def encode(self, text: str, max_length: int = None) -> List[int]:
+    def encode(self, text: str, max_length: int = None, add_special_tokens: bool = False) -> List[int]:
         """
         Encode text to sequence of indices
         
         Args:
             text: Input text
             max_length: Maximum sequence length (pad or truncate)
+            add_special_tokens: Ensure <sos>/<eos> tokens are present
             
         Returns:
             List of word indices
         """
         words = text.lower().split()
+
+        if add_special_tokens:
+            if not words or words[0] != '<sos>':
+                words = ['<sos>'] + words
+            if not words or words[-1] != '<eos>':
+                words = words + ['<eos>']
         indices = [self.word2idx.get(word, self.word2idx['<unk>']) for word in words]
         
         if max_length:
