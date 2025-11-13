@@ -97,7 +97,7 @@ Data pipelines support:
   - Materialize CSS + custom components for transcripts, avatar, and queue status.
   - Live transcript panel shows ASR results; ISL panel shows final gloss sequence.
 - **Interaction Logic** (`js/handler.js`)
-  - Coordinates continuous listening, Web Speech fallback, queue management.
+  - Coordinates continuous listening,  Web Speech fallback, queue management.
   - Visual loader states for listening/processing.
   - Drives avatar by requesting SiGML/HamNoSys and pushing to CWASA player.
 - **Avatar Assets**
