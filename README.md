@@ -45,21 +45,67 @@ For architecture diagrams, dashboards, and avatar details see `docs/` and `HOW_A
 
 ---
 
-## Feature Highlights
+## Subsystem Deep Dive
 
-- **Live Classroom Experience**
-  - One-click microphone start/stop with animated listening states.
-  - Words Timeline card displays the gloss currently being signed and what comes next.
-  - Session Transcript panel streams voice-to-text output with ASR confidence markers.
-  - Playback Queue exposes any items waiting on avatar rendering, making it easy to debug slow signs.
+### 1. Backend Services (`server.py`, `services/`, `monitoring/`)
+- **Flask API Gateway** (`server.py`)
+  - Routes: `/api/transcribe`, `/parser`, `/api/annotations`, `/api/feedback`, `/api/evaluation/metrics`, `/api/system/health`, static asset serving.
+  - Rate limiting via `flask_limiter`.
+  - Graceful degradations (e.g., rule-based translation if ML model missing).
+- **ASR Layer** (`services/asr_service.py`, `services/audio_processor.py`)
+  - Whisper model loaded lazily with CUDA detection and FFmpeg-based preprocessing.
+  - Supports local files and base64 payloads; returns transcripts and segments.
+- **Translation Layer** (`services/translation_service.py`)
+  - Prefers ML translator if files exist in `models/`.
+  - Confidence heuristics prevent degraded ML outputs from reaching the avatar.
+  - Fallback path leverages Stanford Parser (`StanfordParser` via NLTK); if Java fails, tokenizes input to keep UX intact.
+  - Stop-word filtering and lemmatization ensure an avatar-friendly gloss list (`filter_stop_words`, `lemmatize_tokens`).
+- **ISL Mapping** (`services/isl_mapper.py`)
+  - Loads 800+ entries from `js/sigmlFiles.json`.
+  - Finds best-fit gloss per token, with suffix handling and compound-word heuristics.
+- **Health & Metrics** (`monitoring/health_check.py`, `monitoring/metrics.py`)
+  - CPU/memory usage, Whisper availability, database checks.
+  - Persisted metric history (`data/metrics.json`, `data/latest_metrics.json`) for dashboards.
 
-- **Fallbacks that keep class moving**
-  - If the ML translator is unavailable, the Stanford Parser or token heuristics supply glosses.
-  - Missing signs trigger automatic finger-spelling to keep visual output continuous.
+### 2. Frontend & Avatar (`index.html`, `js/`, `css/`, `avatars/`, `SignFiles/`)
+- **Dashboard UI** (`index.html`, `css/custom.css`)
+  - Materialize CSS + custom components for transcripts, avatar, and queue status.
+  - Live transcript panel shows ASR results; ISL panel shows final gloss sequence.
+- **Interaction Logic** (`js/handler.js`)
+  - Coordinates continuous listening,  Web Speech fallback, queue management.
+  - Visual loader states for listening/processing.
+  - Drives avatar by requesting SiGML/HamNoSys and pushing to CWASA player.
+- **Avatar Assets**
+  - `avatars/marc.jar` and `avatars/marc/` contain CWASA avatar definitions, textures, shaders.
+  - `SignFiles/*.sigml` store pre-authored signs.
+  - `hamnosysData/*.txt` caches generated AnimGen frames to avoid remote dependencies.
+- **Fallback UX**
+  - Unmapped words are auto-spelled letter-by-letter (`pre_process` in `server.py`).
+  - `HOW_AVATAR_SIGNS_WORK.md` explains manual sign library usage.
 
-- **Data & Feedback Workflow**
-  - Annotation tool (`/annotation-tool`) captures corrections directly from instructors or interpreters.
-  - Metrics endpoints (`/api/health`, `/api/system/health`) power the monitoring dashboards in `evaluation/`.
+### 3. ML Pipeline (`ml_pipeline/`, `scripts/`, `kaggle_notebooks/`)
+- **Data Ingestion** (`ml_pipeline/data_collector.py`)
+  - SQLite database (`data/training_data.db`) capturing audio samples, translation pairs, feedback, annotations.
+  - REST endpoints feed this collector during runtime.
+- **Dataset Prep** (`ml_pipeline/datasets/isl_dataset.py`)
+  - Encodes pairs using vocabularies; handles padding and max-length constraints.
+- **Model Definition** (`ml_pipeline/models/translator.py`)
+  - Bidirectional LSTM encoder + decoder with attention-ready architecture.
+  - Teacher forcing and inference loops optimized for short sequences.
+- **Training Harness** (`ml_pipeline/models/translation_trainer.py`)
+  - Gradient clipping, ReduceLROnPlateau scheduler, checkpointing, early stopping.
+  - Saves best weights to `models/lstm_translator.pth`.
+- **Config & Utilities** (`ml_pipeline/config.py`, `ml_pipeline/utils/vocab.py`)
+  - Centralizes hyperparameters, file paths, Kaggle directories.
+  - Flexible vocabulary builder with special tokens and min-frequency filtering.
+- **Notebooks & Scripts**
+  - `kaggle_notebooks/train_isl_model_complete.py`, `kaggle_notebooks/README.md`.
+  - CLI helpers: `scripts/train_translation_model.py`, `scripts/evaluate_models.py`, `scripts/create_*_training_data.py`, Kaggle upload/download automations.
+
+### 4. Documentation & Reports (`docs/`, `final report minor.pdf`)
+- Step-by-step guides for API usage, data collection, deployment, Kaggle setup, and training.
+- Visual reference assets in `images/` (system workflow diagram, demo screenshots).
+- Academic report summarizing research outcomes.
 
 ---
 
